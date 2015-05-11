@@ -1,0 +1,4 @@
+com.ac.games.data
+com.ac.games.data.parser
+com.ac.games.exception
+com.ac.games.rest.message

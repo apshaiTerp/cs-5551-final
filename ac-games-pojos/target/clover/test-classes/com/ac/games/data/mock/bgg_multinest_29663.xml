@@ -1,0 +1,1739 @@
+<boardgames termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+					<boardgame objectid="29663">
+			<yearpublished>1990</yearpublished>
+			<minplayers>1</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>180</playingtime>
+			<minplaytime>180</minplaytime>
+			<maxplaytime>180</maxplaytime>
+			<age>12</age>
+
+							<name  sortindex="1">Star Fleet Battles (Captain&#039;s Edition)</name>
+							<name primary="true" sortindex="1">Star Fleet Battles: Captain&#039;s Edition Basic Set</name>
+									
+			<description>The lead product of Star Fleet Battles Captain's Edition.  This is the fourth edition in the Star Fleet Battles series, and it is the current edition.&lt;br/&gt;&lt;br/&gt;There have been two major reprintings of the rules, each of which incorporates some errata and cleanup in the rules in 1999 and 2005. These can be identified by a year printed on the lower part of the front cover.&lt;br/&gt;&lt;br/&gt;Re-implements:&lt;br/&gt;&lt;br/&gt;     Star Fleet Battles&lt;br/&gt;     Star Fleet Battles Designer's Edition&lt;br/&gt;     Star Fleet Battles Commander's Edition&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic708359_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic708359.jpg</image>
+						
+												<boardgameversion objectid="32006">Amarillo Design Bureau edition 1999</boardgameversion>
+															<boardgamepublisher objectid="25">Amarillo Design Bureau, Inc.</boardgamepublisher>
+															<boardgameexpansion objectid="21963">Argonians-2</boardgameexpansion>
+															<boardgameexpansion objectid="65511">Argonians-3</boardgameexpansion>
+															<boardgameexpansion objectid="96815">Captain&#039;s Log #1</boardgameexpansion>
+															<boardgameexpansion objectid="97314">Captain&#039;s Log #10</boardgameexpansion>
+															<boardgameexpansion objectid="97315">Captain&#039;s Log #11</boardgameexpansion>
+															<boardgameexpansion objectid="97409">Captain&#039;s Log #13</boardgameexpansion>
+															<boardgameexpansion objectid="97410">Captain&#039;s Log #15</boardgameexpansion>
+															<boardgameexpansion objectid="97411">Captain&#039;s Log #16</boardgameexpansion>
+															<boardgameexpansion objectid="98730">Captain&#039;s Log #17</boardgameexpansion>
+															<boardgameexpansion objectid="101437">Captain&#039;s Log #2</boardgameexpansion>
+															<boardgameexpansion objectid="154957">Captain&#039;s Log #29</boardgameexpansion>
+															<boardgameexpansion objectid="126766">Captain&#039;s Log #39</boardgameexpansion>
+															<boardgameexpansion objectid="154908">Captain&#039;s Log #4</boardgameexpansion>
+															<boardgameexpansion objectid="124677">Captain&#039;s Log #41</boardgameexpansion>
+															<boardgameexpansion objectid="115043">Captain&#039;s Log #8</boardgameexpansion>
+															<boardgameexpansion objectid="115046">Captain&#039;s Log #9</boardgameexpansion>
+															<boardgamedesigner objectid="675">Stephen V. Cole</boardgamedesigner>
+															<boardgameartist objectid="1539">Leanna M. Cole</boardgameartist>
+															<boardgameexpansion objectid="45682">Deluxe Space Battle Maps</boardgameexpansion>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgameexpansion objectid="21965">Far Side-1</boardgameexpansion>
+															<boardgameexpansion objectid="55808">Galactic Conquest: A Star Fleet Universe Campaign Engine</boardgameexpansion>
+															<boardgamemechanic objectid="2026">Hex-and-Counter</boardgamemechanic>
+															<boardgameexpansion objectid="20013">Indirigans-1</boardgameexpansion>
+															<boardgameexpansion objectid="20012">Krebiz-1</boardgameexpansion>
+															<boardgameexpansion objectid="21973">Krebiz-2</boardgameexpansion>
+															<boardgameexpansion objectid="21974">Krebiz-3</boardgameexpansion>
+															<boardgameexpansion objectid="21962">Krebiz-4</boardgameexpansion>
+															<boardgameexpansion objectid="21964">Mechad-1</boardgameexpansion>
+															<boardgameexpansion objectid="124446">Module R107 The Nicozian Concordance</boardgameexpansion>
+															<boardgamecategory objectid="1064">Movies / TV / Radio theme</boardgamecategory>
+															<boardgamecategory objectid="1016">Science Fiction</boardgamecategory>
+																						<boardgamefamily objectid="8164">Solitaire Wargames</boardgamefamily>
+															<boardgamefamily objectid="21">Star Fleet Battles</boardgamefamily>
+																						<boardgameexpansion objectid="26203">Star Fleet Battles Silver Anniversary Master Rulebook</boardgameexpansion>
+															<boardgameexpansion objectid="20538">Star Fleet Battles: Advanced Missions</boardgameexpansion>
+															<boardgameexpansion objectid="20512">Star Fleet Battles: Campaign Designer&#039;s Handbook</boardgameexpansion>
+															<boardgameexpansion objectid="118593">Star Fleet Battles: Captain&#039;s Module D1 – Veterans Master Ship Chart</boardgameexpansion>
+															<boardgameexpansion objectid="126767">Star Fleet Battles: Captain&#039;s Module E3 – Borak Star League</boardgameexpansion>
+															<boardgameexpansion objectid="115051">Star Fleet Battles: Captain&#039;s Module P1</boardgameexpansion>
+															<boardgameexpansion objectid="118592">Star Fleet Battles: Captain&#039;s Module P2 – X-Ships</boardgameexpansion>
+															<boardgameexpansion objectid="115050">Star Fleet Battles: Captain&#039;s Module P3 – Scenarios – 1</boardgameexpansion>
+															<boardgameexpansion objectid="98727">Star Fleet Battles: Captain&#039;s Module P4 – Marines!</boardgameexpansion>
+															<boardgameexpansion objectid="98729">Star Fleet Battles: Captain&#039;s Module P5 – Lyran Democratic Republic</boardgameexpansion>
+															<boardgameexpansion objectid="98725">Star Fleet Battles: Captain&#039;s Module T – Tournament Book</boardgameexpansion>
+															<boardgameexpansion objectid="25964">Star Fleet Battles: Captain&#039;s Yeoman – Captains Module A+</boardgameexpansion>
+															<boardgameexpansion objectid="19683">Star Fleet Battles: Module B – Terrain Maps</boardgameexpansion>
+															<boardgameexpansion objectid="19091">Star Fleet Battles: Module C1 – New Worlds 1</boardgameexpansion>
+															<boardgameexpansion objectid="19090">Star Fleet Battles: Module C2 – New Worlds 2</boardgameexpansion>
+															<boardgameexpansion objectid="19092">Star Fleet Battles: Module C3 – New Worlds 3</boardgameexpansion>
+															<boardgameexpansion objectid="102053">Star Fleet Battles: Module C3A – Andromedan Threat File</boardgameexpansion>
+															<boardgameexpansion objectid="19684">Star Fleet Battles: Module C4 – Fleet Training Centers</boardgameexpansion>
+															<boardgameexpansion objectid="26201">Star Fleet Battles: Module C5 – The Magellanic Cloud</boardgameexpansion>
+															<boardgameexpansion objectid="140894">Star Fleet Battles: Module C6 – Lost Empires</boardgameexpansion>
+															<boardgameexpansion objectid="38723">Star Fleet Battles: Module D2 – Tournament Tactics</boardgameexpansion>
+															<boardgameexpansion objectid="19180">Star Fleet Battles: Module D3 – Booms &amp; Saucers</boardgameexpansion>
+															<boardgameexpansion objectid="45685">Star Fleet Battles: Module E2 – The Triangulum Galaxy</boardgameexpansion>
+															<boardgameexpansion objectid="19093">Star Fleet Battles: Module F1 – The Jindarians</boardgameexpansion>
+															<boardgameexpansion objectid="26198">Star Fleet Battles: Module F2 – The Vudar Enclave</boardgameexpansion>
+															<boardgameexpansion objectid="20008">Star Fleet Battles: Module G1 – Master Annex File</boardgameexpansion>
+															<boardgameexpansion objectid="26200">Star Fleet Battles: Module G2 – Master Annexes</boardgameexpansion>
+															<boardgameexpansion objectid="41210">Star Fleet Battles: Module G3 – Master Annex File</boardgameexpansion>
+															<boardgameexpansion objectid="55804">Star Fleet Battles: Module G3A – Supplementary Annexes</boardgameexpansion>
+															<boardgameexpansion objectid="56010">Star Fleet Battles: Module H1 – Megahex</boardgameexpansion>
+															<boardgameexpansion objectid="19094">Star Fleet Battles: Module J – Fighters</boardgameexpansion>
+															<boardgameexpansion objectid="26312">Star Fleet Battles: Module J2 – Advanced Fighters</boardgameexpansion>
+															<boardgameexpansion objectid="19095">Star Fleet Battles: Module K – Fast Patrol Ships</boardgameexpansion>
+															<boardgameexpansion objectid="19179">Star Fleet Battles: Module M – Star Fleet Marines</boardgameexpansion>
+															<boardgameexpansion objectid="19322">Star Fleet Battles: Module Omega 1 – The Omega Sector</boardgameexpansion>
+															<boardgameexpansion objectid="19323">Star Fleet Battles: Module Omega 2 – Omega Reinforcements</boardgameexpansion>
+															<boardgameexpansion objectid="19324">Star Fleet Battles: Module Omega 3 – The Omega Wars</boardgameexpansion>
+															<boardgameexpansion objectid="19325">Star Fleet Battles: Module Omega 4 – The Omega Rebellion</boardgameexpansion>
+															<boardgameexpansion objectid="30106">Star Fleet Battles: Module Omega 5 – Omega Flotillas</boardgameexpansion>
+															<boardgameexpansion objectid="19096">Star Fleet Battles: Module R1 – Bases &amp; Auxiliaries</boardgameexpansion>
+															<boardgameexpansion objectid="26256">Star Fleet Battles: Module R10 – The New Cruisers</boardgameexpansion>
+															<boardgameexpansion objectid="30107">Star Fleet Battles: Module R11 – Support Ships</boardgameexpansion>
+															<boardgameexpansion objectid="74229">Star Fleet Battles: Module R12 – Unusual Ships</boardgameexpansion>
+															<boardgameexpansion objectid="19174">Star Fleet Battles: Module R2 – Reinforcements 1</boardgameexpansion>
+															<boardgameexpansion objectid="19175">Star Fleet Battles: Module R3 – Reinforcements 2</boardgameexpansion>
+															<boardgameexpansion objectid="19176">Star Fleet Battles: Module R4 – Reinforcements 3</boardgameexpansion>
+															<boardgameexpansion objectid="19177">Star Fleet Battles: Module R5 – Battleships</boardgameexpansion>
+															<boardgameexpansion objectid="19320">Star Fleet Battles: Module R6 – Fast Warships</boardgameexpansion>
+															<boardgameexpansion objectid="19321">Star Fleet Battles: Module R7 – Dreadnoughts at War</boardgameexpansion>
+															<boardgameexpansion objectid="26314">Star Fleet Battles: Module R8 – System Defense Command</boardgameexpansion>
+															<boardgameexpansion objectid="26313">Star Fleet Battles: Module R9 – The Ships That Never Were</boardgameexpansion>
+															<boardgameexpansion objectid="19640">Star Fleet Battles: Module S1 – Scenario Book #1</boardgameexpansion>
+															<boardgameexpansion objectid="19641">Star Fleet Battles: Module S2 – Scenario Book #2</boardgameexpansion>
+															<boardgameexpansion objectid="20511">Star Fleet Battles: Module T – Tournament Battles</boardgameexpansion>
+															<boardgameexpansion objectid="45684">Star Fleet Battles: Module TR – Tournament Reference</boardgameexpansion>
+															<boardgameexpansion objectid="33158">Star Fleet Battles: Module W – Space Battle Maps</boardgameexpansion>
+															<boardgameexpansion objectid="19178">Star Fleet Battles: Module X1 – The  X-Ships</boardgameexpansion>
+															<boardgameexpansion objectid="36418">Star Fleet Battles: Module X1R – X-Ship Reinforcements</boardgameexpansion>
+															<boardgameexpansion objectid="19639">Star Fleet Battles: Module Y1 – The Early Years</boardgameexpansion>
+															<boardgameexpansion objectid="36420">Star Fleet Battles: Module Y2 – Early Years II</boardgameexpansion>
+															<boardgameexpansion objectid="84662">Star Fleet Battles: Module Y3 – Early Years III</boardgameexpansion>
+															<boardgameexpansion objectid="29252">Star Fleet Battles: Omega Master Rulebook</boardgameexpansion>
+															<boardgameexpansion objectid="120901">Star Fleet Battles: Stellar Shadow Journal #1</boardgameexpansion>
+															<boardgameexpansion objectid="19181">Star Fleet Battles: Tactics Manual</boardgameexpansion>
+															<boardgamefamily objectid="95">Star Fleet Universe</boardgamefamily>
+															<boardgamefamily objectid="7392">Star Trek</boardgamefamily>
+															<boardgamepublisher objectid="352">Task Force Games</boardgamepublisher>
+															<boardgameversion objectid="30832">Task Force Games edition 1990</boardgameversion>
+															<boardgameexpansion objectid="65512">Vektreans-1</boardgameexpansion>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+															<boardgameartist objectid="33988">Michael Winterbauer</boardgameartist>
+															<boardgame objectid="141025" inbound="true">Captain&#039;s Log #12</boardgame>
+															<boardgame objectid="141026" inbound="true">Captain&#039;s Log #14</boardgame>
+															<boardgame objectid="141060" inbound="true">Captain&#039;s Log #18</boardgame>
+															<boardgame objectid="141099" inbound="true">Captain&#039;s Log #19</boardgame>
+															<boardgame objectid="141101" inbound="true">Captain&#039;s Log #20</boardgame>
+															<boardgame objectid="141050" inbound="true">Captain&#039;s Log #21</boardgame>
+															<boardgame objectid="141036" inbound="true">Captain&#039;s Log #22</boardgame>
+															<boardgame objectid="141032" inbound="true">Captain&#039;s Log #23</boardgame>
+															<boardgame objectid="140990" inbound="true">Captain&#039;s Log #24</boardgame>
+															<boardgame objectid="141028" inbound="true">Captain&#039;s Log #25</boardgame>
+															<boardgame objectid="141100" inbound="true">Captain&#039;s Log #27</boardgame>
+															<boardgame objectid="158466" inbound="true">Captain&#039;s Log #37</boardgame>
+															<boardgame objectid="141098" inbound="true">Captain&#039;s Log #38</boardgame>
+															<boardgame objectid="140991" inbound="true">Captain&#039;s Log #45</boardgame>
+															<boardgameimplementation objectid="1589" inbound="true">Star Fleet Battles</boardgameimplementation>
+															<boardgameimplementation objectid="158098" inbound="true">Star Fleet Battles (Commander&#039;s Edition)</boardgameimplementation>
+															<boardgameimplementation objectid="37061" inbound="true">Star Fleet Battles (Designer&#039;s Edition)</boardgameimplementation>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="7">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="4" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="7" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="5" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="4" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="4" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="6">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="4" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="6+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="4" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="7">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="0" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="5" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+					<result level="5" value="Unplayable in another language" numvotes="2" />
+				</results>					
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="5">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="1" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="4" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>333</usersrated>
+					<average>7.29243</average>
+					<bayesaverage>6.09599</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="1482" bayesaverage="6.09599" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="230" bayesaverage="6.7449" />
+												
+											</ranks>
+					
+					<stddev>1.6616</stddev>
+					<median>0</median>
+					<owned>782</owned>
+					<trading>39</trading>
+					<wanting>19</wanting>
+					<wishing>52</wishing>
+					<numcomments>109</numcomments>
+					<numweights>60</numweights>
+					<averageweight>4.15</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29664">
+			<yearpublished>1976</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2000</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>10</age>
+
+							<name primary="true" sortindex="5">The New Games Book</name>
+									
+			<description>This book, released in 1976, includes rules for more than 80 non-traditional games, many of the cooperative ilk.  It is an outgrowth of a yearly New Games festival which took place for awhile in the early 1970s.&lt;br/&gt;&lt;br/&gt;While the book looks quite dated (seeing the cover, font, and artwork brings to mind the word &amp;quot;peacenik&amp;quot;), it is still quite useful for impromptu games with any number of participants.  The book is divided into three segments: games for two, games for a dozen, and games for two dozen (or more).&lt;br/&gt;&lt;br/&gt;Interspersed within the game descriptions are some interesting articles about the &amp;quot;New Games Movement.&amp;quot;  A follow-up book, &amp;quot;More New Games&amp;quot;, was released in 1981 and the current director of New Games released &amp;quot;Best New Games&amp;quot; in 2002.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic217640_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic217640.jpg</image>
+						
+												<boardgamecategory objectid="1032">Action / Dexterity</boardgamecategory>
+															<boardgamecategory objectid="1117">Book</boardgamecategory>
+															<boardgamedesigner objectid="8774">Stewart Brand</boardgamedesigner>
+															<boardgamemechanic objectid="2023">Co-operative Play</boardgamemechanic>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgamecategory objectid="1084">Environmental</boardgamecategory>
+															<boardgamecategory objectid="1046">Fighting</boardgamecategory>
+															<boardgamepublisher objectid="6917">New Games Foundation</boardgamepublisher>
+															<boardgamemechanic objectid="2019">Partnerships</boardgamemechanic>
+															<boardgamecategory objectid="1030">Party Game</boardgamecategory>
+															<boardgamecategory objectid="1037">Real-time</boardgamecategory>
+															<boardgamecategory objectid="1038">Sports</boardgamecategory>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="30+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>3</usersrated>
+					<average>5.7</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>1.68721</stddev>
+					<median>0</median>
+					<owned>8</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>5</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29665">
+			<yearpublished>1978</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>8</age>
+
+							<name primary="true" sortindex="1">Grandgammon</name>
+									
+			<description>From the rules book:&lt;br/&gt;&lt;br/&gt;Grandgammon is a game combining both skill and luck for two to six players. When the game is played by two people it is identical to the game known as backgammon.&lt;br/&gt;&lt;br/&gt;Grandgammon is an extension of backgammon permitting the game to be played by more than two players.&lt;br/&gt;&lt;br/&gt;Online Play&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;     Gamerz (turn-based, play by email or play by web)&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic213635_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic213635.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamesubdomain objectid="4666">Abstract Games</boardgamesubdomain>
+															<boardgamecategory objectid="1009">Abstract Strategy</boardgamecategory>
+															<boardgameversion objectid="110835">First Edition</boardgameversion>
+															<boardgamefamily objectid="4023">Gammon</boardgamefamily>
+															<boardgamemechanic objectid="2011">Modular Board</boardgamemechanic>
+															<boardgamemechanic objectid="2035">Roll / Spin and Move</boardgamemechanic>
+															<boardgamepublisher objectid="6918">Youngcraft Pty Ltd</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>1</usersrated>
+					<average>8</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>2</owned>
+					<trading>1</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>1</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29666">
+			<yearpublished>2004</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>10</playingtime>
+			<minplaytime>10</minplaytime>
+			<maxplaytime>10</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="1">Rapid Fire!</name>
+									
+			<description>Rapid Fire! is a two-player shooting-gallery game in which the object is to knock down targets of the other player's color.&lt;br/&gt;&lt;br/&gt;The targets - alternating in red and yellow - rotate on a circular, battery-powered central wheel. Rotating in the opposite direction are blocking pegs, which protect the targets. For younger players, the blocking pegs may be removed.&lt;br/&gt;&lt;br/&gt;Players fire marble-like balls (also colored red and yellow to represent the owning player) up slightly inclined ramps from opposite sides of the target gallery, with play continuing until one player has eliminated all of the targets in the opposing player's color.&lt;br/&gt;&lt;br/&gt;The whole set-up measures over three feet long when assembled. Unlike many shooting gallery games, the trick here is in the timing of the shots - finding moments when an opponent's target will rotate into view and blocking pegs rotate away - rather than in the aim.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic1004915_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic1004915.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamecategory objectid="1032">Action / Dexterity</boardgamecategory>
+															<boardgamecategory objectid="1072">Electronic</boardgamecategory>
+															<boardgameversion objectid="100643">First Edition</boardgameversion>
+															<boardgamepublisher objectid="1982">Hilco Corporation</boardgamepublisher>
+															<boardgamepublisher objectid="3259">Maplegrove</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="2+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>6</usersrated>
+					<average>5.95833</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0.821795</stddev>
+					<median>0</median>
+					<owned>10</owned>
+					<trading>1</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>2</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29667">
+			<yearpublished>2007</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>14</age>
+
+							<name primary="true" sortindex="1">AT-43 Army Book: U.N.A.</name>
+									
+			<description>A 64 page supplement for AT-43 Initiation Set: Operation Damocles with background and rules for using a United Nations of Ava army in the game.  Printed in full color.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic213542_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic213542.jpg</image>
+						
+												<boardgamemechanic objectid="2001">Action Point Allowance System</boardgamemechanic>
+															<boardgamefamily objectid="22591">AT-43</boardgamefamily>
+															<boardgamecategory objectid="1117">Book</boardgamecategory>
+															<boardgamedesigner objectid="8775">Arnaud Cuidet</boardgamedesigner>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgameartist objectid="14937">Wayne England</boardgameartist>
+															<boardgamecategory objectid="1042">Expansion for Base-game</boardgamecategory>
+															<boardgameartist objectid="12505">Davide Fabbri</boardgameartist>
+															<boardgameartist objectid="16403">Paul Jeacock</boardgameartist>
+															<boardgameartist objectid="14792">Karl Kopinski</boardgameartist>
+															<boardgamedesigner objectid="8776">Jean-Baptiste Lullien</boardgamedesigner>
+															<boardgameartist objectid="14550">Florent Maudoux</boardgameartist>
+															<boardgamecategory objectid="1047">Miniatures</boardgamecategory>
+															<boardgameartist objectid="10548">Paolo Parente</boardgameartist>
+															<boardgamepublisher objectid="1811">Rackham</boardgamepublisher>
+															<boardgameversion objectid="203805">Rackham German Softcover edition</boardgameversion>
+															<boardgamedesigner objectid="3014">Nicolas Raoult</boardgamedesigner>
+															<boardgamecategory objectid="1016">Science Fiction</boardgamecategory>
+															<boardgameartist objectid="12495">Adrian Smith</boardgameartist>
+															<boardgameartist objectid="14949">Kevin Walker</boardgameartist>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+															<boardgameartist objectid="2582">Richard Wright</boardgameartist>
+															<boardgameartist objectid="12504">Alessia Zambonin</boardgameartist>
+															<boardgameexpansion objectid="24878" inbound="true">AT-43 Initiation Set: Operation Damocles</boardgameexpansion>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="1">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="1" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>48</usersrated>
+					<average>7.60208</average>
+					<bayesaverage>5.64665</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="5.64665" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="Not Ranked" bayesaverage="6.05653" />
+												
+											</ranks>
+					
+					<stddev>1.2781</stddev>
+					<median>0</median>
+					<owned>179</owned>
+					<trading>4</trading>
+					<wanting>2</wanting>
+					<wishing>1</wishing>
+					<numcomments>11</numcomments>
+					<numweights>6</numweights>
+					<averageweight>3.8333</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29668">
+			<yearpublished>1989</yearpublished>
+			<minplayers>1</minplayers>
+			<maxplayers>4</maxplayers>
+			<playingtime>10</playingtime>
+			<minplaytime>10</minplaytime>
+			<maxplaytime>10</maxplaytime>
+			<age>8</age>
+
+							<name primary="true" sortindex="1">I.Q. Games: United States Geography</name>
+									
+			<description>How well do you know your US Geography?&lt;br/&gt;&lt;br/&gt;In this game, one player reads from a list of numbered clues on the back of a card while others try to guess the correct answer. You score five points for guessing after one clue and it declines to one point if all five clues are read. The last clue is a picture of the state in question and various visual clues.  Players continue taking turns until all cards have been read. Score is kept on included scorekeeper. The player with the most points at the end of the game wins.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic216801_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic216801.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgamepublisher objectid="765">Educational Insights</boardgamepublisher>
+															<boardgamecategory objectid="1045">Memory</boardgamecategory>
+															<boardgamemechanic objectid="2047">Memory</boardgamemechanic>
+															<boardgamecategory objectid="1027">Trivia</boardgamecategory>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="4+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>1</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>1</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29669">
+			<yearpublished>1978</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>120</playingtime>
+			<minplaytime>120</minplaytime>
+			<maxplaytime>120</maxplaytime>
+			<age>12</age>
+
+							<name primary="true" sortindex="1">War Cry</name>
+							<name  sortindex="1">War Cry and Battle Lust</name>
+									
+			<description>These miniatures rules for the Ancient and Medieval periods were first published in 1978 as &amp;quot;War Cry and Battle Lust.&amp;quot; The Second edition in 1981 (now called simply &amp;quot;War Cry&amp;quot;) featured poster-sized wall charts printed with the combat tables and terrain effects charts.&lt;br/&gt;&lt;br/&gt;Second edition War Cry seems to have been the only product ever published in the Judges Guild's &amp;quot;Emperor Series.&amp;quot;&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic226921_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic226921.jpg</image>
+						
+												<boardgamedesigner objectid="8777">Jim Allen</boardgamedesigner>
+															<boardgameartist objectid="8777">Jim Allen</boardgameartist>
+															<boardgamecategory objectid="1050">Ancient</boardgamecategory>
+															<boardgamepublisher objectid="1826">Judges Guild</boardgamepublisher>
+															<boardgameversion objectid="43707">Judges Guild First Edition</boardgameversion>
+															<boardgameversion objectid="43706">Judges Guild Second Edition</boardgameversion>
+															<boardgamecategory objectid="1035">Medieval</boardgamecategory>
+															<boardgamecategory objectid="1047">Miniatures</boardgamecategory>
+															<boardgameartist objectid="20631">Ed Perry</boardgameartist>
+															<boardgamedesigner objectid="8778">Dave Petrowski</boardgamedesigner>
+															<boardgameartist objectid="16347">Ken Simpson</boardgameartist>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>1</usersrated>
+					<average>6</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>18</owned>
+					<trading>2</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>3</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29671">
+			<yearpublished>1996</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>0</age>
+
+							<name  sortindex="1">Trig-O</name>
+							<name primary="true" sortindex="1">TrigO</name>
+									
+			<description>TrigO&amp;trade; is a creative board game that teaches the rudimentary concepts of trigonometry. The game has six levels of play ranging from beginner to advanced.&lt;br/&gt;&lt;br/&gt;Each player receives 6 playing pieces of the same color, one for each of the trigonometric functions. There can be 2 to 6 players.&lt;br/&gt;Players will learn the names of the six major trigonometric functions: SIN, COS, TAN, COT, SEC, CSC. Advanced rules provide you with concepts of the four quadrants and the signs for each function in each quadrant.&lt;br/&gt;Players will learn the ratios of the sides of a right triangle for the six major trigonometric functions. The triangular playing pieces are specially designed to show the direction of rotation for your playing piece around each triangular path.&lt;br/&gt;&lt;br/&gt;The simple rules for the novice is called the &amp;quot;Beginners Game&amp;quot; In this game you will learn the names of the six functions and what constitutes a triangle.&lt;br/&gt;In the &amp;quot;Direction Game&amp;quot; a player will find that there is a clockwise and counterclockwise direction of movement.&lt;br/&gt;The &amp;quot;Function Game&amp;quot; requires you to start your playing piece such that it moves onto the numerator for the trigonometric ratio of your playing piece and then onto the denomator for that playing piece.&lt;br/&gt;In the &amp;quot;Many Triangles Game&amp;quot; a player will make use of smaller right triangles to shorten the distance of travel.&lt;br/&gt;In the &amp;quot;Quadrant Game&amp;quot; the player will find that there are four quadrants on the playing board with a specific sign for each trigonometric function as represented by the playing pieces.&lt;br/&gt;In the &amp;quot;Function Sign Game&amp;quot; the player will need to observe the sign for each playing piece for the quadrant it is in.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic608122_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic608122.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgamepublisher objectid="3869">Lewis Educational Games</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>1</owned>
+					<trading>0</trading>
+					<wanting>1</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29672">
+			<yearpublished>2006</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>4</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="1">Togg</name>
+									
+			<description>Another tactical game from Swiss publisher Arte Ludens.&lt;br/&gt;The goal of this abstract game with wooden tiles is to reach the opposite side with your own tiles. But on your way there your tiles may be blocked. You can defend yourself by blocking opposite tiles. You just put yours onto them but avoid running out of tiles.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic226202_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic226202.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamesubdomain objectid="4666">Abstract Games</boardgamesubdomain>
+															<boardgamecategory objectid="1009">Abstract Strategy</boardgamecategory>
+															<boardgamepublisher objectid="6183">arte ludens</boardgamepublisher>
+															<boardgamemechanic objectid="2002">Tile Placement</boardgamemechanic>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="4+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>1</usersrated>
+					<average>7</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>1</owned>
+					<trading>0</trading>
+					<wanting>1</wanting>
+					<wishing>1</wishing>
+					<numcomments>1</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29673">
+			<yearpublished>2007</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>7</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="1">pendur</name>
+									
+			<description>Each of the 2-7 players tries to put the own tiles next or upon  tiles already lying on the table. The tile must be of suitable color/form combination, because not every tile fits in the three-dimensional building concept. Only the player who places his tiles smartly has a chance to win.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic243517_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic243517.jpg</image>
+						
+												<boardgamehonor objectid="12430">2007 Deutscher Lernspielpreis &quot;9 years and up&quot; Nominee</boardgamehonor>
+															<boardgamesubdomain objectid="4666">Abstract Games</boardgamesubdomain>
+															<boardgamecategory objectid="1009">Abstract Strategy</boardgamecategory>
+															<boardgamepublisher objectid="6183">arte ludens</boardgamepublisher>
+																																				<boardgamemechanic objectid="2002">Tile Placement</boardgamemechanic>
+															<boardgamedesigner objectid="11210">Moritz Wittensöldner</boardgamedesigner>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="7+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>2</usersrated>
+					<average>4</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>1</stddev>
+					<median>0</median>
+					<owned>4</owned>
+					<trading>0</trading>
+					<wanting>4</wanting>
+					<wishing>10</wishing>
+					<numcomments>4</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29674">
+			<yearpublished>2006</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>10</playingtime>
+			<minplaytime>10</minplaytime>
+			<maxplaytime>10</maxplaytime>
+			<age>9</age>
+
+							<name primary="true" sortindex="1">Kuado</name>
+									
+			<description>Kuado is a highly tactical but quick game in which each of the 2 players tries to put a square of 4 sticks on a foundation of 4 stones. The opposing building of squares can be prevented by blocking with own sticks.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic226204_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic226204.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamesubdomain objectid="4666">Abstract Games</boardgamesubdomain>
+															<boardgamecategory objectid="1009">Abstract Strategy</boardgamecategory>
+															<boardgamepublisher objectid="6183">arte ludens</boardgamepublisher>
+															<boardgamemechanic objectid="2048">Pattern Building</boardgamemechanic>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="2+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>1</usersrated>
+					<average>4</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>1</wanting>
+					<wishing>3</wishing>
+					<numcomments>2</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29675">
+			<yearpublished>2000</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>20</playingtime>
+			<minplaytime>20</minplaytime>
+			<maxplaytime>20</maxplaytime>
+			<age>0</age>
+
+							<name  sortindex="1">3 Crowns</name>
+							<name primary="true" sortindex="1">Three Crowns</name>
+									
+			<description>Three Crowns is a sophisticated game of pattern-formation, which was designed by Larry Back in 2000 for the 2001 8x8 Game Design Competition co-sponsored by About Board Games, Abstract Games magazine and the Strategy Gaming Society. Every game is a sharp battle. The goal is to crown your pieces, then to build a &amp;quot;crowned troika&amp;quot;, a formation of three or more crowned pieces in a straight line, orthogonally or diagonally, all belonging to the same player.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic851898_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic851898.jpg</image>
+						
+												<boardgamepublisher objectid="1001">(Web published)</boardgamepublisher>
+																						<boardgamesubdomain objectid="4666">Abstract Games</boardgamesubdomain>
+															<boardgamecategory objectid="1009">Abstract Strategy</boardgamecategory>
+															<boardgamedesigner objectid="3654">Larry Back</boardgamedesigner>
+															<boardgamemechanic objectid="2048">Pattern Building</boardgamemechanic>
+															<boardgamemechanic objectid="2078">Point to Point Movement</boardgamemechanic>
+															<boardgamecategory objectid="1120">Print &amp; Play</boardgamecategory>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="2+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>3</usersrated>
+					<average>7.33333</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4666" name="abstracts" friendlyname="Abstract Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>2.0548</stddev>
+					<median>0</median>
+					<owned>6</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>2</wishing>
+					<numcomments>3</numcomments>
+					<numweights>1</numweights>
+					<averageweight>2</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29676">
+			<yearpublished>2007</yearpublished>
+			<minplayers>3</minplayers>
+			<maxplayers>5</maxplayers>
+			<playingtime>180</playingtime>
+			<minplaytime>180</minplaytime>
+			<maxplaytime>180</maxplaytime>
+			<age>8</age>
+
+							<name  sortindex="1">Monopoly DVD Palmusaaren pohatta</name>
+							<name  sortindex="1">Monopoly Trauminsel DVD</name>
+							<name  sortindex="1">Monopoly: Tropical Tycoon DVD editie</name>
+							<name primary="true" sortindex="1">Monopoly: Tropical Tycoon DVD Game</name>
+									
+			<description>Tropical Tycoon is a modified version of Monopoly that incorporates new rules, new pieces, and new winning conditions.  It uses a DVD (required) to generate random events.&lt;br/&gt;&lt;br/&gt;New additions include:&lt;br/&gt;&lt;br/&gt;Players have Jobs that give individual advantages.&lt;br/&gt;&lt;br/&gt;In addition to beach houses (houses) and resorts (hotels), properties can be developed with Casinos, Parks, Restaurants, and Piers.  The rent for the Casino is pure luck, but sometimes the owner has to pay out to the visitor.  Parks don't garner much rent, and what rent they gather is based on the weather, which can change with every Chance or Community Chest event (the Park's main benefit is its worth in Fortune Tokens at game end:  A Park on Gentle Sands is the equivalent of four million dollars cash at the end of the game).  Piers' rent depends not only on the weather, but also the presence or absence of a cruise ship, which is also affected by the card events.  Finally, Restaurants' rent is dependent upon the neighboring property improvements.  There are very few of these developments, though, so the competition for them can be fierce!&lt;br/&gt;&lt;br/&gt;Although the basic board layout is the same as a standard Monopoly board, there are no Chance and Community Chest cards; when a player lands on one of those two spots, the DVD determines what happens.&lt;br/&gt;&lt;br/&gt;One of the dice has a TV symbol in place of the 1-pip; when the TV is rolled, a News Broadcast is played on the DVD, which triggers a random event (much like Chance or Community Chest).&lt;br/&gt;&lt;br/&gt;Players collect Fortune Tokens (and earn them at the end of the game through their cash and property holdings).  Play ends when one player goes bankrupt (or, alternately, whenever the players decide to stop).  The player with the most Fortune Tokens at the end of the game wins.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic213557_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic213557.jpg</image>
+						
+												<boardgamemechanic objectid="2012">Auction/Bidding</boardgamemechanic>
+															<boardgamedesigner objectid="442">Rob Daviau</boardgamedesigner>
+															<boardgameversion objectid="146443">Dutch edition</boardgameversion>
+															<boardgamefamily objectid="7348">DVD Board Games</boardgamefamily>
+															<boardgamecategory objectid="1021">Economic</boardgamecategory>
+															<boardgamecategory objectid="1072">Electronic</boardgamecategory>
+															<boardgameversion objectid="175952">Finnish edition</boardgameversion>
+															<boardgameversion objectid="111397">First edition</boardgameversion>
+															<boardgameversion objectid="192272">German Edition</boardgameversion>
+																																																									<boardgamepublisher objectid="51">Hasbro</boardgamepublisher>
+															<boardgamefamily objectid="100">Monopoly</boardgamefamily>
+															<boardgamecategory objectid="1026">Negotiation</boardgamecategory>
+															<boardgamepublisher objectid="28">Parker Brothers</boardgamepublisher>
+															<boardgamemechanic objectid="2035">Roll / Spin and Move</boardgamemechanic>
+															<boardgamemechanic objectid="2004">Set Collection</boardgamemechanic>
+															<boardgamepodcastepisode objectid="101652">TDT - Episode # 309 - The Size of our Collections</boardgamepodcastepisode>
+															<boardgamemechanic objectid="2008">Trading</boardgamemechanic>
+															<boardgamefamily objectid="18319">Tropical theme</boardgamefamily>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="5">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="3" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="2" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="4" />
+					<result value="Not Recommended" numvotes="1" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="5" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="5" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="2" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="1">
+			
+		<results>		
+					<result level="6" value="No necessary in-game text" numvotes="0" />
+					<result level="7" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="8" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0" />
+					<result level="9" value="Extensive use of text - massive conversion needed to be playable" numvotes="1" />
+					<result level="10" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="2">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="1" />
+					<result value="8" numvotes="1" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>92</usersrated>
+					<average>5.86649</average>
+					<bayesaverage>5.53114</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="7340" bayesaverage="5.53114" />
+												
+											</ranks>
+					
+					<stddev>1.76974</stddev>
+					<median>0</median>
+					<owned>279</owned>
+					<trading>14</trading>
+					<wanting>21</wanting>
+					<wishing>52</wishing>
+					<numcomments>31</numcomments>
+					<numweights>5</numweights>
+					<averageweight>2</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29677">
+			<yearpublished>0</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>10</age>
+
+							<name primary="true" sortindex="1">Eat Electric Death!</name>
+									
+			<description>Eat Electric Death! is the exciting board game of tactical starship combat set in the wild and wacky Weird Worlds universe (made famous in the award-winning computer game Weird Worlds: Return to Infinite Space) for two carbon-based life forms.&lt;br/&gt;&lt;br/&gt;Players will command an array of starships from such intergalactic species as the calculating mechanical Tan Ru, the bloodthirsty savage reptilian Garthans, and the noble Zorg, masters of time and space. Annihilation is only a chit pull away as energy weapons, missiles, and even old fashioned projectiles hurdle across the map while ships maneuver for the optimum firing spot. When found shields collapse, bulkheads shatter, and sometimes even a reactor blows. For some, crews will work to repair the damage, while for others salvation is only possible through victory.&lt;br/&gt;&lt;br/&gt;Eat Electric Death! plays like a rocket to the stars &amp;ndash; fast &amp;ndash; with easily understood rules that will have you battling within minutes of opening the box and punching counters. Varied scenario types provide plenty of adventure, and the game lends itself well for telling your own tales. Intuitive playing aids create a minimum of bookkeeping chores while allowing plenty of sci-fi chrome. Starship combat this sleek is rarely seen on your kitchen table.&lt;br/&gt;&lt;br/&gt;If you like your aliens ugly, your starships shiny, and your ship on ship action frenzied and fun, then look no further than Eat Electric Death!, your space opera in a box!&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic1803717_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic1803717.jpg</image>
+						
+												<boardgamedesigner objectid="9751">Digital Eel</boardgamedesigner>
+															<boardgameversion objectid="190212">English first edition</boardgameversion>
+															<boardgamemechanic objectid="2026">Hex-and-Counter</boardgamemechanic>
+															<boardgamepublisher objectid="14966">Print &amp; Play Productions</boardgamepublisher>
+															<boardgamecategory objectid="1016">Science Fiction</boardgamecategory>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="2+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>2</usersrated>
+					<average>7.25</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0.75</stddev>
+					<median>0</median>
+					<owned>6</owned>
+					<trading>0</trading>
+					<wanting>6</wanting>
+					<wishing>50</wishing>
+					<numcomments>8</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29678">
+			<yearpublished>2008</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>4</maxplayers>
+			<playingtime>120</playingtime>
+			<minplaytime>120</minplaytime>
+			<maxplaytime>120</maxplaytime>
+			<age>12</age>
+
+							<name primary="true" sortindex="1">Munchkin Quest</name>
+							<name  sortindex="1">Манчкин Настольная игра</name>
+									
+			<description> From the Publisher: &lt;br/&gt;Kill the monster, grab the treasure, stab your buddy. That's what it's all about. Now, Munchkin comes to the boardgame.&lt;br/&gt;&lt;br/&gt;Cooperate with the whole group, adventure with a partner, or strike out on your own. You don't know what's behind a door until you open it . . . then another tile is added to the dungeon. Battle monsters for power and treasure, or send them after your friends. Reach Level 10, and then get out alive if you can!&lt;br/&gt;&lt;br/&gt; Components: &lt;br/&gt;&lt;br/&gt;     200 Cards&lt;br/&gt;     27 Health Tokens&lt;br/&gt;     69 Gold Pieces&lt;br/&gt;     12 Dropped Item Tokens&lt;br/&gt;     15 Move Tokens&lt;br/&gt;     12 Search Result Tokens&lt;br/&gt;     4 Level Counters&lt;br/&gt;     4 Munchkins&lt;br/&gt;     12 Monster Bases&lt;br/&gt;     24 Room Tiles&lt;br/&gt;     1 Entrance Tile&lt;br/&gt;     73 Links&lt;br/&gt;     38 Monster Standies&lt;br/&gt;     8 6-Sided dice, two for each player&lt;br/&gt;     1 10-Sided die&lt;br/&gt;     1 six-colored Monster Die&lt;br/&gt;     1 20-page rulebook&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Part of the Munchkin series&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic294853_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic294853.jpg</image>
+						
+												<boardgameexpansion objectid="54435">+6 Bag O&#039; Munchkin Babes </boardgameexpansion>
+															<boardgameaccessory objectid="140256">+6 Bag o&#039; Munchkin Rainbow d6</boardgameaccessory>
+															<boardgameexpansion objectid="38891">+6 Bag O&#039; Munchkins</boardgameexpansion>
+															<boardgameexpansion objectid="136857">+8 Bag O&#039; Munchkin Babes &amp; Pawns</boardgameexpansion>
+															<boardgamehonor objectid="18932">2008 JoTa Best Party Board Game Nominee</boardgamehonor>
+															<boardgamecategory objectid="1022">Adventure</boardgamecategory>
+															<boardgameartist objectid="28506">Fox Barrett</boardgameartist>
+															<boardgamefamily objectid="22783">Better Description Needed!</boardgamefamily>
+															<boardgamepublisher objectid="12031">Black Monk</boardgamepublisher>
+																						<boardgamepublisher objectid="6194">Delta Vision Publishing</boardgamepublisher>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgamepublisher objectid="2973">Edge Entertainment</boardgamepublisher>
+															<boardgameversion objectid="27166">English first edition, First printing</boardgameversion>
+															<boardgameversion objectid="214901">English First Edition, Fourth Printing</boardgameversion>
+															<boardgameversion objectid="187780">English First Edition, Third Printing Edition</boardgameversion>
+															<boardgameexpansion objectid="88665">Exclusive Warehouse 23 Munchkin Booster</boardgameexpansion>
+															<boardgamecategory objectid="1020">Exploration</boardgamecategory>
+															<boardgamecategory objectid="1010">Fantasy</boardgamecategory>
+															<boardgameartist objectid="12158">Alex Fernandez (I)</boardgameartist>
+															<boardgamecategory objectid="1046">Fighting</boardgamecategory>
+															<boardgameversion objectid="208374">First edition, Second printing</boardgameversion>
+															<boardgameversion objectid="27187">French edition</boardgameversion>
+															<boardgameversion objectid="27188">German Edition</boardgameversion>
+																																																																							<boardgamepublisher objectid="18852">Hobby World</boardgamepublisher>
+															<boardgamecategory objectid="1079">Humor</boardgamecategory>
+															<boardgameversion objectid="195570">Hungarian First Edition</boardgameversion>
+															<boardgameversion objectid="74047">Italian First edition</boardgameversion>
+															<boardgamedesigner objectid="22">Steve Jackson (I)</boardgamedesigner>
+															<boardgameartist objectid="23656">Richard Kerr</boardgameartist>
+															<boardgameartist objectid="6815">John Kovalic</boardgameartist>
+															<boardgamemechanic objectid="2011">Modular Board</boardgamemechanic>
+															<boardgamefamily objectid="24">Munchkin</boardgamefamily>
+															<boardgameexpansion objectid="42521">Munchkin Christmas Ornament</boardgameexpansion>
+															<boardgameexpansion objectid="39392">Munchkin Coins</boardgameexpansion>
+															<boardgameexpansion objectid="42520">Munchkin Cookie</boardgameexpansion>
+															<boardgameexpansion objectid="14580">Munchkin Dice</boardgameexpansion>
+															<boardgameexpansion objectid="98969">Munchkin Jumbo D6</boardgameexpansion>
+															<boardgameexpansion objectid="54434">Munchkin Kill-O-Meter</boardgameexpansion>
+															<boardgameexpansion objectid="47014">Munchkin Level Counter</boardgameexpansion>
+															<boardgameexpansion objectid="24733">Munchkin Promotional Bookmarks</boardgameexpansion>
+															<boardgameexpansion objectid="38538">Munchkin Quest 2: Looking for Trouble</boardgameexpansion>
+															<boardgameexpansion objectid="63123">Munchkin Quest Gold Piece</boardgameexpansion>
+															<boardgameexpansion objectid="86353">Munchkin Quest Promo Cards</boardgameexpansion>
+															<boardgameexpansion objectid="63192">Munchkin Quest Promo Coaster 1</boardgameexpansion>
+																													<boardgameexpansion objectid="40762">Munchkin Quest: Extra Parts</boardgameexpansion>
+															<boardgameexpansion objectid="74210">Munchkin Quest: Portal Kombat</boardgameexpansion>
+															<boardgameexpansion objectid="40475">Munchkin Quest: Promo Set 1</boardgameexpansion>
+															<boardgameexpansion objectid="62387">Munchkin Sherpa</boardgameexpansion>
+																													<boardgamepublisher objectid="39">Pegasus Spiele</boardgamepublisher>
+															<boardgameversion objectid="171775">Polish edition</boardgameversion>
+																													<boardgamepublisher objectid="3242">Raven Distribution</boardgamepublisher>
+																																											<boardgamemechanic objectid="2028">Role Playing</boardgamemechanic>
+															<boardgameversion objectid="34477">Russian edition</boardgameversion>
+																						<boardgameartist objectid="28505">Will Schoonover</boardgameartist>
+															<boardgamepublisher objectid="8313">Smart Ltd</boardgamepublisher>
+																						<boardgameversion objectid="147754">Spanish version</boardgameversion>
+															<boardgamepublisher objectid="19">Steve Jackson Games</boardgamepublisher>
+															<boardgamesubdomain objectid="5496">Thematic Games</boardgamesubdomain>
+																						<boardgamepublisher objectid="8759">Wargames Club Publishing</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="33">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="3" />
+					<result value="Not Recommended" numvotes="21" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="3" />
+					<result value="Recommended" numvotes="14" />
+					<result value="Not Recommended" numvotes="8" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="5" />
+					<result value="Recommended" numvotes="17" />
+					<result value="Not Recommended" numvotes="2" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="23" />
+					<result value="Recommended" numvotes="6" />
+					<result value="Not Recommended" numvotes="2" />
+				</results>					
+			
+		<results numplayers="4+">		
+					<result value="Best" numvotes="3" />
+					<result value="Recommended" numvotes="2" />
+					<result value="Not Recommended" numvotes="16" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="21">
+			
+		<results>		
+					<result level="11" value="No necessary in-game text" numvotes="0" />
+					<result level="12" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="13" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="2" />
+					<result level="14" value="Extensive use of text - massive conversion needed to be playable" numvotes="17" />
+					<result level="15" value="Unplayable in another language" numvotes="2" />
+				</results>					
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="14">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="2" />
+					<result value="12" numvotes="5" />
+					<result value="14" numvotes="5" />
+					<result value="16" numvotes="1" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="1" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>2278</usersrated>
+					<average>6.06569</average>
+					<bayesaverage>5.85759</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="2313" bayesaverage="5.85759" />
+												
+							
+														<rank type="family" id="5496" name="thematic" friendlyname="Thematic Rank" value="456" bayesaverage="5.82476" />
+												
+											</ranks>
+					
+					<stddev>1.76286</stddev>
+					<median>0</median>
+					<owned>4485</owned>
+					<trading>275</trading>
+					<wanting>57</wanting>
+					<wishing>402</wishing>
+					<numcomments>513</numcomments>
+					<numweights>178</numweights>
+					<averageweight>2.5225</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29679">
+			<yearpublished>2004</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>4</maxplayers>
+			<playingtime>15</playingtime>
+			<minplaytime>15</minplaytime>
+			<maxplaytime>15</maxplaytime>
+			<age>5</age>
+
+							<name  sortindex="5">Der kleine Prinz beschützt seinen Planeten</name>
+							<name primary="true" sortindex="5">The Little Prince Protects his Planet</name>
+							<name  sortindex="4">Le Petit Prince protège sa planète</name>
+									
+			<description>Players help the Little Prince protect his planet from Baobab Tree saplings, which, if they grow into full trees, will destroy the Little Prince's planetoid.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Die Spieler helfen dem Kleinen Prinzen, seinen Planeten vor Spr&amp;ouml;sslingen von Affenbrotb&amp;auml;umen, die so gro&amp;szlig; werden, dass sie den Planeten zerst&amp;ouml;ren k&amp;ouml;nnen, zu besch&amp;uuml;tzen.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic252959_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic252959.jpg</image>
+						
+												<boardgamefamily objectid="22783">Better Description Needed!</boardgamefamily>
+															<boardgamecategory objectid="1041">Children&#039;s Game</boardgamecategory>
+															<boardgamesubdomain objectid="4665">Children&#039;s Games</boardgamesubdomain>
+															<boardgameversion objectid="133403">First edition</boardgameversion>
+																													<boardgamedesigner objectid="645">Kai Haferkamp</boardgamedesigner>
+															<boardgameartist objectid="49856">Petit Jour</boardgameartist>
+															<boardgamepublisher objectid="37">KOSMOS</boardgamepublisher>
+															<boardgamefamily objectid="11512">The Little Prince</boardgamefamily>
+															<boardgamemechanic objectid="2047">Memory</boardgamemechanic>
+															<boardgamepublisher objectid="7488">Petit Jour</boardgamepublisher>
+															<boardgameversion objectid="133405">Petit jour edition</boardgameversion>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="4+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>1</usersrated>
+					<average>4</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4665" name="childrensgames" friendlyname="Children&#039;s Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>5</owned>
+					<trading>0</trading>
+					<wanting>2</wanting>
+					<wishing>1</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29680">
+			<yearpublished>2005</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>4</maxplayers>
+			<playingtime>15</playingtime>
+			<minplaytime>15</minplaytime>
+			<maxplaytime>15</maxplaytime>
+			<age>5</age>
+
+							<name primary="true" sortindex="5">Der kleine Prinz geht auf die Reise</name>
+							<name  sortindex="5">The Little Prince Goes on a Trip</name>
+							<name  sortindex="4">Le Petit Prince part en voyage</name>
+									
+			<description>With a flock of wild birds, the Little Prince travels from planet to planet.  The players help the Little Prince to visit all of the planets in the right order.&lt;br/&gt;&lt;br/&gt;Aim of the game (from Rule book):&lt;br/&gt;To help the little prince go travelling and discover as many planets as possible. Beware, each planet must be associated with a flock of birds. In Fact, the prince can only travel if a flock of birds comes to collect him.&lt;br/&gt;&lt;br/&gt;On his turn a player turns over an objective card and has 3 attempts to slide stars tiles on the board to discover the planet shown on the objective card and a flock of birds.&lt;br/&gt;If he doesn't manage to do it, next player has three goes.&lt;br/&gt;Fist player to find the good planet and a flock of birds wins the tile. Than next player turn a new objective card.&lt;br/&gt;Once the 8 objective cards have been given, player with the most cards win.&lt;br/&gt;&lt;br/&gt;Note:&lt;br/&gt;In the same collection from the publisher Petit Jour, there are two other games with the little prince anthem:&lt;br/&gt;the little Prince protects is planet and the little prince tames the fox.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Mit einem Schwarm wilder V&amp;ouml;gel reist der kleine Prinz von Planet zu Planet. Die Spieler sind dem kleinen Prinzen behilflich, alle Planeten in der richtigen Reihenfolge zu besuchen.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic563405_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic563405.jpg</image>
+						
+												<boardgamecategory objectid="1041">Children&#039;s Game</boardgamecategory>
+															<boardgamesubdomain objectid="4665">Children&#039;s Games</boardgamesubdomain>
+															<boardgameversion objectid="236139">French first edition</boardgameversion>
+															<boardgameversion objectid="133407">German edition</boardgameversion>
+																													<boardgamedesigner objectid="645">Kai Haferkamp</boardgamedesigner>
+															<boardgamepublisher objectid="37">KOSMOS</boardgamepublisher>
+															<boardgamefamily objectid="11512">The Little Prince</boardgamefamily>
+															<boardgamepublisher objectid="7488">Petit Jour</boardgamepublisher>
+															<boardgamemechanic objectid="2078">Point to Point Movement</boardgamemechanic>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="4+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>2</usersrated>
+					<average>5</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4665" name="childrensgames" friendlyname="Children&#039;s Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>1</stddev>
+					<median>0</median>
+					<owned>2</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29681">
+			<yearpublished>1986</yearpublished>
+			<minplayers>1</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>10</playingtime>
+			<minplaytime>10</minplaytime>
+			<maxplaytime>10</maxplaytime>
+			<age>10</age>
+
+							<name primary="true" sortindex="1">Combat Heroes</name>
+									
+			<description>The game is actually two distinct games, each of which consists of two books. Any book can be used by itself for a (short) solo game. The books can be paired (White Warlord against Black Baron, or Emerald Enchanter against Scarlet Sorcerer) to play a two-player duel.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic213794_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic213794.jpg</image>
+						
+												<boardgameartist objectid="3">(Uncredited)</boardgameartist>
+															<boardgamepublisher objectid="6919">Beaver Books</boardgamepublisher>
+															<boardgamepublisher objectid="10082">Berkley Books</boardgamepublisher>
+																						<boardgamecategory objectid="1117">Book</boardgamecategory>
+															<boardgameversion objectid="249902">Book 1 Edition</boardgameversion>
+															<boardgamedesigner objectid="8676">Joe Dever</boardgamedesigner>
+																													<boardgamecategory objectid="1010">Fantasy</boardgamecategory>
+															<boardgamecategory objectid="1046">Fighting</boardgamecategory>
+																						<boardgamemechanic objectid="2020">Simultaneous Action Selection</boardgamemechanic>
+															<boardgameversion objectid="249900">UK Cover Book 1 edition</boardgameversion>
+															<boardgameversion objectid="249901">US Cover Book 1 edition</boardgameversion>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="2+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>9</usersrated>
+					<average>5.83333</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>1</stddev>
+					<median>0</median>
+					<owned>20</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>2</wishing>
+					<numcomments>4</numcomments>
+					<numweights>1</numweights>
+					<averageweight>2</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="29682">
+			<yearpublished>2007</yearpublished>
+			<minplayers>3</minplayers>
+			<maxplayers>5</maxplayers>
+			<playingtime>60</playingtime>
+			<minplaytime>60</minplaytime>
+			<maxplaytime>60</maxplaytime>
+			<age>10</age>
+
+							<name primary="true" sortindex="1">Doodads</name>
+									
+			<description>&amp;ldquo;I&amp;rsquo;ll trade you a cabbage and some duct tape for your toddler.&amp;rdquo;&lt;br/&gt;A game about trading and building for 3 to 5 players.&lt;br/&gt;Learn what ingredients you need to make things. Turn money into ingredients. Turn ingredients into things. Use your things to give you an advantage over your opponents. Learn what things you need to build doodads. Build doodads out of things. Use your doodads to give you an even greater advantage over your opponents. End the game with the most diverse collection of doodads, things, and ingredients.&lt;br/&gt;&lt;br/&gt;The game is freely downloadable on the publisher's site:&lt;br/&gt;&lt;a target='_blank' href=&quot;http://www.invisible-city.com/play/443/Doodads&quot; rel=&quot;nofollow&quot;&gt;http://www.invisible-city.com/play/443/Doodads&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic224455_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic224455.jpg</image>
+						
+												<boardgamepublisher objectid="1001">(Web published)</boardgamepublisher>
+															<boardgamemechanic objectid="2012">Auction/Bidding</boardgamemechanic>
+															<boardgamecategory objectid="1002">Card Game</boardgamecategory>
+															<boardgamepublisher objectid="320">Invisible City Productions</boardgamepublisher>
+															<boardgamedesigner objectid="613">Jonathan Leistiko</boardgamedesigner>
+															<boardgamecategory objectid="1026">Negotiation</boardgamecategory>
+															<boardgamecategory objectid="1120">Print &amp; Play</boardgamecategory>
+															<boardgameversion objectid="39142">Print and Play edition</boardgameversion>
+															<boardgamemechanic objectid="2008">Trading</boardgamemechanic>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="5+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>2</usersrated>
+					<average>5.5</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>1.5</stddev>
+					<median>0</median>
+					<owned>5</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>1</wishing>
+					<numcomments>1</numcomments>
+					<numweights>2</numweights>
+					<averageweight>2.5</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+	</boardgames>

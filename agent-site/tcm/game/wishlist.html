@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      var userName = sessionStorage.getItem("userName");
+      var userRole = sessionStorage.getItem("userRole");
+      var userID   = sessionStorage.getItem("userID");
+
+      if (userName == null) {
+        console.log("I hate you");
+        window.location = "../login.html";
+      }
+      if (userRole != "User") {
+        console.log("I hate you more");
+        window.location = "../login.html";
+      }
+      if (userID == null) {
+        console.log("I hate you most");
+        window.location = "../login.html";
+      }
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>Terrapin Collection Manager</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/apshai.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Terrapin Collection Manager</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./collection.html">Collection</a></li>
+            <li><a href="./recommend.html">Recommend</a></li>
+            <li class="active"><a>Wishlist</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <!--
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            -->
+            <a href="../index.html" id="logout-button" class="btn btn-success" onclick="logOutFunction()" type="button">Log Out</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-wishlist"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">Anything look good here?  You can never have enough of a good thing!</h3>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading panel-title" id="wish-heading">Your Wishlist
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="thumbnail">
+                  <ul class="list-group" id="wish-list">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="remove-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Remove Game Confirmation</h4>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure you want to remove this Game from your wishlist?</p>
+            <p class="text-warning"><small>You can add this back in at any time.</small></p>
+          </div>
+          <div class="model-footer">
+            <button type="button" class="btn btn-default btn-pad pull-right" data-dismiss="modal">
+              <span class="glyphicon glyphicon-ban-circle"></span>Cancel
+            </button>
+            <button type="button" class="btn btn-danger btn-pad pull-right" data-dismiss="modal" id="simple-remove-button" onclick="removeWishlistItemFunction()">
+              <span class="glyphicon glyphicon-fire"></span>Remove Game
+            </button>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="remove-success-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Success!</h4>
+          </div>
+          <div class="modal-body">
+            <p>The Requested Game has been removed from your Wishlist.</p>
+          </div>
+          <div class="model-footer">
+            <button type="button" class="btn btn-success btn-pad pull-right" data-dismiss="modal">
+              <span class="glyphicon glyphicon-thumbs-up"></span>OK
+            </button>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="add-game-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Game Added to Collection!</h4>
+          </div>
+          <div class="modal-body">
+            <p>Aren't new Games exciting?</p>
+            <p class="text-warning"><small>Do you want to go check out your updated collection, or keep working with your wishlist?</small></p>
+          </div>
+          <div class="model-footer">
+            <button type="button" class="btn btn-default btn-pad pull-right" data-dismiss="modal">
+              <span class="glyphicon glyphicon-ok-circle"></span>Stay in Wishlist
+            </button>
+            <button type="button" class="btn btn-success btn-pad pull-right" data-dismiss="modal" id="base-all-button" onclick="viewCollectionFunction()">
+              <span class="glyphicon glyphicon-king"></span>View My Collection
+            </button>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      
+      function logOutFunction() {
+        sessionStorage.clear();
+        localStorage.clear();
+      };
+
+      function smallImgError(image) {
+        image.onerror = "";
+        image.src = "./img/question.png";
+        return true;
+      }
+
+      function viewCollectionFunction() {
+        window.location = "./collection.html";
+      };
+
+      function largeImgError(image) {
+        image.onerror = "";
+        image.src = "./img/dnf.png";
+        return true;
+      }
+
+      function removeFromWishlistFunction() {
+        var gameID = sessionStorage.getItem("wishGameID");
+        if (gameID == null) {
+          console.log("Nope");
+          return;
+        }
+
+        $('#remove-modal').modal('show');
+      };
+
+      function addToCollectionFunction() {
+        var userID = sessionStorage.getItem("userID");
+        var gameID = sessionStorage.getItem("wishGameID");
+        if (gameID == null) {
+          console.log("Nope");
+          return;
+        }
+
+        //No prompt, just do it.
+        //console.log("I need to add gameID " + gameID + " to userID " + userID + "'s Collection");
+
+        var jsonBody = '{ "gameID": "' + gameID + '", "userID": "' + userID + '" }';
+        $.ajax ({
+          type: 'POST',
+          url: 'http://107.188.249.238:8080/ac-games-restservice-spring-1.0/collection/add',
+          data: jsonBody,
+          contentType: "application/json",
+          dataType: 'json',
+          success: function(data) {
+            var messageType = data['messageType'];
+            var errorType   = data['errorType'];
+
+            if (messageType == "Operation Successful") {
+              var message = data['message'];
+
+              var removeURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/wishlist?gameid=" + gameID + "&userid=" + userID;
+              //var removeURL = "http://localhost:8080/wishlist?gameid=" + gameID + "&userid=" + userID;
+
+              //We need to run the wishlist remove here as well.
+              $.ajax ({
+                type: 'DELETE',
+                url: removeURL,
+                success: function(data) {
+                  var messageType = data['messageType'];
+                  var errorType   = data['errorType'];
+
+                  if (messageType == "Operation Successful") {
+                    //We can remove these since they're now part of the system
+                    sessionStorage.removeItem("wishGameID");
+
+                    $('#add-game-modal').on('hidden.bs.modal', function () {
+                       getWishlistFunction();
+                    });
+                    $('#add-game-modal').modal('show');
+
+                  } else {
+                    var errorMessage = data['errorMessage'];
+                    alert(errorType + ": " + errorMessage);
+                  }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                  alert('An Unknown Error Occured During Add Task.  Please Try Again Later.');
+                }
+             });
+           } else {
+              var errorMessage = data['errorMessage'];
+              alert(errorType + ": " + errorMessage);
+            }
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert('An Unknown Error Occured During Add Task.  Please Try Again Later.');
+          }
+
+        });
+
+      };
+
+      function removeWishlistItemFunction() {
+        var gameID = sessionStorage.getItem("wishGameID");
+        var userID = sessionStorage.getItem("userID");
+
+        var removeURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/wishlist?gameid=" + gameID + "&userid=" + userID;
+        //var removeURL = "http://localhost:8080/wishlist?gameid=" + gameID + "&userid=" + userID;
+
+        console.log("About the run the following command: " + removeURL);
+        $.ajax ({
+          type: 'DELETE',
+          url: removeURL,
+          success: function(data) {
+            var messageType = data['messageType'];
+            var errorType   = data['errorType'];
+
+            if (messageType == "Operation Successful") {
+              //We can remove these since they're now part of the system
+              sessionStorage.removeItem("wishGameID");
+
+              $('#remove-success-modal').on('hidden.bs.modal', function () {
+                 getWishlistFunction();
+              });
+              $('#remove-success-modal').modal('show');
+
+            } else {
+              var errorMessage = data['errorMessage'];
+              alert(errorType + ": " + errorMessage);
+            }
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert('An Unknown Error Occured During Add Task.  Please Try Again Later.');
+          }
+        });
+      };
+
+      function getWishlistFunction() {
+        sessionStorage.removeItem("wishGameID");
+
+        var userID = sessionStorage.getItem("userID");
+
+        var wishURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/wishlist?userid=" + userID + "&display=full";
+        //var wishURL = "http://localhost:8080/wishlist?userid=" + userID + "&display=full";
+
+        $.getJSON( wishURL, { format: 'json'})
+            .done(function(data) {
+              console.log("How many elements did I get: " + data.length);
+
+              document.getElementById("wish-heading").innerHTML = "Your Wishlist  (" + data.length + " Games)";
+
+              var masterText = "";
+
+              for (gameLoop = 0; gameLoop < data.length; gameLoop++) {
+                var curItem = data[gameLoop];
+
+                var itemID       = curItem['wishID'];
+                var gameID       = curItem['gameID'];
+                var dateAdded    = curItem['dateAdded'];
+
+                var game         = curItem['game'];
+
+                var csiPriceList = curItem['csiPriceList'];
+                var mmPriceList  = curItem['mmPriceList'];
+
+                var primaryPub   = game['primaryPublisher'];
+                var gameImage    = game['imageURL']
+                var gameName     = game['name'];
+                var yearPub      = game['yearPublished'];
+                var gameType     = game['gameType'];
+
+                var minPlayers   = game['minPlayers'];
+                var maxPlayers   = game['maxPlayers'];
+                var minTime      = game['minPlayingTime'];
+                var maxTime      = game['maxPlayingTime'];
+
+                var playerCountString = "";
+                if (minPlayers == maxPlayers) {
+                  playerCountString = "" + minPlayers + " Players";
+                } else {
+                  playerCountString = "" + minPlayers + " - " + maxPlayers + " Players";
+                }
+
+                var playTimeString = "";
+                if (minTime == maxTime) {
+                  playTimeString = "" + minTime + " Minutes";
+                } else {
+                  playTimeString = "" + minTime + " - " + maxTime + " Minutes";
+                }
+
+                var headerText = gameName;
+                if ((yearPub != null) && (yearPub != -1)) {
+                  headerText = headerText + " (" + yearPub + ")";
+                }
+                if (gameImage == null) {
+                  gameImage = 'img/dnf.png';
+                }
+
+                var dateValue  = new Date(dateAdded);
+                var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                var dateString = "" + monthNames[dateValue.getMonth()] + " " + dateValue.getDate() + ", " + dateValue.getFullYear();
+
+                var gameStatBlock = '<div class="col-xs-5">Game ID: ' + gameID + '</div><div class="col-xs-7">Game Publisher: ' + primaryPub + '</div><div class="col-xs-5">Player Count: ' + playerCountString + '</div><div class="col-xs-7">Playing Time: ' + playTimeString + '</div><div class="col-xs-5">Game Type: ' + gameType + '</div><div class="col-xs-7">Date Added to Wishlist: ' + dateString + '</div>';
+
+                var gameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" src="' + gameImage + '" onerror="largeImgError(this);" style="max-height: 100px; max-width: 100px;"/></div><div class="media-body"><h4 class="media-heading">' + headerText + '<a id="view-' + gameID + '-button" class="btn btn-sm btn-primary pull-right" role="button">View Game</a><a id="add-' + gameID + '-button" class="btn btn-sm btn-primary pull-right" role="button">Add to Collection</a><a id="remove-' + gameID + '-button" class="btn btn-sm btn-primary pull-right" role="button">Remove from Wishlist</a></h4>' + gameStatBlock + '</div></div>';
+
+                var totalPrices = csiPriceList.length + mmPriceList.length;
+
+                if (totalPrices == 0) {
+                  gameText = gameText + '<ul style="display: inline;"><li class="list-group-item list-group-item2">No Vendors are currently listing this Game</li></ul>';
+                } else {
+                  var priceListBlock = '<ul style="display: inline;"><li class="list-group-item list-group-item2">';
+
+                  if ((csiPriceList != null) && (csiPriceList.length > 0)) {
+                    for (csiLoop = 0; csiLoop < csiPriceList.length; csiLoop++) {
+                      var csiData = csiPriceList[csiLoop];
+
+                      var csiTitle = csiData['titleDisplay'];
+                      var csiPrice = csiData['priceDisplay'];
+                      var csiLink  = csiData['linkURL'];
+                      var csiThumb = csiData['thumbnailURL'];
+
+                      if (csiThumb == null) {
+                        csiThumb = './img/question.png';
+                      }
+
+                      var csiGameText = '<div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + csiThumb + '" onerror="smallImgError(this);" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + csiTitle + '<a id="csi-' + csiLoop + '-button" class="btn btn-sm btn-primary pull-right" role="button">View at CoolStuffInc</a></h4>' + csiPrice + '</div></div>';
+
+                      priceListBlock = priceListBlock + csiGameText;
+                    }//end for csiPrices
+                  }
+
+                  if ((mmPriceList != null) && (mmPriceList.length > 0)) {
+                    for (mmLoop = 0; mmLoop < mmPriceList.length; mmLoop++) {
+                      var mmData = mmPriceList[mmLoop];
+
+                      var mmTitle = mmData['titleDisplay'];
+                      var mmPrice = mmData['priceDisplay'];
+                      var mmLink  = mmData['linkURL'];
+                      var mmThumb = mmData['thumbnailURL'];
+
+                      if (mmThumb == null) {
+                        mmThumb = './img/question.png';
+                      }
+
+                      var mmGameText = '<div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + mmThumb + '" onerror="smallImgError(this);" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + mmTitle + '<a id="mm-' + mmLoop + '-button" class="btn btn-sm btn-primary pull-right" role="button">View at MiniatureMarket</a></h4>' + mmPrice + '</div></div>';
+
+                      priceListBlock = priceListBlock + mmGameText;
+                    }//end for mmPrices
+                  }
+                  gameText = gameText + priceListBlock + '</li></ul>';
+                }
+                masterText = masterText + gameText + '</li>';
+              }
+
+              document.getElementById("wish-list").innerHTML = masterText;
+                
+              //Now we have to loop back through each item and it's prices (if any) and plug in the buttons
+              for (gameLoop = 0; gameLoop < data.length; gameLoop++) {
+                var curItem = data[gameLoop];
+
+                var gameID       = curItem['gameID'];
+                var csiPriceList = curItem['csiPriceList'];
+                var mmPriceList  = curItem['mmPriceList'];
+
+                //First the view button for this game
+                eval('document.getElementById("view-' + gameID  + '-button").onclick = function() { sessionStorage.setItem("searchGameID", ' + gameID + '); window.location = "./game.html"; };');
+                
+                eval('document.getElementById("add-' + gameID  + '-button").onclick = function() { sessionStorage.setItem("wishGameID", ' + gameID + '); addToCollectionFunction(); };');
+                eval('document.getElementById("remove-' + gameID  + '-button").onclick = function() { sessionStorage.setItem("wishGameID", ' + gameID + '); removeFromWishlistFunction(); };');
+
+                if ((csiPriceList != null) && (csiPriceList.length > 0)) {
+                  for (csiLoop = 0; csiLoop < csiPriceList.length; csiLoop++) {
+                    var csiData = csiPriceList[csiLoop];
+                    var csiLink = csiData['linkURL'];
+
+                    eval('document.getElementById("csi-' + csiLoop  + '-button").onclick = function() { window.open("' + csiLink + '"); };');
+                  }
+                }
+                if ((mmPriceList != null) && (mmPriceList.length > 0)) {
+                  for (mmLoop = 0; mmLoop < mmPriceList.length; mmLoop++) {
+                    var mmData  = mmPriceList[mmLoop];
+                    var mmLink  = mmData['linkURL'];
+
+                    eval('document.getElementById("mm-' + mmLoop  + '-button").onclick = function() { window.open("' + mmLink + '"); };');
+                  }
+                }
+                
+              }
+            });
+      };
+
+      getWishlistFunction();
+
+    </script>
+  </body>
+</html>

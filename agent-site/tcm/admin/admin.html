@@ -1,0 +1,538 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      var userName = sessionStorage.getItem("userName");
+      var userRole = sessionStorage.getItem("userRole");
+
+      if (userName == null) {
+        window.location = "../login.html";
+      }
+      if (userRole != "Admin") {
+        window.location = "../login.html";
+      }
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>Terrapin Collection Administration</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/apshai.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Terrapin Collection Administration</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a>Home</a></li>
+            <li><a href="./bgg.html">BGG</a></li>
+            <li><a href="./csi.html">CSI</a></li>
+            <li><a href="./mm.html">MM</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <a href="../index.html" id="logout-button" class="btn btn-success" onclick="logOutFunction()" type="button">Log Out</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-admin"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">This is some boiler-plate text right here...</h3>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="thumbnail">
+            Auto-Complete Loading Process:
+            <div class="progress" id="auto-progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                <span class="sr-only">40% Complete (success)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">BoardGameGeek Stats
+              <a href="./bgg.html" id="bgg-button" class="btn btn-sm btn-success pull-right" role="button">Review BoardGameGeek Games</a>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <span class="badge" id="base-game-badge">---</span>
+                        Base Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="expansion-game-badge">---</span>
+                        Expansion Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="collectible-game-badge">---</span>
+                        Collectible Games
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <span class="badge" id="approved-game-badge">---</span>
+                        Approved Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="rejected-game-badge">---</span>
+                        Rejected Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="pending-game-badge">---</span>
+                        Review Pending
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">CoolStuffInc Stats
+              <a href="./csi.html" id="bgg-button" class="btn btn-sm btn-success pull-right" role="button">Review CoolStuffInc Games</a>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-board-game-badge">---</span>
+                        Board Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-dice-masters-badge">---</span>
+                        Dice Masters Items
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-ccg-badge">---</span>
+                        Collectible Card Game Items
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-lcg-badge">---</span>
+                        Living Card Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-rpg-badge">---</span>
+                        Role Playing Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-minis-badge">---</span>
+                        Miniatures
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-supplies-badge">---</span>
+                        Game Supplies
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-video-games-badge">---</span>
+                        Video Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="csi-unknown-badge">---</span>
+                        Unknown Items
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <span class="badge" id="approved-csi-badge">---</span>
+                        Approved Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="rejected-csi-badge">---</span>
+                        Rejected Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="pending-csi-badge">---</span>
+                        Review Pending
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">MiniatureMarket Stats
+              <a href="./mm.html" id="bgg-button" class="btn btn-sm btn-success pull-right" role="button">Review MiniatureMarket Games</a>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-6 col-md-6">
+                  <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <span class="badge" id="mm-board-game-badge">---</span>
+                        Board Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="mm-table-top-badge">---</span>
+                        Table Top Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="mm-ccgs-badge">---</span>
+                        Collectible Card Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="mm-lcgs-badge">---</span>
+                        Living Card Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="mm-rpgs-badge">---</span>
+                        Role Playing Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="mm-collectible-badge">---</span>
+                        Collectible Miniatures
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="mm-accessories-badge">---</span>
+                        Game Accessories
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="mm-unknown-badge">---</span>
+                        Unknown Items
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <span class="badge" id="approved-mm-badge">789</span>
+                        Approved Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="rejected-mm-badge">890</span>
+                        Rejected Games
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="pending-mm-badge">901</span>
+                        Review Pending
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      
+      function logOutFunction() {
+        localStorage.clear();
+      };
+
+      function populateBGGStats() {
+        var statURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/stats?type=bggGameStats";
+
+        var statText = $.getJSON( statURL , { format: 'json' } )
+            .done(function(data) {
+              var baseGameCount        = data['baseGameCount'];
+              var expansionGameCount   = data['expansionGameCount'];
+              var collectibleGameCount = data['collectibleGameCount'];
+              var approvedCount        = data['approvedCount'];
+              var rejectedCount        = data['rejectedCount'];
+              var pendingCount         = data['pendingCount'];
+
+              document.getElementById("base-game-badge").innerHTML        = baseGameCount;
+              document.getElementById("expansion-game-badge").innerHTML   = expansionGameCount;
+              document.getElementById("collectible-game-badge").innerHTML = collectibleGameCount;
+              document.getElementById("approved-game-badge").innerHTML    = approvedCount;
+              document.getElementById("rejected-game-badge").innerHTML    = rejectedCount;
+              document.getElementById("pending-game-badge").innerHTML     = pendingCount;
+        });
+
+      };
+      function populateCSIStats() {
+        var statURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/stats?type=csiDataStats";
+
+        var statText = $.getJSON( statURL , { format: 'json' } )
+            .done(function(data) {
+              var boardGameCount       = data['boardGameCount'];
+              var collectibleGameCount = data['collectibleGameCount'];
+              var diceMastersCount     = data['diceMastersCount'];
+              var rpgCount             = data['rpgCount'];
+              var lcgCount             = data['lcgCount'];
+              var suppliesCount        = data['suppliesCount'];
+              var miniatureCount       = data['miniatureCount'];
+              var videoGameCount       = data['videoGameCount'];
+              var unknownCount         = data['unknownCount'];
+              var approvedCount        = data['approvedCount'];
+              var rejectedCount        = data['rejectedCount'];
+              var pendingCount         = data['pendingCount'];
+
+              document.getElementById("csi-board-game-badge").innerHTML   = boardGameCount;
+              document.getElementById("csi-ccg-badge").innerHTML          = collectibleGameCount;
+              document.getElementById("csi-dice-masters-badge").innerHTML = diceMastersCount;
+              document.getElementById("csi-rpg-badge").innerHTML          = rpgCount;
+              document.getElementById("csi-lcg-badge").innerHTML          = lcgCount;
+              document.getElementById("csi-supplies-badge").innerHTML     = suppliesCount;
+              document.getElementById("csi-minis-badge").innerHTML        = miniatureCount;
+              document.getElementById("csi-video-games-badge").innerHTML  = videoGameCount;
+              document.getElementById("csi-unknown-badge").innerHTML      = unknownCount;
+
+              document.getElementById("approved-csi-badge").innerHTML     = approvedCount;
+              document.getElementById("rejected-csi-badge").innerHTML     = rejectedCount;
+              document.getElementById("pending-csi-badge").innerHTML      = pendingCount;
+        });
+
+      };
+      function populateMMStats() {
+        var statURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/stats?type=mmDataStats";
+
+        var statText = $.getJSON( statURL , { format: 'json' } )
+            .done(function(data) {
+              var boardGameCount    = data['boardGameCount'];
+              var tableTopCount     = data['tableTopCount'];
+              var ccgCount          = data['ccgCount'];
+              var collectiblesCount = data['collectiblesCount'];
+              var lcgCount          = data['lcgCount'];
+              var rpgCount          = data['rpgCount'];
+              var accessoriesCount  = data['accessoriesCount'];
+              var unknownCount      = data['unknownCount'];
+
+              var approvedCount     = data['approvedCount'];
+              var rejectedCount     = data['rejectedCount'];
+              var pendingCount      = data['pendingCount'];
+
+              document.getElementById("mm-board-game-badge").innerHTML  = boardGameCount;
+              document.getElementById("mm-table-top-badge").innerHTML   = tableTopCount;
+              document.getElementById("mm-ccgs-badge").innerHTML        = ccgCount;
+              document.getElementById("mm-collectible-badge").innerHTML = collectiblesCount;
+              document.getElementById("mm-lcgs-badge").innerHTML        = lcgCount;
+              document.getElementById("mm-rpgs-badge").innerHTML        = rpgCount;
+              document.getElementById("mm-accessories-badge").innerHTML = accessoriesCount;
+              document.getElementById("mm-unknown-badge").innerHTML     = unknownCount;
+
+              document.getElementById("approved-mm-badge").innerHTML  = approvedCount;
+              document.getElementById("rejected-mm-badge").innerHTML  = rejectedCount;
+              document.getElementById("pending-mm-badge").innerHTML   = pendingCount;
+        });
+
+      };
+
+      populateBGGStats();
+      populateCSIStats();
+      populateMMStats();
+
+      function prePopulateAutoCompleteFields() {
+
+        console.log("Beginning Auto Comp prePop");
+
+        var gameSearchURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=game&value=full";
+        //var gameSearchURL = "http://localhost:8080/auto?source=game&value=full";
+
+        var bggSearchURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=bgg&value=full";
+        //var bggSearchURL = "http://localhost:8080/auto?source=bgg&value=full";
+
+        var csiSearchURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=csi&value=full";
+        //var csiSearchURL = "http://localhost:8080/auto?source=csi&value=full";
+
+        var mmSearchURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=mm&value=full";
+        //var mmSearchURL = "http://localhost:8080/auto?source=mm&value=full";
+
+        //This is the largest, so to avoid running out of memory, put this one in sessionStorage instead of local, 
+        //and we'll have to worry about clearing it out later
+        var testLocal = sessionStorage.getItem("gameAutoCompList");
+        if (testLocal != null) {
+          var testGameLocalArray = JSON.parse(testLocal);
+          console.log("I already have the Game List: " + testGameLocalArray.length);
+        } else {
+          console.log("Loading Game Data List");
+
+          for (i = 1; i <= 1; i++) { 
+            //Start with the game list first
+
+            var hasList = sessionStorage.getItem("gameAutoCompList");
+            if (hasList == null) {
+              $.getJSON( gameSearchURL, { format: 'json'})
+                  .done(function(data) {
+                    var tempGameList = data['wrapList'];
+
+                    try {
+                      console.log("tempGameList.length: " + tempGameList.length);
+                      sessionStorage.setItem("gameAutoCompList", JSON.stringify(tempGameList));
+                    } catch(err) {
+                      console.log("I got an error, this means I have a problem");
+                      console.log("err.message: " + err.message);
+                    }
+                  })
+                  .fail(function() {
+                    console.log("I could not load the Game searchList!");
+                    sessionStorage.removeItem("gameAutoCompList");
+                  });
+            }
+          } 
+
+          console.log("Finished loading Game Data");
+        }
+
+        $('.progress-bar').css('width', '25%').attr('aria-valuenow', 25);    
+
+        var testLocal = localStorage.getItem("bggAutoCompList");
+        if (testLocal != null) {
+          var testBGGLocalArray = JSON.parse(testLocal);
+          console.log("I already have the BGG List: " + testBGGLocalArray.length);
+        } else {
+          console.log("Loading BGG Data List");
+
+          for (i = 1; i <= 1; i++) { 
+            var hasList = localStorage.getItem("bggAutoCompList");
+            if (hasList == null) {
+              $.getJSON( bggSearchURL, { format: 'json'})
+                  .done(function(data) {
+                    var tempBGGList = data['wrapList'];
+
+                    console.log("tempBGGList.length: " + tempBGGList.length);
+                    
+                    localStorage.setItem("bggAutoCompList", JSON.stringify(tempBGGList));
+                  })
+                  .fail(function() {
+                    alert("I could not load the BGG searchList!");
+                    localStorage.removeItem("bggAutoCompList");
+                  });
+            }
+          } 
+
+          console.log("Finished loading BGG Data");
+        }
+
+        $('.progress-bar').css('width', '50%').attr('aria-valuenow', 50);    
+
+        testLocal = localStorage.getItem("csiAutoCompList");
+        if (testLocal != null) {
+          var testCSILocalArray = JSON.parse(testLocal);
+
+          console.log("I already have the CSI List: " + testCSILocalArray.length);
+
+        } else {
+          console.log("Loading CSI Data List");
+          
+          //Start with the game list first
+          $.getJSON( csiSearchURL, { format: 'json'})
+              .done(function(data) {
+                var tempCSIList = data['wrapList'];
+
+                console.log("tempCSIList.length: " + tempCSIList.length);
+                
+                localStorage.setItem("csiAutoCompList", JSON.stringify(tempCSIList));
+              })
+              .fail(function() {
+                alert("I could not load the CSI searchList!");
+                localStorage.removeItem("csiAutoCompList");
+              });
+
+          console.log("Finished loading CSI Data");
+        }
+
+        $('.progress-bar').css('width', '75%').attr('aria-valuenow', 75);    
+
+        testLocal = localStorage.getItem("mmAutoCompList");
+        if (testLocal != null) {
+          var testMMLocalArray = JSON.parse(testLocal);
+
+          console.log("I already have the MM List: " + testMMLocalArray.length);
+
+        } else {
+          console.log("Loading MM Data List");
+          
+          //Start with the game list first
+          $.getJSON( mmSearchURL, { format: 'json'})
+              .done(function(data) {
+                var tempMMList = data['wrapList'];
+
+                console.log("tempMMList.length: " + tempMMList.length);
+                
+                localStorage.setItem("mmAutoCompList", JSON.stringify(tempMMList));
+              })
+              .fail(function() {
+                alert("I could not load the MM searchList!");
+                localStorage.removeItem("mmAutoCompList");
+              });
+
+          console.log("Finished loading MM Data");
+        }
+
+        $('.progress-bar').css('width', '100%').attr('aria-valuenow', 100).removeClass("active");    
+
+        console.log("Prepop Complete");
+      };
+
+      prePopulateAutoCompleteFields();
+
+    </script>
+  </body>
+</html>

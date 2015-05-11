@@ -1,0 +1,1827 @@
+<boardgames termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+					<boardgame objectid="18443">
+			<yearpublished>1967</yearpublished>
+			<minplayers>7</minplayers>
+			<maxplayers>10</maxplayers>
+			<playingtime>180</playingtime>
+			<minplaytime>180</minplaytime>
+			<maxplaytime>180</maxplaytime>
+			<age>10</age>
+
+							<name primary="true" sortindex="1">Ghetto</name>
+									
+			<description>&amp;quot;Ghetto is a game of mobility which simulates the pressures under which the urban poor live and the choices they face as they seek to improve their life situation. Players learn that the condition of their neighborhood affects all of them, whether or not they are concerned about it. They can improve neighborhood conditions by investing effort in community action.&amp;quot;&lt;br/&gt;&lt;br/&gt;Age or grade: Junior high - adult.&lt;br/&gt;&lt;br/&gt;Materials: Instructor's manual, player profiles, game sheet, dice, spinner, chance cards, victim cards, information sheets, block markers, player chips.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic81796_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic81796.jpg</image>
+						
+												<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgameversion objectid="156524">Second edition</boardgameversion>
+															<boardgamedesigner objectid="5547">Dove Toll</boardgamedesigner>
+															<boardgamepublisher objectid="5700">Western Publishing Company</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="6">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="7">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="8">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="9">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="10">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="10+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="0" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+					<result level="5" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>1</usersrated>
+					<average>8</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>10</owned>
+					<trading>3</trading>
+					<wanting>3</wanting>
+					<wishing>7</wishing>
+					<numcomments>3</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18444">
+			<yearpublished>1945</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>15</playingtime>
+			<minplaytime>15</minplaytime>
+			<maxplaytime>15</maxplaytime>
+			<age>7</age>
+
+							<name primary="true" sortindex="1">Group Sounding Game</name>
+									
+			<description>&amp;quot;Players work to win and gain word recognition skill by covering the words on their playing cards, as the words are read aloud.&amp;quot;&lt;br/&gt;&lt;br/&gt;Age or grade: 2nd grade, elementary&lt;br/&gt;&lt;br/&gt;Materials: Instructor's manual, bingo cards, playing pieces, word list.&lt;br/&gt;&lt;br/&gt;</description>
+
+						
+												<boardgamecategory objectid="1041">Children&#039;s Game</boardgamecategory>
+															<boardgamesubdomain objectid="4665">Children&#039;s Games</boardgamesubdomain>
+															<boardgamepublisher objectid="4174">COSMIC</boardgamepublisher>
+															<boardgamedesigner objectid="5527">Edward W. Dolch</boardgamedesigner>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgameversion objectid="201517">First edition</boardgameversion>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4665" name="childrensgames" friendlyname="Children&#039;s Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18445">
+			<yearpublished>1972</yearpublished>
+			<minplayers>25</minplayers>
+			<maxplayers>35</maxplayers>
+			<playingtime>120</playingtime>
+			<minplaytime>120</minplaytime>
+			<maxplaytime>120</maxplaytime>
+			<age>10</age>
+
+							<name primary="true" sortindex="1">GUNS or Butter</name>
+									
+			<description>&amp;quot;Guns or Butter models an international system of five to seven nations with various resources and power. Players in the roles of decision-makers seek to advance the security and economic and political welfare of their countries by means of trade agreements, common markets, military alliances, and even war.&amp;quot;&lt;br/&gt;&lt;br/&gt;Age or grade: Junior high school, high school&lt;br/&gt;&lt;br/&gt;Materials: Instructor and player manual, game board,    &lt;br/&gt;Director's Manual&lt;br/&gt;2 Control and Messenger's Manuals&lt;br/&gt;2 Trade Agreement Earnings forms&lt;br/&gt;pad of Trade Agreement and Defense Alliance or Common Market Agreement forms&lt;br/&gt;5 Nation Folders with instructions (shields)&lt;br/&gt;25 pin-back buttons (5 for each of 5 nations)&lt;br/&gt;5 nation pies&lt;br/&gt;5 Nation Top Secret pies&lt;br/&gt;Approx. 100 plastic chips&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic447987_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic447987.jpg</image>
+						
+												<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgamecategory objectid="1026">Negotiation</boardgamecategory>
+															<boardgamedesigner objectid="5548">William A. Nesbitt</boardgamedesigner>
+															<boardgamepublisher objectid="4159">Simile II</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="6">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="7">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="8">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="9">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="10">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="11">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="12">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="13">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="14">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="15">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="16">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="17">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="18">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="19">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="20">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="21">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="22">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="23">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="24">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="25">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="26">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="27">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="28">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="29">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="30">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="30+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18446">
+			<yearpublished>0</yearpublished>
+			<minplayers>0</minplayers>
+			<maxplayers>0</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>12</age>
+
+							<name primary="true" sortindex="1">Gusher</name>
+									
+			<description>&amp;quot;Players bid for leases, stake drilling locations and make quarterly decisions on all exploration in the form of shallow or deep wells. Player coalitions may be formed to more advantageously exploit the field.&amp;quot;&lt;br/&gt;&lt;br/&gt;Age or grade: College, adult.&lt;br/&gt;&lt;br/&gt;Materials: Instructor's manual, game board.&lt;br/&gt;&lt;br/&gt;</description>
+
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamefamily objectid="22783">Better Description Needed!</boardgamefamily>
+															<boardgamecategory objectid="1021">Economic</boardgamecategory>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgameversion objectid="196202">First edition</boardgameversion>
+															<boardgamepublisher objectid="4175">Harvard Business School</boardgamepublisher>
+															<boardgamefamily objectid="11519">Oil, Gas, and Petroleum</boardgamefamily>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="0+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18447">
+			<yearpublished>1956</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>4</maxplayers>
+			<playingtime>15</playingtime>
+			<minplaytime>15</minplaytime>
+			<maxplaytime>15</maxplaytime>
+			<age>5</age>
+
+							<name primary="true" sortindex="1">Happy Bears</name>
+									
+			<description>&amp;quot;Players match pictures on cards by learning distinguishing words.&amp;quot; For kindergarten and 1st grade students.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic1092321_t.png</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic1092321.png</image>
+						
+												<boardgamecategory objectid="1002">Card Game</boardgamecategory>
+															<boardgamecategory objectid="1041">Children&#039;s Game</boardgamecategory>
+															<boardgamesubdomain objectid="4665">Children&#039;s Games</boardgamesubdomain>
+															<boardgamedesigner objectid="5527">Edward W. Dolch</boardgamedesigner>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgamepublisher objectid="4165">Garrard Publishing Company</boardgamepublisher>
+															<boardgameversion objectid="179495">Garrard Publishing Company Edition</boardgameversion>
+															<boardgamecategory objectid="1025">Word Game</boardgamecategory>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="4+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4665" name="childrensgames" friendlyname="Children&#039;s Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18448">
+			<yearpublished>1971</yearpublished>
+			<minplayers>6</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>360</playingtime>
+			<minplaytime>360</minplaytime>
+			<maxplaytime>360</maxplaytime>
+			<age>12</age>
+
+							<name primary="true" sortindex="5">The High School Game</name>
+									
+			<description>&amp;quot;The High School Game is a social simulation which reflects some of the structural and processual phenomena that characterize the social system of the high school . . . Players assume specific student profiles in a hypothetical high school . . . Achievement brings esteem points from parents, peers and self, in accordance with the value placed on the activity by each group.&amp;quot;&lt;br/&gt;&lt;br/&gt;Age or grade: Junior high school, high school, college.&lt;br/&gt;&lt;br/&gt;Materials: Game board, student profiles, achievement chips.&lt;br/&gt;&lt;br/&gt;</description>
+
+						
+												<boardgamepublisher objectid="4176">Academic Games Associates</boardgamepublisher>
+															<boardgamedesigner objectid="5540">Sarane S. Boocock</boardgamedesigner>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgamedesigner objectid="5549">Constance J. Russell</boardgamedesigner>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18449">
+			<yearpublished>1968</yearpublished>
+			<minplayers>0</minplayers>
+			<maxplayers>0</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>12</age>
+
+							<name primary="true" sortindex="1">In Force</name>
+									
+			<description>&amp;quot;A criminal justice simulation covering law, crime, police, courts, corrections and prevention. A full-scale version of the Omnibus Crime Control and Safe Streets Act in action.&amp;quot; For 9th to 12th grade students.&lt;br/&gt;&lt;br/&gt;</description>
+
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgamepublisher objectid="4177">Instructional Simulations, Inc.</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="0+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>1</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18450">
+			<yearpublished>1972</yearpublished>
+			<minplayers>24</minplayers>
+			<maxplayers>30</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>12</age>
+
+							<name primary="true" sortindex="1">Innocent Until...</name>
+									
+			<description>&amp;quot;This role-play exercise simulates the courtroom drama of trial by jury. The case is one of a manslaughter charge against an allegedly drunken driver on the way home with his wife from a 'night on the town' -- the victim a star high school athlete. The defendant, his wife, the lawyers, policemen, and various other witnesses appear before the court as the jury deliberates the case.&amp;quot;&lt;br/&gt;&lt;br/&gt;Act or grade: Junior high school or high school.&lt;br/&gt;&lt;br/&gt;The game was designed by uncredited employees of Abt Associates.&lt;br/&gt;&lt;br/&gt;</description>
+
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgamepublisher objectid="4178">Games Central</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="30+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>1</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18451">
+			<yearpublished>1969</yearpublished>
+			<minplayers>3</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>60</playingtime>
+			<minplaytime>60</minplaytime>
+			<maxplaytime>60</maxplaytime>
+			<age>8</age>
+
+							<name primary="true" sortindex="1">Hang-Up</name>
+									
+			<description>&amp;quot;Players act out 'hang-ups' to develop sensitivity to racial attitudes and the tendency to think in terms of racial stereotypes. As stressful situations are encountered on the game board, players pantomime the 'hang-ups' for other players to identify . . . Based on the premise in The Nature of Prejudice, by Gordon W. Allport.&amp;quot;&lt;br/&gt;&lt;br/&gt;Age or grade: High school to adult.&lt;br/&gt;&lt;br/&gt;Materials: Instructor's manual, players' manuals, game board, three sets of cards, clue lists, playing tokens.&lt;br/&gt;&lt;br/&gt;The game was designed by uncredited employees of Synectics Education Systems.&lt;br/&gt;&lt;br/&gt;</description>
+
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamecategory objectid="1094">Educational</boardgamecategory>
+															<boardgameversion objectid="126356">First Edition</boardgameversion>
+															<boardgamepublisher objectid="4179">Unitarian Universalist Association</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18452">
+			<yearpublished>1992</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>13</age>
+
+							<name primary="true" sortindex="1">Commercial Breaks</name>
+									
+			<description>COMMERCIAL BREAKS - The game Full of TV Ad Teasers.&lt;br/&gt;&lt;br/&gt;From the box:&lt;br/&gt;&lt;br/&gt;&amp;quot;Test your knowledge of (UK) TV ads with 1000 crazy crazy questions featuring commercials both old and new - love 'em or hate 'em but can you remember them?  You'll have great fun finding out.&lt;br/&gt;&lt;br/&gt;Collect 'category cards' by racing around the board, answering the teasing, quirky questions from five categories including - classics, jingles, trivia, slogans and stars.&lt;br/&gt;&lt;br/&gt;You might have to name the actor who always managed to soak Joan Collins, or describe what happens when for a refreshing change the dog sniffs around a lamp post in a cider commercial.  Would you know which singer gets the fish jumping for Russ Abbott?&lt;br/&gt;&lt;br/&gt;Have the ads worked on you?  Time to find out when you play COMMERCIAL BREAKS.&amp;quot;&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic82350_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic82350.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamepublisher objectid="153">Ideal</boardgamepublisher>
+															<boardgameversion objectid="160828">Ideal First Edition</boardgameversion>
+															<boardgamecategory objectid="1064">Movies / TV / Radio theme</boardgamecategory>
+															<boardgamemechanic objectid="2035">Roll / Spin and Move</boardgamemechanic>
+															<boardgamecategory objectid="1027">Trivia</boardgamecategory>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>1</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18453">
+			<yearpublished>2004</yearpublished>
+			<minplayers>1</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>6</age>
+
+							<name primary="true" sortindex="1">Tri-words</name>
+									
+			<description>Players try to score the most points by making words from randomly drawn Tri-tiles (the 5-sided triangular pieces) consisting of letters and wild cards (designated by stars)&lt;br/&gt;&lt;br/&gt;The rules describe play for 2 to 6 players. However the cover states the game is for 1 to 6 players, and it's not difficult to see how a player could play solitaire against the timer.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic82492_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic82492.jpg</image>
+						
+												<boardgamepublisher objectid="765">Educational Insights</boardgamepublisher>
+															<boardgamedesigner objectid="2055">P. Joseph Shumaker</boardgamedesigner>
+															<boardgamecategory objectid="1025">Word Game</boardgamecategory>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+			
+		<results>		
+					<result level="6" value="No necessary in-game text" numvotes="0" />
+					<result level="7" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="8" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0" />
+					<result level="9" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+					<result level="10" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>3</usersrated>
+					<average>6.83333</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>1.92931</stddev>
+					<median>0</median>
+					<owned>13</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>1</wishing>
+					<numcomments>1</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18454">
+			<yearpublished>1995</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="1">Caesars Palace Casino</name>
+									
+			<description>Caesars Palace Casino whisks you through a casino whirlwind. A game of games that will test your skills and luck with 5 card-poker, blackjack, slots, roulette and dice. The game features a gameboard with different gambling games at different spots on the board. When someone lands on a particular spot, say Blackjack, then everyone must stop moving and play a round of Blackjack. Likewise land on Craps and everyone must drop everything and play dice. The game features a Gameboard, 6 pawns, 2 playing dice, 3 special slot dice, 49 custom chips, an official deck of cards, a roulette spinner, two score pads and the game rules.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic81858_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic81858.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamemechanic objectid="2014">Betting/Wagering</boardgamemechanic>
+															<boardgamecategory objectid="1017">Dice</boardgamecategory>
+															<boardgameversion objectid="103590">GamePlan Edition 1995</boardgameversion>
+															<boardgamepublisher objectid="1332">GamePlan Inc.</boardgamepublisher>
+															<boardgamemechanic objectid="2035">Roll / Spin and Move</boardgamemechanic>
+															<boardgamefamily objectid="98">Traditional Card Games</boardgamefamily>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>2</usersrated>
+					<average>3</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>2</stddev>
+					<median>0</median>
+					<owned>6</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>2</numcomments>
+					<numweights>1</numweights>
+					<averageweight>2</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18455">
+			<yearpublished>1986</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>10</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="5">The Rules According to Ral</name>
+									
+			<description>These are simple rules for Medieval combat using miniatures.  Ral Partha was a miniatures manufacturer (now owned by Iron Wind), and they gave these rules away for free in an attempt to sell more miniatures.  The rules are 4 pages long with an additional 1 page player aid sheet.&lt;br/&gt;&lt;br/&gt;Fairly standard medieval miniatures rules for large armies.  12 infantry to a stand to represent a large unit, or 6 cavalry.  Leaders are individually based.  The rules cover morale, bow combat, melee, movement, individual combat between leaders, and point cost for building armies.&lt;br/&gt;&lt;br/&gt;Iron Wind has an adaptation of these rules for free on its web site, minus the player aid sheet.  They even kept the same artwork, but added fantasy armies, which are lacking in the Ral Partha original.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic81784_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic81784.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgameimplementation objectid="113548">Iron Winds of War</boardgameimplementation>
+															<boardgamecategory objectid="1035">Medieval</boardgamecategory>
+															<boardgamecategory objectid="1047">Miniatures</boardgamecategory>
+															<boardgameversion objectid="28590">Ral Partha edition</boardgameversion>
+															<boardgamepublisher objectid="547">Ral Partha Enterprises</boardgamepublisher>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="1" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="6">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="7">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="1" />
+				</results>					
+			
+		<results numplayers="8">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="1" />
+				</results>					
+			
+		<results numplayers="9">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="1" />
+				</results>					
+			
+		<results numplayers="10">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="1" />
+				</results>					
+			
+		<results numplayers="10+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="1" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="1">
+			
+		<results>		
+					<result level="11" value="No necessary in-game text" numvotes="0" />
+					<result level="12" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="13" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="1" />
+					<result level="14" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+					<result level="15" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="1">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="1" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>4</usersrated>
+					<average>6.125</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>1.34048</stddev>
+					<median>0</median>
+					<owned>16</owned>
+					<trading>1</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>3</numcomments>
+					<numweights>1</numweights>
+					<averageweight>2</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18456">
+			<yearpublished>1996</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>10</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>8</age>
+
+							<name primary="true" sortindex="1">Digital Empires</name>
+									
+			<description>An ambitious project, Digital Empires attempted to cover rules for all miniatures periods and scales: skirmish to large armies, caveman wars to science fiction battles of the future.  It was only available as a pay-per-PDF file from the publisher, and was over 50 pages long.  It covered everything in miniatures combat: movement, morale, ranged weapons, melee, terrain, etc.&lt;br/&gt;&lt;br/&gt;Later expanded into:&lt;br/&gt;All-purpose Miniatures Rules&lt;br/&gt;&lt;br/&gt;    All-purpose Miniatures Rules&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic81786_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic81786.jpg</image>
+						
+												<boardgamecategory objectid="1050">Ancient</boardgamecategory>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgamecategory objectid="1010">Fantasy</boardgamecategory>
+															<boardgamedesigner objectid="2205">Paul Lidberg</boardgamedesigner>
+															<boardgamecategory objectid="1035">Medieval</boardgamecategory>
+															<boardgamecategory objectid="1047">Miniatures</boardgamecategory>
+															<boardgamecategory objectid="1069">Modern Warfare</boardgamecategory>
+															<boardgamecategory objectid="1016">Science Fiction</boardgamecategory>
+															<boardgamepublisher objectid="2276">Team Frog Studios</boardgamepublisher>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+															<boardgamecategory objectid="1065">World War I</boardgamecategory>
+															<boardgamecategory objectid="1049">World War II</boardgamecategory>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="6">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="7">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="8">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="9">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="10">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="10+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18457">
+			<yearpublished>1993</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>12</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="1">Maid of Orleans</name>
+									
+			<description>Maid of Orleans is a miniatures combat game set in the era of Joan of Arc (the Hundred Years War, early 15th century).  Specifically, it is set in the siege and relief of Orleans, the battle that made Joan famous.  Over half the book (35 of 50 pages) is devoted to creating the fortress, pier, gatehouse, river, bridge, other terrain, cannons, boats and painting the models!&lt;br/&gt;&lt;br/&gt;The rules themselves cover movement, missile fire, cannons, melee, morale, wounds, and special rules for Joan, ladders, rocks and unit organization.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic81785_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic81785.jpg</image>
+						
+												<boardgamepublisher objectid="4">(Self-published)</boardgamepublisher>
+															<boardgamedesigner objectid="5551">Butch Cupp</boardgamedesigner>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgamedesigner objectid="5550">Gary Letzell</boardgamedesigner>
+															<boardgamecategory objectid="1035">Medieval</boardgamecategory>
+															<boardgamecategory objectid="1047">Miniatures</boardgamecategory>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="12+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>1</owned>
+					<trading>0</trading>
+					<wanting>1</wanting>
+					<wishing>1</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18458">
+			<yearpublished>1979</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>10</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="1">Monster Combat</name>
+									
+			<description>The first edition of this game was published in 1975 and was originally titled Rules for Prehistoric Animal Combat.   In 1979 the game was re-published to include the Fatasy Creature Combat Set.   The original game contained 12 Dinosaurs.&lt;br/&gt;&lt;br/&gt;Ankylosaurus&lt;br/&gt;Cetiosaurus&lt;br/&gt;Corythosaurus&lt;br/&gt;Dimetrodon&lt;br/&gt;Iguanodon&lt;br/&gt;Megalosaurus / Gorgosaurus&lt;br/&gt;Monoclonius&lt;br/&gt;Stegosaurus&lt;br/&gt;Styracosaurus&lt;br/&gt;Triceratops&lt;br/&gt;Tyrannosaurus&lt;br/&gt;Allosaurus&lt;br/&gt;&lt;br/&gt;Three Dinosaurs were dropped from the 2nd edition, Cetiosaurus, Corythosaurus and Dimetrodon.   The individual dinosaur stats were also modified from the original stats.&lt;br/&gt;&lt;br/&gt;Subtitled &amp;quot;Wargame Rules for Dinosaur and Fantasy Creature Combat,&amp;quot; this is a set of miniatures rules that covers just that.  The main thrust of the game is in the Jurassic and the Cretaceous, but rules have been added to allow dragons and other non-sentient fantasy monsters.  You can use any toy dinosaur or dragon figures you can find in toy and department stores - rules are given to adjust scale for size of the figures.&lt;br/&gt;&lt;br/&gt;The rules cover creating the terrain and its effect on movement and combat.  Rules are given for the various types of dinosaur attacks (as well as fire-breathing) and defenses.  Various dinosaurs are covered in particular: Allosaurus and Tyrannosaurus, Stegasaurus, Triceratops, Ankylosaurus, etc., and which period they were found in.  Actions are broken down into 12 phases: faster creatures get an action each phase, while a slower one might only act every third phase.  Rules are given for degrees of arc from the spinal plane a creature can bite or tail strike, and illustrations show where creatures are armored more heavily.  Lots of detail in this small booklet.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic81783_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic81783.jpg</image>
+						
+												<boardgamefamily objectid="7559">Animals: Dinosaurs</boardgamefamily>
+															<boardgamedesigner objectid="5552">Tim Cockitt</boardgamedesigner>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgamecategory objectid="1010">Fantasy</boardgamecategory>
+															<boardgameartist objectid="51971">Gerrey Goodwin</boardgameartist>
+															<boardgameartist objectid="51970">Roger Heaton</boardgameartist>
+															<boardgamecategory objectid="1047">Miniatures</boardgamecategory>
+															<boardgamefamily objectid="5615">Monsters</boardgamefamily>
+															<boardgamecategory objectid="1036">Prehistoric</boardgamecategory>
+															<boardgamedesigner objectid="5553">Ivan Reeves</boardgamedesigner>
+															<boardgamepublisher objectid="1716">Tabletop Games</boardgamepublisher>
+															<boardgameversion objectid="106427">Tabletop Games First Edition</boardgameversion>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+															<boardgameartist objectid="12206">Tony Yates</boardgameartist>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="10+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>1</usersrated>
+					<average>4</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>5</owned>
+					<trading>0</trading>
+					<wanting>4</wanting>
+					<wishing>4</wishing>
+					<numcomments>4</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18459">
+			<yearpublished>1959</yearpublished>
+			<minplayers>1</minplayers>
+			<maxplayers>3</maxplayers>
+			<playingtime>0</playingtime>
+			<minplaytime>0</minplaytime>
+			<maxplaytime>0</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="1">Busy Bee</name>
+									
+			<description>The cards are divided in four diagonally, with half an animal on each section.  They are then played to match up the halves, points given as parts are matched up. If you make the Busy Bee character, however, you lose points.&lt;br/&gt;&lt;br/&gt;Also has a flip-book pictures on the back of the cards to show a bee pollinating a flower.&lt;br/&gt;&lt;br/&gt;This game is made for younger kids.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic1447430_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic1447430.jpg</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamecategory objectid="1089">Animals</boardgamecategory>
+															<boardgamefamily objectid="7564">Animals: Bees</boardgamefamily>
+															<boardgamecategory objectid="1002">Card Game</boardgamecategory>
+															<boardgamecategory objectid="1041">Children&#039;s Game</boardgamecategory>
+															<boardgamesubdomain objectid="4665">Children&#039;s Games</boardgamesubdomain>
+															<boardgameversion objectid="130308">Ed-U-Cards Edition 1959</boardgameversion>
+															<boardgamepublisher objectid="2931">ED-U-Cards Mfg</boardgamepublisher>
+															<boardgamemechanic objectid="2048">Pattern Building</boardgamemechanic>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="3+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4665" name="childrensgames" friendlyname="Children&#039;s Games Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>4</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18460">
+			<yearpublished>2005</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>60</playingtime>
+			<minplaytime>60</minplaytime>
+			<maxplaytime>60</maxplaytime>
+			<age>12</age>
+
+							<name primary="true" sortindex="1">Lock &#039;n Load: Band of Heroes</name>
+									
+			<description>Lock 'n Load: Band of Heroes is a tactical board game tour de force that covers the battles of America's airborne troops during June of 1944. The second complete module in Mark H. Walker's Lock 'N Load: Forgotten Heroes – Vietnam game system, Band of Heroes includes a bucket full of new weapons, squads, and vehicles, including U.S. Airborne, German SS, and Fallschirmjager troops, Tiger, Sherman, Stuart, and PzIIIJ tanks, and MG42, MG34, and M1919A4 machine guns.  But the scenarios are the selling point, and this batch of sixteen tells the story of the men from the 101st and 82nd Airborne Divisions fighting the Germans in the Norman hedgerows during June of 1944.&lt;br/&gt;&lt;br/&gt;Components&lt;br/&gt;&lt;br/&gt;     6 mounted maps&lt;br/&gt;     480+ beautiful counters, counters, representing the men and equipment from the 82nd, 101st, 17th SS Panzergrenadier, 6th Fallschirmjager, 91st Airlanding, and 352nd Infantry Divisions&lt;br/&gt;     16 Skill Cards, providing Leaders and Heroes with special abilities.&lt;br/&gt;     16 Band of Heroes Scenarios&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Expansions&lt;br/&gt;&lt;br/&gt;     Lock 'n Load: Battle Pack Alpha &lt;br/&gt;     Lock 'n Load: Swift and Bold &lt;br/&gt;     Lock 'n Load: Not One Step Back&lt;br/&gt;     Lock 'n Load: Dark July – The Battles for Prochorovka&lt;br/&gt;     Lock 'n Load: Noville – Bastogne's Outpost&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic629266_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic629266.jpg</image>
+						
+												<boardgamehonor objectid="20860">2005 Origins Awards Historical Board Game of the Year Winner</boardgamehonor>
+															<boardgamehonor objectid="8856">2006 Golden Geek Best Wargame Nominee</boardgamehonor>
+															<boardgamecompilation objectid="150005">Band of Heroes Normandy</boardgamecompilation>
+															<boardgameimplementation objectid="150005">Band of Heroes Normandy</boardgameimplementation>
+																						<boardgameartist objectid="11857">Nicolás Eskubi</boardgameartist>
+																						<boardgamemechanic objectid="2026">Hex-and-Counter</boardgamemechanic>
+															<boardgamefamily objectid="126">Lock &#039;n Load</boardgamefamily>
+															<boardgamepublisher objectid="6025">Lock &#039;n Load Publishing, LLC.</boardgamepublisher>
+															<boardgameexpansion objectid="20596">Lock &#039;n Load: A Ring of Hills</boardgameexpansion>
+															<boardgameexpansion objectid="34085">Lock &#039;n Load: Battle Pack Alpha</boardgameexpansion>
+															<boardgameexpansion objectid="56201">Lock &#039;n Load: Battle Pack Bravo</boardgameexpansion>
+															<boardgameexpansion objectid="35767">Lock &#039;n Load: Dark July – The Battles for Prochorovka</boardgameexpansion>
+															<boardgameexpansion objectid="29807">Lock &#039;n Load: Not One Step Back</boardgameexpansion>
+															<boardgameexpansion objectid="35462">Lock &#039;n Load: Noville – Bastogne&#039;s Outpost</boardgameexpansion>
+															<boardgameexpansion objectid="25731">Lock &#039;n Load: Swift and Bold</boardgameexpansion>
+															<boardgamepublisher objectid="2403">Matrix Games</boardgamepublisher>
+															<boardgameversion objectid="39566">Matrix Games first edition</boardgameversion>
+																						<boardgamemechanic objectid="2011">Modular Board</boardgamemechanic>
+																													<boardgameversion objectid="88519">Second Edition</boardgameversion>
+															<boardgameartist objectid="12340">Marc von Martial</boardgameartist>
+															<boardgamedesigner objectid="2343">Mark H. Walker</boardgamedesigner>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+															<boardgamecategory objectid="1049">World War II</boardgamecategory>
+															<boardgame objectid="140252" inbound="true">Line of Fire #7</boardgame>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="19">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="3" />
+					<result value="Recommended" numvotes="13" />
+					<result value="Not Recommended" numvotes="1" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="15" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="7" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="9">
+			
+		<results>		
+					<result level="16" value="No necessary in-game text" numvotes="0" />
+					<result level="17" value="Some necessary text - easily memorized or small crib sheet" numvotes="4" />
+					<result level="18" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="5" />
+					<result level="19" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+					<result level="20" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="9">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="1" />
+					<result value="14" numvotes="7" />
+					<result value="16" numvotes="1" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>571</usersrated>
+					<average>7.45908</average>
+					<bayesaverage>6.35183</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="939" bayesaverage="6.35183" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="118" bayesaverage="7.03076" />
+												
+											</ranks>
+					
+					<stddev>1.56033</stddev>
+					<median>0</median>
+					<owned>1288</owned>
+					<trading>78</trading>
+					<wanting>75</wanting>
+					<wishing>300</wishing>
+					<numcomments>280</numcomments>
+					<numweights>121</numweights>
+					<averageweight>3.0331</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18461">
+			<yearpublished>2002</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>6</maxplayers>
+			<playingtime>180</playingtime>
+			<minplaytime>180</minplaytime>
+			<maxplaytime>180</maxplaytime>
+			<age>12</age>
+
+							<name primary="true" sortindex="3">A House Divided: The Brothers War</name>
+									
+			<description>From the game box:&lt;br/&gt;&lt;br/&gt;You and up to two other team members will take command of one of the three theaters of operation for the Union or for the Confederacy. Although you have your own armies to command, and generals to oversee, you will need to work closely with your other theater commanders. Together you must decide which generals should command which armies to best take advantage of their unique talents. You must also decide who will control armies as they travel from one theater to another. Will you retain control of an army outside of your theater or relinquish control to your teammate? Each side has it's advantages and disadvantages, so carefully consider your decisions.  The fate of the Union and Confederacy hang in the balance!&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The basic mechanism for resolving combat is similar to the one found in Axis &amp;amp; Allies.  However, the overall rules are designed to represent the American Civil War, and have quite a few differences from both A&amp;amp;A and Risk.&lt;br/&gt;&lt;br/&gt;The following is provided in the game box:&lt;br/&gt;&lt;br/&gt;4 panel map/board of the USA &amp;amp; CSA during the ACW&lt;br/&gt;45 general cards&lt;br/&gt;52 event cards&lt;br/&gt;general and territory control markers&lt;br/&gt;rules&lt;br/&gt;&lt;br/&gt;The dice and game pieces are not provided.  One must provide their own game pieces similar to those found in Risk (infantry, cavalry and artillery), for up to six players.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic81776_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic81776.jpg</image>
+						
+												<boardgamecategory objectid="1048">American Civil War</boardgamecategory>
+															<boardgamemechanic objectid="2046">Area Movement</boardgamemechanic>
+															<boardgamedesigner objectid="4030">Kyle Battle</boardgamedesigner>
+															<boardgamepublisher objectid="2886">Conquest Gaming LLC</boardgamepublisher>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgameversion objectid="69065">English First Edition</boardgameversion>
+															<boardgameartist objectid="20455">Dale Gallon</boardgameartist>
+															<boardgamemechanic objectid="2019">Partnerships</boardgamemechanic>
+																						<boardgamedesigner objectid="2478">Russ Rupe</boardgamedesigner>
+															<boardgamecategory objectid="1019">Wargame</boardgamecategory>
+															<boardgamesubdomain objectid="4664">Wargames</boardgamesubdomain>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="6+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>19</usersrated>
+					<average>6.16842</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+							
+														<rank type="family" id="4664" name="wargames" friendlyname="War Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>2.10114</stddev>
+					<median>0</median>
+					<owned>68</owned>
+					<trading>4</trading>
+					<wanting>3</wanting>
+					<wishing>7</wishing>
+					<numcomments>13</numcomments>
+					<numweights>5</numweights>
+					<averageweight>2.2</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+					<boardgame objectid="18462">
+			<yearpublished>1989</yearpublished>
+			<minplayers>3</minplayers>
+			<maxplayers>0</maxplayers>
+			<playingtime>30</playingtime>
+			<minplaytime>30</minplaytime>
+			<maxplaytime>30</maxplaytime>
+			<age>0</age>
+
+							<name primary="true" sortindex="1">Besetzt</name>
+									
+			<description>Essentially a Skittles/Devil amongst the Tinkers variant with event cards and cardboard houses rather than a wooden board to manuever through.  Printed in an edition of 500 copies; I could not find an author credited, but there are many, many pages of text, only a few of which seem to make up the rules.  The idea behind the game is credited to a Mrs. F. Haag.  The rules also include a detailed accounting of the finances of the company:&lt;br/&gt;&lt;br/&gt;- 27% printing &amp;amp; material expenses   &lt;br/&gt;- 31% salaried work of the principals (10 Swiss Francs/hour)   &lt;br/&gt;- 2% author royalties  &lt;br/&gt;- 2% postcards  &lt;br/&gt;- 6% chaos &lt;br/&gt;- 32% store margins&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic975606_t.png</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic975606.png</image>
+						
+												<boardgamedesigner objectid="3">(Uncredited)</boardgamedesigner>
+															<boardgamecategory objectid="1032">Action / Dexterity</boardgamecategory>
+															<boardgamepublisher objectid="2097">Murmel Spielwerkstatt und Verlag AG</boardgamepublisher>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="0+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>0</usersrated>
+					<average>0</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>0</stddev>
+					<median>0</median>
+					<owned>0</owned>
+					<trading>0</trading>
+					<wanting>0</wanting>
+					<wishing>0</wishing>
+					<numcomments>0</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+	</boardgames>

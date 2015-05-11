@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram creationDate="2015-May-01 07:37" filterScript="" licenseGrade="single" licenseeName="Adam_Carter" licenseeOrganization="Personal" version="1.7.17.v20140508-2136">
+        <class className="com.ac.games.db.GamesDatabase" project="ac-games-db" xLocation="100" yLocation="662"/>
+        <class className="com.ac.games.db.exception.ConfigurationException" project="ac-games-db" xLocation="663" yLocation="1274"/>
+        <class className="com.ac.games.db.exception.DatabaseOperationException" project="ac-games-db" xLocation="641" yLocation="1556"/>
+    </diagram>
+</ajsv>

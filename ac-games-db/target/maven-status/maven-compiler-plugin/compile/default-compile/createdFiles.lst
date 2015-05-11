@@ -1,0 +1,3 @@
+com/ac/games/db/exception/DatabaseOperationException.class
+com/ac/games/db/GamesDatabase.class
+com/ac/games/db/exception/ConfigurationException.class

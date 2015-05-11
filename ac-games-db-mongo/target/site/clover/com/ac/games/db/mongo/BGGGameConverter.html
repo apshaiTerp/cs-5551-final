@@ -1,0 +1,3358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <style type="text/css" media="screen">
+    @import url('../../../../../style.css');
+    @import url('../../../../../roundedcorners.css');
+  </style>
+    
+  <title>MongoDB Database Implementation 1.0</title></head>
+<body onload="onLoad('MongoDB Database Implementation 1.0: com.ac.games.db.mongo.BGGGameConverter.java');">
+
+
+
+ <table cellspacing="0" cellpadding="2" class="barGraph"><tbody>
+  <tr>
+    <td colspan="8">
+
+    <div class="roundedLarge">
+      <b class="ctop"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+      <div class="roundedContent">
+    <table width="100%" class="" cellspacing="0"><tr class="reportHeader">
+    <td valign="top" class="titleText">Clover Coverage  Report -  MongoDB Database Implementation 1.0 <div class="timestamp"><b>Coverage timestamp:</b>&nbsp;Fri May 1 2015 19:17:04 CDT</div>
+
+        
+    
+            <div class="navBar"><a href="../../../../../pkg-summary.html"><b>Overview</b></a>&nbsp;&nbsp;&nbsp;<a href="pkg-summary.html"><b>Package</b></a>&nbsp;&nbsp;&nbsp;<span class="navBarCurrent">File</span></div>
+    
+    <div class="navBarLink">
+        &nbsp;&nbsp;&nbsp;
+        <a href="../../../../../index.html" target="_top">FRAMES</a>&nbsp;&nbsp;
+        <a href="BGGGameConverter.html" target="_top">NO FRAMES</a>&nbsp;&nbsp;
+        <label onclick="toggleHelp(this);" class="nonHelpItem">SHOW HELP</label>&nbsp;&nbsp;
+    </div>
+
+    </td>
+
+        <td class="headerStats">
+        <table>
+            <tr>
+                <td>
+                    <img src="../../../../../img/srcFileCovDistChart8.png" alt="../../../../../img/srcFileCovDistChart8.png" usemap="#srcFileCovDistChart8.png" align="middle"/>
+                    <map id="srcFileCovDistChart8.png" name="srcFileCovDistChart8.png">
+<area shape="rect" coords="81,39,87,44" title="1 file has 91-100% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="74,34,80,44" title="2 files have 81-90% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="67,7,73,44" title="7 files have 71-80% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="60,34,66,44" title="2 files have 61-70% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="53,45,59,46" title="0 files have 51-60% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="46,45,52,46" title="0 files have 41-50% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="39,39,45,44" title="1 file has 31-40% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="32,45,38,46" title="0 files have 21-30% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="25,45,31,46" title="0 files have 11-20% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="18,45,24,46" title="0 files have 1-10% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="11,29,17,44" title="3 files have 0% coverage" alt="" nohref="nohref"/>
+</map>
+                </td>
+                <td>
+                    <span class="subtle"><span class="bold">18% </span>of files have more coverage</span>
+                </td>
+            </tr>
+        </table>
+    </td>
+    
+        
+
+     <td  id="td-header-stats" class="headerStats" valign="top" style="font-weight: normal;width:40%; text-align: right; display: ;">
+         <table style="text-align: right; white-space:nowrap;">
+         <tr>
+           <td colspan="11" class="totalText" style="text-align: left"><label>Statistics for file BGGGameConverter.java:</label></td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_stmts + 'file';">Stmts:</label></td>
+           <td >      139
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_loc + 'file';">LOC:</label></td>
+           <td >      187
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp + 'file';">Total cmp:</label></td>
+           <td >      65
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_stmts_per_method;">Stmts/Method:</label></td>
+           <td >      17.38
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_branches + 'file';">Branches:</label></td>
+           <td >      114
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_ncloc + 'file';">NCLOC:</label></td>
+           <td >      115
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp_density + 'file';">Cmp density:</label></td>
+           <td >      0.47
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_methods_per_class;">Methods/Class:</label></td>
+           <td >      8
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_methods + 'file';">Methods:</label></td>
+           <td >      8
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                    <td colspan="2"></td>
+                    <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_avg_method_cmp + 'file';">Avg method cmp:</label></td>
+           <td >      8.12
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                      <td colspan="2"></td>
+          
+         </tr>
+           <tr>
+            <td  class="totalText"><label onkeyup="return help_classes + 'file';">Classes:</label></td>
+            <td >      1
+  </td>
+            <td style="width: 5%">&nbsp;</td>
+                      <td colspan="2"></td>
+                     <td style="width: 10%">&nbsp;</td>
+         </tr>
+             </table>
+     </td>
+
+    
+    
+    
+
+     <td  id="td-filtered-header-stats" class="headerStats" valign="top" style="font-weight: normal;width:40%; text-align: right; display: none;">
+         <table style="text-align: right; white-space:nowrap;">
+         <tr>
+           <td colspan="11" class="totalText" style="text-align: left"><label>Statistics for file BGGGameConverter.java:</label></td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_stmts + 'file';">Stmts:</label></td>
+           <td >      139
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_loc + 'file';">LOC:</label></td>
+           <td >      187
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp + 'file';">Total cmp:</label></td>
+           <td >      65
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_stmts_per_method;">Stmts/Method:</label></td>
+           <td >      17.38
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_branches + 'file';">Branches:</label></td>
+           <td >      114
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_ncloc + 'file';">NCLOC:</label></td>
+           <td >      115
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp_density + 'file';">Cmp density:</label></td>
+           <td >      0.47
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_methods_per_class;">Methods/Class:</label></td>
+           <td >      8
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_methods + 'file';">Methods:</label></td>
+           <td >      8
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                    <td colspan="2"></td>
+                    <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_avg_method_cmp + 'file';">Avg method cmp:</label></td>
+           <td >      8.12
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                      <td colspan="2"></td>
+          
+         </tr>
+           <tr>
+            <td  class="totalText"><label onkeyup="return help_classes + 'file';">Classes:</label></td>
+            <td >      1
+  </td>
+            <td style="width: 5%">&nbsp;</td>
+                      <td colspan="2"></td>
+                     <td style="width: 10%">&nbsp;</td>
+         </tr>
+             </table>
+     </td>
+</tr>
+
+    </table>
+  </div>
+  <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+  </div>
+
+   </td>
+  </tr>
+
+
+
+
+<tr id="legend" style="display:none;"><td colspan="8">
+    <div class="hbreak">&nbsp;</div>
+    <table class="legend" cellspacing="0" cellpadding="0">
+        <tr><td colspan="3" class="legendTitle">Legend</td></tr>
+
+        <tr><td class="methodToggle" align="right">line#</td><td class="methodToggle" align="right">hit count</td>
+            <td class="methodToggle"> </td>
+        </tr>
+        <tr><td class="lineCount Good" align="right">1</td><td class="coverageCount Good hitByTest" align="right">86</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine">line hit by 1 or more tests which passed</span></td>
+        </tr>
+        <tr><td class="lineCount Good" align="right">2</td><td class="coverageCount Good missedByTest" align="right">17</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine">line was covered, but not by a test case</span></td>
+        </tr>
+        <tr><td class="lineCount Good" align="right">3</td><td class="coverageCount Good hitByFailedTest" align="right">7</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine">line hit by 1 or more tests which did not pass</span></td>
+        </tr>
+        <tr><td class="lineCount Good" align="right">4</td><td class="coverageCount Good hitByTest" align="right">5</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine coveredByTest">line hit by more than one (selected) test</span></td>
+        </tr>
+        <tr><td class="lineCount Good" align="right">5</td><td class="coverageCount Good hitByTest" align="right">3</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine coveredByTestUniq">line hit by one test only</span></td>
+        </tr>
+        <tr><td class="lineCount Good" align="right">6</td><td class="coverageCount Good hitByTest" align="right">2</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine coveredByFailedTest">line hit by one or more (selected) tests that failed</span></td>
+        </tr>
+        <tr><td class="lineCount Good" align="right">7</td><td class="coverageCount Bad hitByTest" align="right">1</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine srcLineHilight">line has an expression (e.g. a branch) or statement that was not fully covered</span></td>
+        </tr>
+        <tr><td class="lineCount Good" align="right">8</td><td class="coverageCount Bad missedByTest" align="right">1</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine srcLineHilight">line has an expression that was not fully covered and not hit by any test</span></td>
+        </tr>
+        <tr><td class="lineCount Bad" align="right">9</td><td class="coverageCount Bad missedByTest" align="right">0</td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLine srcLineHilight">line was not covered at all</span></td>
+        </tr>
+        <tr><td class="lineCount Filtered " align="right">10</td><td class="coverageCount Filtered" align="right"></td>
+               <td class="srcCell"><span class="spacer"/><span class="srcLineFiltered">line was filtered</span></td>
+        </tr>
+        
+    </table>
+    <div class="hbreak">&nbsp;</div>
+    
+    
+</td></tr>
+<tr><td class="hbreak" colspan="8">&nbsp; <label onkeyup="return help_src_file_expandall_summaries;" class="sortable" onclick="toggleAllClasses(this); return false;" id="stat-expander">Expand All</label></td></tr>
+</tbody>
+                                                                                                                                                                                                                                                                                     
+    <tbody>
+        <tr>             <td class="graphHeaderLeft" id="BGGGameConverter" >
+                                <span class="expand methodStart" id="span-BGGGameConverter" onclick="toggleClass(this, 'BGGGameConverter', 8);return false;">&nbsp;</span>
+                                <span class="titleText"> <a href="#19" title="BGGGameConverter">BGGGameConverter</a></span>
+                <span class="sortable" onclick="ts_resortTable(document.getElementById('BGGGameConverter'), 'alpha', 0);return false;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </td>
+
+            <td class="sortable graphHeader" onclick="ts_resortTable(this, 'number', 1);return false;">
+                Line # 19
+                <a name="sl-19"></a>
+            </td>
+
+                                        
+                
+                <td class="sortable graphHeader "  onclick="ts_resortTable(this, 'number', 2);return false;">
+                    <span class="headerTitle"><label  onkeyup="return 'The total number of statements.';"  >Total Statements</label></span>
+                    139
+                </td>
+                
+                                            
+                
+                <td class="sortable graphHeader "  onclick="ts_resortTable(this, 'number', 3);return false;">
+                    <span class="headerTitle"><label  onkeyup="return 'The percentage of elements that have been filtered from this report.';"  >% Filtered</label></span>
+                    0%
+                </td>
+                
+                                            
+                
+                <td class="sortable graphHeader "  onclick="ts_resortTable(this, 'number', 4);return false;">
+                    <span class="headerTitle"><label  onkeyup="return 'Cyclomatic complexity is a measure of the number of paths in your code.';"  >Complexity</label></span>
+                    65
+                </td>
+                
+                                            
+                
+                <td class="sortable graphHeader "  onclick="ts_resortTable(this, 'number', 5);return false;">
+                    <span class="headerTitle"><label  onkeyup="return 'The number of statements and branches that were not covered during testing.';"  >Uncovered Elements</label></span>
+                    73
+                </td>
+                
+                                            
+                
+                <td class="sortable graphHeader "  onclick="ts_resortTable(this, 'number', 6);return false;">
+                    <span class="headerTitle"><label  onkeyup="return 'The amount of code that was hit at least once during testing.';"  >TOTAL Coverage</label></span>
+                    72%
+</td>
+<td class="graphBar graphHeader" align="center">
+<span class="sortValue">0.7203065</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="28% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="72% Covered" class="barPositive " style="width: 72%"></div>
+    </div>
+</div>
+                </td>
+                
+                                    </tr> 
+                            
+                <tr id="BGGGameConverter-1" style="display:none">
+                    <td class="methodSummary" id="summary-28-3">
+                                                                                                <span class="sortValue">convertGameToIDQuery(BGGGame)&nbsp;:&nbsp;BasicDBObject</span>
+                        &nbsp;&nbsp;<a href="?line=29#28" title="convertGameToIDQuery(BGGGame)&nbsp;:&nbsp;BasicDBObject" name="sl-28">convertGameToIDQuery(BGGGame)&nbsp;:&nbsp;BasicDBObject</a>
+                                            </td>
+                    <td class="graphPercent" align="right">
+                        <span class="sortValue">28</span>
+                        28
+                    </td>
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">4.0</span>
+                            4
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.6666667</span>
+                            66.7%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.6666667</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="33.3% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="66.7% Covered" class="barPositive " style="width: 66.7%"></div>
+    </div>
+</div>
+                        </td>
+                        
+                                     </tr>
+
+                                
+                <tr id="BGGGameConverter-2" style="display:none">
+                    <td class="methodSummary" id="summary-42-3">
+                                                                                                <span class="sortValue">convertGameToIDQuery(long)&nbsp;:&nbsp;BasicDBObject</span>
+                        &nbsp;&nbsp;<a href="?line=29#42" title="convertGameToIDQuery(long)&nbsp;:&nbsp;BasicDBObject" name="sl-42">convertGameToIDQuery(long)&nbsp;:&nbsp;BasicDBObject</a>
+                                            </td>
+                    <td class="graphPercent" align="right">
+                        <span class="sortValue">42</span>
+                        42
+                    </td>
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">4.0</span>
+                            4
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.6666667</span>
+                            66.7%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.6666667</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="33.3% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="66.7% Covered" class="barPositive " style="width: 66.7%"></div>
+    </div>
+</div>
+                        </td>
+                        
+                                     </tr>
+
+                                
+                <tr id="BGGGameConverter-3" style="display:none">
+                    <td class="methodSummary" id="summary-56-3">
+                                                                                                <span class="sortValue">convertGameToMongo(BGGGame)&nbsp;:&nbsp;BasicDBObject</span>
+                        &nbsp;&nbsp;<a href="?line=29#56" title="convertGameToMongo(BGGGame)&nbsp;:&nbsp;BasicDBObject" name="sl-56">convertGameToMongo(BGGGame)&nbsp;:&nbsp;BasicDBObject</a>
+                                            </td>
+                    <td class="graphPercent" align="right">
+                        <span class="sortValue">56</span>
+                        56
+                    </td>
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">48.0</span>
+                            48
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">24.0</span>
+                            24
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">18.0</span>
+                            18
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.80851066</span>
+                            80.9%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.80851066</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="19.1% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="80.9% Covered" class="barPositive " style="width: 80.9%"></div>
+    </div>
+</div>
+                        </td>
+                        
+                                     </tr>
+
+                                
+                <tr id="BGGGameConverter-4" style="display:none">
+                    <td class="methodSummary" id="summary-88-3">
+                                                                                                <span class="sortValue">convertMongoToGame(DBObject)&nbsp;:&nbsp;BGGGame</span>
+                        &nbsp;&nbsp;<a href="?line=29#88" title="convertMongoToGame(DBObject)&nbsp;:&nbsp;BGGGame" name="sl-88">convertMongoToGame(DBObject)&nbsp;:&nbsp;BGGGame</a>
+                                            </td>
+                    <td class="graphPercent" align="right">
+                        <span class="sortValue">88</span>
+                        88
+                    </td>
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">50.0</span>
+                            50
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">25.0</span>
+                            25
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">19.0</span>
+                            19
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.8061224</span>
+                            80.6%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.8061224</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="19.4% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="80.6% Covered" class="barPositive " style="width: 80.6%"></div>
+    </div>
+</div>
+                        </td>
+                        
+                                     </tr>
+
+                                
+                <tr id="BGGGameConverter-5" style="display:none">
+                    <td class="methodSummary" id="summary-121-3">
+                                                                                                <span class="sortValue">convertMongoToCompact(DBObject)&nbsp;:&nbsp;CompactSearchData</span>
+                        &nbsp;&nbsp;<a href="?line=29#121" title="convertMongoToCompact(DBObject)&nbsp;:&nbsp;CompactSearchData" name="sl-121">convertMongoToCompact(DBObject)&nbsp;:&nbsp;CompactSearchData</a>
+                                            </td>
+                    <td class="graphPercent" align="right">
+                        <span class="sortValue">121</span>
+                        121
+                    </td>
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">15.0</span>
+                            15
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">6.0</span>
+                            6
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">25.0</span>
+                            25
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div>
+                        </td>
+                        
+                                     </tr>
+
+                                
+                <tr id="BGGGameConverter-6" style="display:none">
+                    <td class="methodSummary" id="summary-147-3">
+                                                                                                <span class="sortValue">convertList(List&lt;?&gt;)&nbsp;:&nbsp;BasicDBList</span>
+                        &nbsp;&nbsp;<a href="?line=29#147" title="convertList(List&lt;?&gt;)&nbsp;:&nbsp;BasicDBList" name="sl-147">convertList(List&lt;?&gt;)&nbsp;:&nbsp;BasicDBList</a>
+                                            </td>
+                    <td class="graphPercent" align="right">
+                        <span class="sortValue">147</span>
+                        147
+                    </td>
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">6.0</span>
+                            6
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.75</span>
+                            75%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.75</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="25% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="75% Covered" class="barPositive " style="width: 75%"></div>
+    </div>
+</div>
+                        </td>
+                        
+                                     </tr>
+
+                                
+                <tr id="BGGGameConverter-7" style="display:none">
+                    <td class="methodSummary" id="summary-162-3">
+                                                                                                <span class="sortValue">convertDBListToStringList(BasicDBList)&nbsp;:&nbsp;List&lt;String&gt;</span>
+                        &nbsp;&nbsp;<a href="?line=29#162" title="convertDBListToStringList(BasicDBList)&nbsp;:&nbsp;List&lt;String&gt;" name="sl-162">convertDBListToStringList(BasicDBList)&nbsp;:&nbsp;List&lt;String&gt;</a>
+                                            </td>
+                    <td class="graphPercent" align="right">
+                        <span class="sortValue">162</span>
+                        162
+                    </td>
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">6.0</span>
+                            6
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.75</span>
+                            75%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.75</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="25% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="75% Covered" class="barPositive " style="width: 75%"></div>
+    </div>
+</div>
+                        </td>
+                        
+                                     </tr>
+
+                                
+                <tr id="BGGGameConverter-8" style="display:none">
+                    <td class="methodSummary" id="summary-178-3">
+                                                                                                <span class="sortValue">convertDBListToLongList(BasicDBList)&nbsp;:&nbsp;List&lt;Long&gt;</span>
+                        &nbsp;&nbsp;<a href="?line=29#178" title="convertDBListToLongList(BasicDBList)&nbsp;:&nbsp;List&lt;Long&gt;" name="sl-178">convertDBListToLongList(BasicDBList)&nbsp;:&nbsp;List&lt;Long&gt;</a>
+                                            </td>
+                    <td class="graphPercent" align="right">
+                        <span class="sortValue">178</span>
+                        178
+                    </td>
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">6.0</span>
+                            6
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.0</span>
+                            0%
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">2.0</span>
+                            2
+                        </td>
+                        
+                                            
+                        <td class="graphPercent " align="right">
+                            <span class="sortValue">0.75</span>
+                            75%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.75</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="25% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="75% Covered" class="barPositive " style="width: 75%"></div>
+    </div>
+</div>
+                        </td>
+                        
+                                     </tr>
+
+                         </tbody>
+     <tbody><tr><td class="hbreak" colspan="8">&nbsp;</td></tr></tbody>
+</table>
+
+<table cellspacing="0" cellpadding="0" class="barGraph">
+    <tbody>
+<tr>
+    <td class="hbreak" align="left" colspan="4">
+        &nbsp; <label class="sortable" id="testsToggle" onclick="toggleAllTests(this); return false;" onkeyup="return help_src_file_show_tests;">Show Tests </label>(1) <label onkeyup="return help_select_all;" class="selectable unselected" id="selectalltests" onclick="selectAllTests(this);">Select All </label> <label onkeyup='return help_deselect_all;' class="selectable selected" id="deselectalltests" onclick="deselectAllTests(this);">Deselect All</label>
+    </td>
+</tr>
+</tbody>
+<tbody id="tests-body" style="display:none">
+<tr id="testHeaderRow">
+    <td class="graphHeaderLeft titleText" align="center" >
+        <label onkeyup="return help_hilight_test;" id="help_1">Highlight</label>
+    </td>
+    <td class="graphHeaderLeft titleText sortable" onclick="ts_resortTable(this, 'number', 1);return false;">
+        <label onkeyup="return help_test_contribution;" id="help_2">Test Contribution</label>
+    </td>
+    <td class="graphHeaderLeft titleText sortable" onclick="ts_resortTable(this, 'alpha', 2);return false;">
+        <label onkeyup="return help_src_file_test;" id="help_3">Test</label>
+    </td>
+    <td class="graphHeaderLeft titleText sortable" onclick="ts_resortTable(this, 'alpha', 3);return false;">Result</td>
+</tr>
+
+        <tr id="test-7">
+        <td class="graphPercent graphPercentLeft" align="center" title="checkbox">
+            <a name="testA-7"></a>
+            <input type="checkbox" id="cb-7" value="7" name="testMethod" onclick="hiLightByTest(this.value, this.checked); return true;"/>
+        </td>
+        <td class="graphPercent link" onclick="window.location.href='../../../../../com/ac/games/db/test/TestMongoGamesDatabase_testBGGData_7.html';">
+            <span class="sortValue">0.7203065</span>
+                        <div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="28% Not Covered"  style="min-width: 40px;"  class="barNegative contribBarNegative">
+       <div title="72% Covered" class="barPositive contribBarPositive" style="width: 72%"></div>
+    </div>
+</div>        </td>
+        <td class="testCase" id="tc-7">
+            <span class="sortValue">com.ac.games.db.test.TestMongoGamesDatabase.testBGGData</span>
+            <a href="../../../../../com/ac/games/db/test/TestMongoGamesDatabase.html?line=96#src-96" title="View Test Source"><img class="icon" alt="test" src="../../../../../img/test.gif"/></a>
+            <a href="../../../../../com/ac/games/db/test/TestMongoGamesDatabase_testBGGData_7.html" title="Test Summary Page">com.ac.games.db.test.TestMongoGamesDatabase.testBGGData</a>
+        </td>
+        <td class="graphPercent">
+                  <span class="sortValue">1</span>
+    <span class="testResultSuccess">PASS</span>
+          </td>
+
+    </tr>
+    
+</tbody>
+<tbody><tr><td class="hbreak" colspan="4">&nbsp;</td></tr></tbody>
+</table>
+
+<table cellspacing="0" cellpadding="0" class="srcView">
+<tbody>
+<tr><td colspan="2" class="sortable methodToggle"><label onkeyup="return help_src_file_expandall_src;" onclick="toggleAllInlineMethods(this); return false;" id="method-expander">Collapse All</label></td><th></th></tr>
+</tbody>
+
+
+      <tbody>
+          
+
+  <tr id="l1">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=1#src-1">1</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-1" class="srcLine"><span class="keyword">package</span> com.ac.games.<a href="../../db/pkg-summary.html">db</a>.<a href="../mongo/pkg-summary.html">mongo</a>;    </span></td>
+  </tr>
+            
+
+  <tr id="l2">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=2#src-2">2</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-2" class="srcLine">    </span></td>
+  </tr>
+            
+
+  <tr id="l3">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=3#src-3">3</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-3" class="srcLine"><span class="keyword">import</span> java.util.ArrayList;    </span></td>
+  </tr>
+            
+
+  <tr id="l4">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=4#src-4">4</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-4" class="srcLine"><span class="keyword">import</span> java.util.Date;    </span></td>
+  </tr>
+            
+
+  <tr id="l5">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=5#src-5">5</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-5" class="srcLine"><span class="keyword">import</span> java.util.List;    </span></td>
+  </tr>
+            
+
+  <tr id="l6">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=6#src-6">6</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-6" class="srcLine">    </span></td>
+  </tr>
+            
+
+  <tr id="l7">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=7#src-7">7</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-7" class="srcLine"><span class="keyword">import</span> com.ac.games.data.BGGGame;    </span></td>
+  </tr>
+            
+
+  <tr id="l8">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=8#src-8">8</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-8" class="srcLine"><span class="keyword">import</span> com.ac.games.data.CompactSearchData;    </span></td>
+  </tr>
+            
+
+  <tr id="l9">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=9#src-9">9</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-9" class="srcLine"><span class="keyword">import</span> com.ac.games.data.GameTypeConverter;    </span></td>
+  </tr>
+            
+
+  <tr id="l10">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=10#src-10">10</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-10" class="srcLine"><span class="keyword">import</span> com.ac.games.data.ReviewStateConverter;    </span></td>
+  </tr>
+            
+
+  <tr id="l11">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=11#src-11">11</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-11" class="srcLine"><span class="keyword">import</span> com.mongodb.BasicDBList;    </span></td>
+  </tr>
+            
+
+  <tr id="l12">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=12#src-12">12</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-12" class="srcLine"><span class="keyword">import</span> com.mongodb.BasicDBObject;    </span></td>
+  </tr>
+            
+
+  <tr id="l13">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=13#src-13">13</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-13" class="srcLine"><span class="keyword">import</span> com.mongodb.DBObject;    </span></td>
+  </tr>
+            
+
+  <tr id="l14">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=14#src-14">14</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-14" class="srcLine">    </span></td>
+  </tr>
+            
+
+  <tr id="l15">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=15#src-15">15</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-15" class="srcLine"><span class="comment">/**</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l16">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=16#src-16">16</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-16" class="srcLine"><span class="comment"> * </span><span class="javadoc">@author</span><span class="comment"> ac010168</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l17">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=17#src-17">17</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-17" class="srcLine"><span class="comment"> *</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l18">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=18#src-18">18</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-18" class="srcLine"><span class="comment"> */</span>    </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="19" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-19' onclick="toggleInlineStats(this, 'inlinestats-19');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-19" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-19'), 'inlinestats-19');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="28% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="72% Covered" class="barPositive barPositive" style="width: 72%"></div>
+    </div>
+</div></td><td>72%</td>
+           <td class="inlineStat">Uncovered Elements: 73 (261)</td>
+           <td class="inlineStat">Complexity: 65</td>
+           <td class="inlineStat">Complexity Density: 0.47</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l19">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=19#src-19">19</a></td>
+    <td align="right" class="coverageCount NoHilight "
+             onclick="return showTestsForLine(this, 19, 'Tests that hit &lt;span class=\'srcFragment\'&gt; BGGGameConverter &lt;/span&gt;');"
+            >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell" id="id-19" >
+      <span class="spacer"></span><span id="src-19" class="srcLine"><span class="keyword">public</span> <span class="keyword">class</span> <a href="../../../../../com/ac/games/db/mongo/BGGGameConverter.html#BGGGameConverter">BGGGameConverter</a> {    </span></td>
+  </tr>
+            
+
+  <tr id="l20">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=20#src-20">20</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-20" class="srcLine">      </span></td>
+  </tr>
+            
+
+  <tr id="l21">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=21#src-21">21</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-21" class="srcLine">  <span class="comment">/**</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l22">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=22#src-22">22</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-22" class="srcLine"><span class="comment">   * Helper method that will construct a basic query using the bggID from the provided game.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l23">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=23#src-23">23</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-23" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l24">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=24#src-24">24</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-24" class="srcLine"><span class="comment">   * </span><span class="javadoc">@param</span><span class="comment"> game The Game we want to build a query for.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l25">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=25#src-25">25</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-25" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l26">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=26#src-26">26</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-26" class="srcLine"><span class="comment">   * </span><span class="javadoc">@return</span><span class="comment"> Returns a {</span><span class="javadoc">@link</span><span class="comment"> BasicDBObject} object that represents this query, or null if no game was provided</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l27">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=27#src-27">27</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-27" class="srcLine"><span class="comment">   */</span>    </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="28" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-28' onclick="toggleInlineStats(this, 'inlinestats-28');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-28" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-28'), 'inlinestats-28');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="33.3% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="66.7% Covered" class="barPositive barPositive" style="width: 66.7%"></div>
+    </div>
+</div></td><td>66.7%</td>
+           <td class="inlineStat">Uncovered Elements: 2 (6)</td>
+           <td class="inlineStat">Complexity: 2</td>
+           <td class="inlineStat">Complexity Density: 0.5</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l28">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=28#src-28">28</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 28, 'Tests that hit &lt;span class=\'srcFragment\'&gt; convertGameToIDQuery(BGGGame)&amp;nbsp;:&amp;nbsp;BasicDBObject &lt;/span&gt;');"
+            >
+          <span title="Line 28, Col 3: method entered 3 times." class="nolink">&nbsp;3</span>
+    
+    </td>
+    <td class="  methodStart  srcCell" id="id-28" >
+      <img title="Method Statistics" onclick="toggleSrcRowVis(this, 28,33);" id="img-28" src="../../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-28" class="srcLine"><span class="nolink" title="Line 28, Col 3: method entered 3 times.">  <span class="keyword">public</span> <span class="keyword">static</span> BasicDBObject convertGameToIDQuery(BGGGame game) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-28'), 28,33);" id="e28" style="display:none;border:none;">...</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l29">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=29#src-29">29</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 29, 'Tests that hit line # 29');"
+       >
+          <span title="Line 29, Col 8: true branch executed 0 times branch executed 3 times." class="nolink">&nbsp;3</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-29" class="srcLineHilight"><span class="nolink" title="Line 29, Col 8: true branch executed 0 times branch executed 3 times.">    <span class="keyword">if</span> (game == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l30">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=30#src-30">30</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-30" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l31">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=31#src-31">31</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 31, 'Tests that hit line # 31');"
+       >
+          <span title="Line 31, Col 5: statement executed 3 times." class="nolink">&nbsp;3</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-31" class="srcLine"><span class="nolink" title="Line 31, Col 5: statement executed 3 times.">    BasicDBObject dbObject = <span class="keyword">new</span> BasicDBObject(<span class="string">&quot;bggID&quot;</span>, game.getBggID());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l32">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=32#src-32">32</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 32, 'Tests that hit line # 32');"
+       >
+          <span title="Line 32, Col 5: statement executed 3 times." class="nolink">&nbsp;3</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-32" class="srcLine"><span class="nolink" title="Line 32, Col 5: statement executed 3 times.">    <span class="keyword">return</span> dbObject;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l33">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=33#src-33">33</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-33" class="srcLine">  }    </span></td>
+  </tr>
+            
+
+  <tr id="l34">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=34#src-34">34</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-34" class="srcLine">    </span></td>
+  </tr>
+            
+
+  <tr id="l35">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=35#src-35">35</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-35" class="srcLine">  <span class="comment">/**</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l36">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=36#src-36">36</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-36" class="srcLine"><span class="comment">   * Helper method that will construct a basic query using the bggID representing the provided game.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l37">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=37#src-37">37</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-37" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l38">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=38#src-38">38</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-38" class="srcLine"><span class="comment">   * </span><span class="javadoc">@param</span><span class="comment"> bggID The game ID we want to build a query for.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l39">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=39#src-39">39</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-39" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l40">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=40#src-40">40</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-40" class="srcLine"><span class="comment">   * </span><span class="javadoc">@return</span><span class="comment"> Returns a {</span><span class="javadoc">@link</span><span class="comment"> BasicDBObject} object that represents this query, or null if no game was provided</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l41">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=41#src-41">41</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-41" class="srcLine"><span class="comment">   */</span>    </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="42" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-42' onclick="toggleInlineStats(this, 'inlinestats-42');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-42" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-42'), 'inlinestats-42');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="33.3% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="66.7% Covered" class="barPositive barPositive" style="width: 66.7%"></div>
+    </div>
+</div></td><td>66.7%</td>
+           <td class="inlineStat">Uncovered Elements: 2 (6)</td>
+           <td class="inlineStat">Complexity: 2</td>
+           <td class="inlineStat">Complexity Density: 0.5</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l42">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=42#src-42">42</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 42, 'Tests that hit &lt;span class=\'srcFragment\'&gt; convertGameToIDQuery(long)&amp;nbsp;:&amp;nbsp;BasicDBObject &lt;/span&gt;');"
+            >
+          <span title="Line 42, Col 3: method entered 14 times." class="nolink">&nbsp;14</span>
+    
+    </td>
+    <td class="  methodStart  srcCell" id="id-42" >
+      <img title="Method Statistics" onclick="toggleSrcRowVis(this, 42,47);" id="img-42" src="../../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-42" class="srcLine"><span class="nolink" title="Line 42, Col 3: method entered 14 times.">  <span class="keyword">public</span> <span class="keyword">static</span> BasicDBObject convertGameToIDQuery(<span class="keyword">long</span> bggID) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-42'), 42,47);" id="e42" style="display:none;border:none;">...</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l43">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=43#src-43">43</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 43, 'Tests that hit line # 43');"
+       >
+          <span title="Line 43, Col 8: true branch executed 0 times branch executed 14 times." class="nolink">&nbsp;14</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-43" class="srcLineHilight"><span class="nolink" title="Line 43, Col 8: true branch executed 0 times branch executed 14 times.">    <span class="keyword">if</span> (bggID &lt; 0) <span class="keyword">return</span> <span class="keyword">null</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l44">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=44#src-44">44</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-44" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l45">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=45#src-45">45</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 45, 'Tests that hit line # 45');"
+       >
+          <span title="Line 45, Col 5: statement executed 14 times." class="nolink">&nbsp;14</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-45" class="srcLine"><span class="nolink" title="Line 45, Col 5: statement executed 14 times.">    BasicDBObject dbObject = <span class="keyword">new</span> BasicDBObject(<span class="string">&quot;bggID&quot;</span>, <span class="keyword">new</span> Long(bggID));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l46">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=46#src-46">46</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 46, 'Tests that hit line # 46');"
+       >
+          <span title="Line 46, Col 5: statement executed 14 times." class="nolink">&nbsp;14</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-46" class="srcLine"><span class="nolink" title="Line 46, Col 5: statement executed 14 times.">    <span class="keyword">return</span> dbObject;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l47">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=47#src-47">47</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-47" class="srcLine">  }    </span></td>
+  </tr>
+            
+
+  <tr id="l48">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=48#src-48">48</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-48" class="srcLine">    </span></td>
+  </tr>
+            
+
+  <tr id="l49">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=49#src-49">49</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-49" class="srcLine">  <span class="comment">/**</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l50">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=50#src-50">50</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-50" class="srcLine"><span class="comment">   * Helper method that will construct a basic database record for the provided game object.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l51">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=51#src-51">51</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-51" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l52">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=52#src-52">52</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-52" class="srcLine"><span class="comment">   * </span><span class="javadoc">@param</span><span class="comment"> game The Game we want to build a database record for.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l53">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=53#src-53">53</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-53" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l54">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=54#src-54">54</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-54" class="srcLine"><span class="comment">   * </span><span class="javadoc">@return</span><span class="comment"> Returns a {</span><span class="javadoc">@link</span><span class="comment"> BasicDBObject} object that represents this object, or null if no game was provided</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l55">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=55#src-55">55</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-55" class="srcLine"><span class="comment">   */</span>    </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="56" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-56' onclick="toggleInlineStats(this, 'inlinestats-56');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-56" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-56'), 'inlinestats-56');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="19.1% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="80.9% Covered" class="barPositive barPositive" style="width: 80.9%"></div>
+    </div>
+</div></td><td>80.9%</td>
+           <td class="inlineStat">Uncovered Elements: 18 (94)</td>
+           <td class="inlineStat">Complexity: 24</td>
+           <td class="inlineStat">Complexity Density: 0.5</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l56">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=56#src-56">56</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 56, 'Tests that hit &lt;span class=\'srcFragment\'&gt; convertGameToMongo(BGGGame)&amp;nbsp;:&amp;nbsp;BasicDBObject &lt;/span&gt;');"
+            >
+          <span title="Line 56, Col 3: method entered 5 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  methodStart  srcCell" id="id-56" >
+      <img title="Method Statistics" onclick="toggleSrcRowVis(this, 56,86);" id="img-56" src="../../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-56" class="srcLine"><span class="nolink" title="Line 56, Col 3: method entered 5 times.">  <span class="keyword">public</span> <span class="keyword">static</span> BasicDBObject convertGameToMongo(BGGGame game) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-56'), 56,86);" id="e56" style="display:none;border:none;">...</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l57">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=57#src-57">57</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 57, 'Tests that hit line # 57');"
+       >
+          <span title="Line 57, Col 8: true branch executed 0 times branch executed 5 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-57" class="srcLineHilight"><span class="nolink" title="Line 57, Col 8: true branch executed 0 times branch executed 5 times.">    <span class="keyword">if</span> (game == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l58">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=58#src-58">58</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-58" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l59">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=59#src-59">59</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 59, 'Tests that hit line # 59');"
+       >
+          <span title="Line 59, Col 5: statement executed 5 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-59" class="srcLine"><span class="nolink" title="Line 59, Col 5: statement executed 5 times.">    BasicDBObject dbObject = <span class="keyword">new</span> BasicDBObject(<span class="string">&quot;bggID&quot;</span>, game.getBggID());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l60">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=60#src-60">60</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-60" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l61">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=61#src-61">61</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 61, 'Tests that hit line # 61');"
+       >
+          <span title="Line 61, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-61" class="srcLineHilight"><span class="nolink" title="Line 61, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getName() != <span class="keyword">null</span>)              dbObject.append(<span class="string">&quot;name&quot;</span>, game.getName());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l62">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=62#src-62">62</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 62, 'Tests that hit line # 62');"
+       >
+          <span title="Line 62, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-62" class="srcLineHilight"><span class="nolink" title="Line 62, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getYearPublished() != -1)       dbObject.append(<span class="string">&quot;yearPublished&quot;</span>, game.getYearPublished());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l63">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=63#src-63">63</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 63, 'Tests that hit line # 63');"
+       >
+          <span title="Line 63, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-63" class="srcLineHilight"><span class="nolink" title="Line 63, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getMinPlayers() != -1)          dbObject.append(<span class="string">&quot;minPlayers&quot;</span>, game.getMinPlayers());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l64">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=64#src-64">64</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 64, 'Tests that hit line # 64');"
+       >
+          <span title="Line 64, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-64" class="srcLineHilight"><span class="nolink" title="Line 64, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getMaxPlayers() != -1)          dbObject.append(<span class="string">&quot;maxPlayers&quot;</span>, game.getMaxPlayers());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l65">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=65#src-65">65</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 65, 'Tests that hit line # 65');"
+       >
+          <span title="Line 65, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-65" class="srcLineHilight"><span class="nolink" title="Line 65, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getMinPlayingTime() != -1)      dbObject.append(<span class="string">&quot;minPlayingTime&quot;</span>, game.getMinPlayingTime());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l66">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=66#src-66">66</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 66, 'Tests that hit line # 66');"
+       >
+          <span title="Line 66, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-66" class="srcLineHilight"><span class="nolink" title="Line 66, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getMaxPlayingTime() != -1)      dbObject.append(<span class="string">&quot;maxPlayingTime&quot;</span>, game.getMaxPlayingTime());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l67">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=67#src-67">67</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 67, 'Tests that hit line # 67');"
+       >
+          <span title="Line 67, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-67" class="srcLineHilight"><span class="nolink" title="Line 67, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getImageURL() != <span class="keyword">null</span>)          dbObject.append(<span class="string">&quot;imageURL&quot;</span>, game.getImageURL());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l68">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=68#src-68">68</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 68, 'Tests that hit line # 68');"
+       >
+          <span title="Line 68, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-68" class="srcLineHilight"><span class="nolink" title="Line 68, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getImageThumbnailURL() != <span class="keyword">null</span>) dbObject.append(<span class="string">&quot;imageThumbnailURL&quot;</span>, game.getImageThumbnailURL());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l69">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=69#src-69">69</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 69, 'Tests that hit line # 69');"
+       >
+          <span title="Line 69, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-69" class="srcLineHilight"><span class="nolink" title="Line 69, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getDescription() != <span class="keyword">null</span>)       dbObject.append(<span class="string">&quot;description&quot;</span>, game.getDescription());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l70">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=70#src-70">70</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 70, 'Tests that hit line # 70');"
+       >
+          <span title="Line 70, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-70" class="srcLineHilight"><span class="nolink" title="Line 70, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getBggRating() != -1.0)         dbObject.append(<span class="string">&quot;bggRating&quot;</span>, game.getBggRating());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l71">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=71#src-71">71</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 71, 'Tests that hit line # 71');"
+       >
+          <span title="Line 71, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-71" class="srcLineHilight"><span class="nolink" title="Line 71, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getBggRatingUsers() != -1)      dbObject.append(<span class="string">&quot;bggRatingUsers&quot;</span>, game.getBggRatingUsers());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l72">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=72#src-72">72</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 72, 'Tests that hit line # 72');"
+       >
+          <span title="Line 72, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-72" class="srcLineHilight"><span class="nolink" title="Line 72, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getPublishers() != <span class="keyword">null</span>)        dbObject.append(<span class="string">&quot;publishers&quot;</span>, convertList(game.getPublishers()));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l73">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=73#src-73">73</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 73, 'Tests that hit line # 73');"
+       >
+          <span title="Line 73, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-73" class="srcLineHilight"><span class="nolink" title="Line 73, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getDesigners() != <span class="keyword">null</span>)         dbObject.append(<span class="string">&quot;designers&quot;</span>, convertList(game.getDesigners()));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l74">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=74#src-74">74</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 74, 'Tests that hit line # 74');"
+       >
+          <span title="Line 74, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-74" class="srcLineHilight"><span class="nolink" title="Line 74, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getCategories() != <span class="keyword">null</span>)        dbObject.append(<span class="string">&quot;categories&quot;</span>, convertList(game.getCategories()));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l75">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=75#src-75">75</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 75, 'Tests that hit line # 75');"
+       >
+          <span title="Line 75, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-75" class="srcLineHilight"><span class="nolink" title="Line 75, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getMechanisms() != <span class="keyword">null</span>)        dbObject.append(<span class="string">&quot;mechanisms&quot;</span>, convertList(game.getMechanisms()));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l76">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=76#src-76">76</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 76, 'Tests that hit line # 76');"
+       >
+          <span title="Line 76, Col 46: statement executed 4 times." class="nolink">&nbsp;4</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-76" class="srcLine"><span class="nolink" title="Line 76, Col 46: statement executed 4 times.">    <span class="keyword">if</span> (game.getBggRank() != -1)             dbObject.append(<span class="string">&quot;bggRank&quot;</span>, game.getBggRank());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l77">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=77#src-77">77</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 77, 'Tests that hit line # 77');"
+       >
+          <span title="Line 77, Col 46: statement executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-77" class="srcLine"><span class="nolink" title="Line 77, Col 46: statement executed 2 times.">    <span class="keyword">if</span> (game.getExpansionIDs() != <span class="keyword">null</span>)      dbObject.append(<span class="string">&quot;expansionIDs&quot;</span>, convertList(game.getExpansionIDs()));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l78">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=78#src-78">78</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 78, 'Tests that hit line # 78');"
+       >
+          <span title="Line 78, Col 46: statement executed 1 time." class="nolink">&nbsp;1</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-78" class="srcLine"><span class="nolink" title="Line 78, Col 46: statement executed 1 time.">    <span class="keyword">if</span> (game.getParentGameID() != -1)        dbObject.append(<span class="string">&quot;parentGameID&quot;</span>, game.getParentGameID());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l79">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=79#src-79">79</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-79" class="srcLine">    <span class="comment">//Need a converter here because BSON won't accept Enums for serializability</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l80">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=80#src-80">80</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 80, 'Tests that hit line # 80');"
+       >
+          <span title="Line 80, Col 8: true branch executed 5 times branch executed 0 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-80" class="srcLineHilight"><span class="nolink" title="Line 80, Col 8: true branch executed 5 times branch executed 0 times.">    <span class="keyword">if</span> (game.getGameType() != <span class="keyword">null</span>)          dbObject.append(<span class="string">&quot;gameType&quot;</span>, GameTypeConverter.convertGameTypeToFlag(game.getGameType()));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l81">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=81#src-81">81</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 81, 'Tests that hit line # 81');"
+       >
+          <span title="Line 81, Col 46: statement executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-81" class="srcLine"><span class="nolink" title="Line 81, Col 46: statement executed 2 times.">    <span class="keyword">if</span> (game.getReviewState() != <span class="keyword">null</span>)       dbObject.append(<span class="string">&quot;reviewState&quot;</span>, ReviewStateConverter.convertReviewStateToFlag(game.getReviewState()));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l82">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=82#src-82">82</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 82, 'Tests that hit line # 82');"
+       >
+          <span title="Line 82, Col 46: statement executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-82" class="srcLine"><span class="nolink" title="Line 82, Col 46: statement executed 2 times.">    <span class="keyword">if</span> (game.getAddDate() != <span class="keyword">null</span>)           dbObject.append(<span class="string">&quot;addDate&quot;</span>, game.getAddDate());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l83">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=83#src-83">83</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 83, 'Tests that hit line # 83');"
+       >
+          <span title="Line 83, Col 46: statement executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-83" class="srcLine"><span class="nolink" title="Line 83, Col 46: statement executed 2 times.">    <span class="keyword">if</span> (game.getReviewDate() != <span class="keyword">null</span>)        dbObject.append(<span class="string">&quot;reviewDate&quot;</span>, game.getReviewDate());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l84">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=84#src-84">84</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-84" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l85">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=85#src-85">85</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 85, 'Tests that hit line # 85');"
+       >
+          <span title="Line 85, Col 5: statement executed 5 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-85" class="srcLine"><span class="nolink" title="Line 85, Col 5: statement executed 5 times.">    <span class="keyword">return</span> dbObject;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l86">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=86#src-86">86</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-86" class="srcLine">  }    </span></td>
+  </tr>
+            
+
+  <tr id="l87">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=87#src-87">87</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-87" class="srcLine">      </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="88" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-88' onclick="toggleInlineStats(this, 'inlinestats-88');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-88" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-88'), 'inlinestats-88');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="19.4% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="80.6% Covered" class="barPositive barPositive" style="width: 80.6%"></div>
+    </div>
+</div></td><td>80.6%</td>
+           <td class="inlineStat">Uncovered Elements: 19 (98)</td>
+           <td class="inlineStat">Complexity: 25</td>
+           <td class="inlineStat">Complexity Density: 0.5</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l88">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=88#src-88">88</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 88, 'Tests that hit &lt;span class=\'srcFragment\'&gt; convertMongoToGame(DBObject)&amp;nbsp;:&amp;nbsp;BGGGame &lt;/span&gt;');"
+            >
+          <span title="Line 88, Col 3: method entered 6 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  methodStart  srcCell" id="id-88" >
+      <img title="Method Statistics" onclick="toggleSrcRowVis(this, 88,119);" id="img-88" src="../../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-88" class="srcLine"><span class="nolink" title="Line 88, Col 3: method entered 6 times.">  <span class="keyword">public</span> <span class="keyword">static</span> BGGGame convertMongoToGame(DBObject dbObject) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-88'), 88,119);" id="e88" style="display:none;border:none;">...</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l89">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=89#src-89">89</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 89, 'Tests that hit line # 89');"
+       >
+          <span title="Line 89, Col 8: true branch executed 0 times branch executed 6 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-89" class="srcLineHilight"><span class="nolink" title="Line 89, Col 8: true branch executed 0 times branch executed 6 times.">    <span class="keyword">if</span> (dbObject == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l90">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=90#src-90">90</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-90" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l91">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=91#src-91">91</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 91, 'Tests that hit line # 91');"
+       >
+          <span title="Line 91, Col 5: statement executed 6 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-91" class="srcLine"><span class="nolink" title="Line 91, Col 5: statement executed 6 times.">    BGGGame game = <span class="keyword">new</span> BGGGame();</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l92">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=92#src-92">92</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-92" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l93">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=93#src-93">93</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 93, 'Tests that hit line # 93');"
+       >
+          <span title="Line 93, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-93" class="srcLineHilight"><span class="nolink" title="Line 93, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;bggID&quot;</span>))             game.setBggID((Long)dbObject.get(<span class="string">&quot;bggID&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l94">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=94#src-94">94</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 94, 'Tests that hit line # 94');"
+       >
+          <span title="Line 94, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-94" class="srcLineHilight"><span class="nolink" title="Line 94, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;name&quot;</span>))              game.setName((String)dbObject.get(<span class="string">&quot;name&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l95">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=95#src-95">95</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 95, 'Tests that hit line # 95');"
+       >
+          <span title="Line 95, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-95" class="srcLineHilight"><span class="nolink" title="Line 95, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;yearPublished&quot;</span>))     game.setYearPublished((Integer)dbObject.get(<span class="string">&quot;yearPublished&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l96">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=96#src-96">96</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 96, 'Tests that hit line # 96');"
+       >
+          <span title="Line 96, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-96" class="srcLineHilight"><span class="nolink" title="Line 96, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;minPlayers&quot;</span>))        game.setMinPlayers((Integer)dbObject.get(<span class="string">&quot;minPlayers&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l97">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=97#src-97">97</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 97, 'Tests that hit line # 97');"
+       >
+          <span title="Line 97, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-97" class="srcLineHilight"><span class="nolink" title="Line 97, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;maxPlayers&quot;</span>))        game.setMaxPlayers((Integer)dbObject.get(<span class="string">&quot;maxPlayers&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l98">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=98#src-98">98</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 98, 'Tests that hit line # 98');"
+       >
+          <span title="Line 98, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-98" class="srcLineHilight"><span class="nolink" title="Line 98, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;minPlayingTime&quot;</span>))    game.setMinPlayingTime((Integer)dbObject.get(<span class="string">&quot;minPlayingTime&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l99">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=99#src-99">99</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 99, 'Tests that hit line # 99');"
+       >
+          <span title="Line 99, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-99" class="srcLineHilight"><span class="nolink" title="Line 99, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;maxPlayingTime&quot;</span>))    game.setMaxPlayingTime((Integer)dbObject.get(<span class="string">&quot;maxPlayingTime&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l100">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=100#src-100">100</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 100, 'Tests that hit line # 100');"
+       >
+          <span title="Line 100, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-100" class="srcLineHilight"><span class="nolink" title="Line 100, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;imageURL&quot;</span>))          game.setImageURL((String)dbObject.get(<span class="string">&quot;imageURL&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l101">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=101#src-101">101</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 101, 'Tests that hit line # 101');"
+       >
+          <span title="Line 101, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-101" class="srcLineHilight"><span class="nolink" title="Line 101, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;imageThumbnailURL&quot;</span>)) game.setImageThumbnailURL((String)dbObject.get(<span class="string">&quot;imageThumbnailURL&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l102">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=102#src-102">102</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 102, 'Tests that hit line # 102');"
+       >
+          <span title="Line 102, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-102" class="srcLineHilight"><span class="nolink" title="Line 102, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;description&quot;</span>))       game.setDescription((String)dbObject.get(<span class="string">&quot;description&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l103">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=103#src-103">103</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 103, 'Tests that hit line # 103');"
+       >
+          <span title="Line 103, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-103" class="srcLineHilight"><span class="nolink" title="Line 103, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;bggRating&quot;</span>))         game.setBggRating((Double)dbObject.get(<span class="string">&quot;bggRating&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l104">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=104#src-104">104</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 104, 'Tests that hit line # 104');"
+       >
+          <span title="Line 104, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-104" class="srcLineHilight"><span class="nolink" title="Line 104, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;bggRatingUsers&quot;</span>))    game.setBggRatingUsers((Integer)dbObject.get(<span class="string">&quot;bggRatingUsers&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l105">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=105#src-105">105</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 105, 'Tests that hit line # 105');"
+       >
+          <span title="Line 105, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-105" class="srcLineHilight"><span class="nolink" title="Line 105, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;publishers&quot;</span>))        game.setPublishers(convertDBListToStringList((BasicDBList)dbObject.get(<span class="string">&quot;publishers&quot;</span>)));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l106">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=106#src-106">106</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 106, 'Tests that hit line # 106');"
+       >
+          <span title="Line 106, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-106" class="srcLineHilight"><span class="nolink" title="Line 106, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;designers&quot;</span>))         game.setDesigners(convertDBListToStringList((BasicDBList)dbObject.get(<span class="string">&quot;designers&quot;</span>)));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l107">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=107#src-107">107</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 107, 'Tests that hit line # 107');"
+       >
+          <span title="Line 107, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-107" class="srcLineHilight"><span class="nolink" title="Line 107, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;categories&quot;</span>))        game.setCategories(convertDBListToStringList((BasicDBList)dbObject.get(<span class="string">&quot;categories&quot;</span>)));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l108">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=108#src-108">108</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 108, 'Tests that hit line # 108');"
+       >
+          <span title="Line 108, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-108" class="srcLineHilight"><span class="nolink" title="Line 108, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;mechanisms&quot;</span>))        game.setMechanisms(convertDBListToStringList((BasicDBList)dbObject.get(<span class="string">&quot;mechanisms&quot;</span>)));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l109">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=109#src-109">109</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 109, 'Tests that hit line # 109');"
+       >
+          <span title="Line 109, Col 54: statement executed 5 times." class="nolink">&nbsp;5</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-109" class="srcLine"><span class="nolink" title="Line 109, Col 54: statement executed 5 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;bggRank&quot;</span>))           game.setBggRank((Integer)dbObject.get(<span class="string">&quot;bggRank&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l110">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=110#src-110">110</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 110, 'Tests that hit line # 110');"
+       >
+          <span title="Line 110, Col 54: statement executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-110" class="srcLine"><span class="nolink" title="Line 110, Col 54: statement executed 2 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;expansionIDs&quot;</span>))      game.setExpansionIDs(convertDBListToLongList((BasicDBList)dbObject.get(<span class="string">&quot;expansionIDs&quot;</span>)));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l111">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=111#src-111">111</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 111, 'Tests that hit line # 111');"
+       >
+          <span title="Line 111, Col 54: statement executed 1 time." class="nolink">&nbsp;1</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-111" class="srcLine"><span class="nolink" title="Line 111, Col 54: statement executed 1 time.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;parentGameID&quot;</span>))      game.setParentGameID((Long)dbObject.get(<span class="string">&quot;parentGameID&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l112">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=112#src-112">112</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-112" class="srcLine">    <span class="comment">//Need a converter here because BSON won't accept Enums for serializability</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l113">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=113#src-113">113</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 113, 'Tests that hit line # 113');"
+       >
+          <span title="Line 113, Col 8: true branch executed 6 times branch executed 0 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-113" class="srcLineHilight"><span class="nolink" title="Line 113, Col 8: true branch executed 6 times branch executed 0 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;gameType&quot;</span>))          game.setGameType(GameTypeConverter.convertFlagToGameType((Integer)dbObject.get(<span class="string">&quot;gameType&quot;</span>)));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l114">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=114#src-114">114</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 114, 'Tests that hit line # 114');"
+       >
+          <span title="Line 114, Col 54: statement executed 3 times." class="nolink">&nbsp;3</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-114" class="srcLine"><span class="nolink" title="Line 114, Col 54: statement executed 3 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;reviewState&quot;</span>))       game.setReviewState(ReviewStateConverter.convertFlagToReviewState((Integer)dbObject.get(<span class="string">&quot;reviewState&quot;</span>)));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l115">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=115#src-115">115</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 115, 'Tests that hit line # 115');"
+       >
+          <span title="Line 115, Col 54: statement executed 3 times." class="nolink">&nbsp;3</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-115" class="srcLine"><span class="nolink" title="Line 115, Col 54: statement executed 3 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;addDate&quot;</span>))           game.setAddDate((Date)dbObject.get(<span class="string">&quot;addDate&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l116">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=116#src-116">116</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 116, 'Tests that hit line # 116');"
+       >
+          <span title="Line 116, Col 54: statement executed 3 times." class="nolink">&nbsp;3</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-116" class="srcLine"><span class="nolink" title="Line 116, Col 54: statement executed 3 times.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;reviewDate&quot;</span>))        game.setReviewDate((Date)dbObject.get(<span class="string">&quot;reviewDate&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l117">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=117#src-117">117</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-117" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l118">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=118#src-118">118</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 118, 'Tests that hit line # 118');"
+       >
+          <span title="Line 118, Col 5: statement executed 6 times." class="nolink">&nbsp;6</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-118" class="srcLine"><span class="nolink" title="Line 118, Col 5: statement executed 6 times.">    <span class="keyword">return</span> game;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l119">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=119#src-119">119</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-119" class="srcLine">  }    </span></td>
+  </tr>
+            
+
+  <tr id="l120">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=120#src-120">120</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-120" class="srcLine">      </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="121" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-121' onclick="toggleInlineStats(this, 'inlinestats-121');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-121" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-121'), 'inlinestats-121');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="0% Covered" class="barPositive barPositive" style="width: 0%"></div>
+    </div>
+</div></td><td>0%</td>
+           <td class="inlineStat">Uncovered Elements: 25 (25)</td>
+           <td class="inlineStat">Complexity: 6</td>
+           <td class="inlineStat">Complexity Density: 0.4</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l121">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=121#src-121">121</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+                   >
+          <span title="Line 121, Col 3: method not entered." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  methodStart  srcCell" id="id-121" >
+      <img title="Method Statistics" onclick="toggleSrcRowVis(this, 121,138);" id="img-121" src="../../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-121" class="srcLineHilight"><span class="nolink" title="Line 121, Col 3: method not entered.">  <span class="keyword">public</span> <span class="keyword">static</span> CompactSearchData convertMongoToCompact(DBObject dbObject) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-121'), 121,138);" id="e121" style="display:none;border:none;">...</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l122">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=122#src-122">122</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 122, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-122" class="srcLineHilight"><span class="nolink" title="Line 122, Col 5: statement not executed.">    <span class="keyword">if</span> (dbObject == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l123">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=123#src-123">123</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-123" class="srcLine">          </span></td>
+  </tr>
+            
+
+  <tr id="l124">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=124#src-124">124</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 124, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-124" class="srcLineHilight"><span class="nolink" title="Line 124, Col 5: statement not executed.">    CompactSearchData data = <span class="keyword">new</span> CompactSearchData();</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l125">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=125#src-125">125</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-125" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l126">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=126#src-126">126</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 126, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-126" class="srcLineHilight"><span class="nolink" title="Line 126, Col 5: statement not executed.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;bggID&quot;</span>)) {</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l127">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=127#src-127">127</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 127, Col 7: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-127" class="srcLineHilight"><span class="nolink" title="Line 127, Col 7: statement not executed.">      data.setSourceID((Long)dbObject.get(<span class="string">&quot;bggID&quot;</span>));  </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l128">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=128#src-128">128</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 128, Col 7: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-128" class="srcLineHilight"><span class="nolink" title="Line 128, Col 7: statement not executed.">      data.setSourceField(<span class="string">&quot;bggID&quot;</span>);</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l129">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=129#src-129">129</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-129" class="srcLine">    }    </span></td>
+  </tr>
+            
+
+  <tr id="l130">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=130#src-130">130</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 130, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-130" class="srcLineHilight"><span class="nolink" title="Line 130, Col 5: statement not executed.">    String nameText = <span class="string">&quot;Unavailable&quot;</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l131">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=131#src-131">131</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 131, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-131" class="srcLineHilight"><span class="nolink" title="Line 131, Col 5: statement not executed.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;name&quot;</span>)) nameText = (String)dbObject.get(<span class="string">&quot;name&quot;</span>);</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l132">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=132#src-132">132</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 132, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-132" class="srcLineHilight"><span class="nolink" title="Line 132, Col 5: statement not executed.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;yearPublished&quot;</span>)) nameText += <span class="string">&quot; (&quot;</span> + (Integer)dbObject.get(<span class="string">&quot;yearPublished&quot;</span>) + <span class="string">&quot;)&quot;</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l133">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=133#src-133">133</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 133, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-133" class="srcLineHilight"><span class="nolink" title="Line 133, Col 5: statement not executed.">    data.setDisplayString(nameText);</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l134">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=134#src-134">134</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-134" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l135">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=135#src-135">135</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 135, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-135" class="srcLineHilight"><span class="nolink" title="Line 135, Col 5: statement not executed.">    <span class="keyword">if</span> (dbObject.containsField(<span class="string">&quot;imageThumbnailURL&quot;</span>)) data.setThumbnailURL((String)dbObject.get(<span class="string">&quot;imageThumbnailURL&quot;</span>));</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l136">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=136#src-136">136</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-136" class="srcLine">    </span></td>
+  </tr>
+            
+
+  <tr id="l137">
+    <td align="right" class="lineCount Bad"><a class="lineNumHref" href="?line=137#src-137">137</a></td>
+    <td align="right" class="coverageCount Bad missedByTest"
+              >
+          <span title="Line 137, Col 5: statement not executed." class="nolink">&nbsp;0</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-137" class="srcLineHilight"><span class="nolink" title="Line 137, Col 5: statement not executed.">    <span class="keyword">return</span> data;  </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l138">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=138#src-138">138</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-138" class="srcLine">  }    </span></td>
+  </tr>
+            
+
+  <tr id="l139">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=139#src-139">139</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-139" class="srcLine">      </span></td>
+  </tr>
+            
+
+  <tr id="l140">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=140#src-140">140</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-140" class="srcLine">  <span class="comment">/**</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l141">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=141#src-141">141</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-141" class="srcLine"><span class="comment">   * Helper method to parse Lists into List format for Mongo.  Parameterized as &lt;?&gt; to</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l142">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=142#src-142">142</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-142" class="srcLine"><span class="comment">   * allow for generic mapping, provided those objects are simple objects.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l143">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=143#src-143">143</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-143" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l144">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=144#src-144">144</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-144" class="srcLine"><span class="comment">   * </span><span class="javadoc">@param</span><span class="comment"> curList The List of elements (not null) to be converted into an array.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l145">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=145#src-145">145</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-145" class="srcLine"><span class="comment">   * </span><span class="javadoc">@return</span><span class="comment"> A new list in BasicDBList format.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l146">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=146#src-146">146</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-146" class="srcLine"><span class="comment">   */</span>    </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="147" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-147' onclick="toggleInlineStats(this, 'inlinestats-147');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-147" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-147'), 'inlinestats-147');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="25% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="75% Covered" class="barPositive barPositive" style="width: 75%"></div>
+    </div>
+</div></td><td>75%</td>
+           <td class="inlineStat">Uncovered Elements: 2 (8)</td>
+           <td class="inlineStat">Complexity: 2</td>
+           <td class="inlineStat">Complexity Density: 0.33</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l147">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=147#src-147">147</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 147, 'Tests that hit &lt;span class=\'srcFragment\'&gt; convertList(List&amp;lt;?&amp;gt;)&amp;nbsp;:&amp;nbsp;BasicDBList &lt;/span&gt;');"
+            >
+          <span title="Line 147, Col 3: method entered 22 times." class="nolink">&nbsp;22</span>
+    
+    </td>
+    <td class="  methodStart  srcCell" id="id-147" >
+      <img title="Method Statistics" onclick="toggleSrcRowVis(this, 147,154);" id="img-147" src="../../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-147" class="srcLine"><span class="nolink" title="Line 147, Col 3: method entered 22 times.">  <span class="keyword">private</span> <span class="keyword">static</span> BasicDBList convertList(List&lt;?&gt; curList) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-147'), 147,154);" id="e147" style="display:none;border:none;">...</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l148">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=148#src-148">148</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 148, 'Tests that hit line # 148');"
+       >
+          <span title="Line 148, Col 8: true branch executed 0 times branch executed 22 times." class="nolink">&nbsp;22</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-148" class="srcLineHilight"><span class="nolink" title="Line 148, Col 8: true branch executed 0 times branch executed 22 times.">    <span class="keyword">if</span> (curList == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l149">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=149#src-149">149</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-149" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l150">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=150#src-150">150</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 150, 'Tests that hit line # 150');"
+       >
+          <span title="Line 150, Col 5: statement executed 22 times." class="nolink">&nbsp;22</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-150" class="srcLine"><span class="nolink" title="Line 150, Col 5: statement executed 22 times.">    BasicDBList newList = <span class="keyword">new</span> BasicDBList();</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l151">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=151#src-151">151</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 151, 'Tests that hit line # 151');"
+       >
+          <span title="Line 151, Col 5: statement executed 22 times." class="nolink">&nbsp;22</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-151" class="srcLine"><span class="nolink" title="Line 151, Col 5: statement executed 22 times.">    <span class="keyword">for</span> (Object obj : curList)</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l152">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=152#src-152">152</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 152, 'Tests that hit line # 152');"
+       >
+          <span title="Line 152, Col 7: statement executed 81 times." class="nolink">&nbsp;81</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-152" class="srcLine"><span class="nolink" title="Line 152, Col 7: statement executed 81 times.">      newList.add(obj);</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l153">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=153#src-153">153</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 153, 'Tests that hit line # 153');"
+       >
+          <span title="Line 153, Col 5: statement executed 22 times." class="nolink">&nbsp;22</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-153" class="srcLine"><span class="nolink" title="Line 153, Col 5: statement executed 22 times.">    <span class="keyword">return</span> newList;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l154">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=154#src-154">154</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-154" class="srcLine">  }    </span></td>
+  </tr>
+            
+
+  <tr id="l155">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=155#src-155">155</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-155" class="srcLine">      </span></td>
+  </tr>
+            
+
+  <tr id="l156">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=156#src-156">156</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-156" class="srcLine">  <span class="comment">/**</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l157">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=157#src-157">157</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-157" class="srcLine"><span class="comment">   * Helper method to parse Lists from Mongo into Java.  </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l158">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=158#src-158">158</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-158" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l159">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=159#src-159">159</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-159" class="srcLine"><span class="comment">   * </span><span class="javadoc">@param</span><span class="comment"> curList The List of elements (not null) to be converted into an array.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l160">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=160#src-160">160</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-160" class="srcLine"><span class="comment">   * </span><span class="javadoc">@return</span><span class="comment"> A new list in List&lt;String&gt; format.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l161">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=161#src-161">161</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-161" class="srcLine"><span class="comment">   */</span>    </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="162" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-162' onclick="toggleInlineStats(this, 'inlinestats-162');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-162" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-162'), 'inlinestats-162');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="25% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="75% Covered" class="barPositive barPositive" style="width: 75%"></div>
+    </div>
+</div></td><td>75%</td>
+           <td class="inlineStat">Uncovered Elements: 2 (8)</td>
+           <td class="inlineStat">Complexity: 2</td>
+           <td class="inlineStat">Complexity Density: 0.33</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l162">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=162#src-162">162</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 162, 'Tests that hit &lt;span class=\'srcFragment\'&gt; convertDBListToStringList(BasicDBList)&amp;nbsp;:&amp;nbsp;List&amp;lt;String&amp;gt; &lt;/span&gt;');"
+            >
+          <span title="Line 162, Col 3: method entered 24 times." class="nolink">&nbsp;24</span>
+    
+    </td>
+    <td class="  methodStart  srcCell" id="id-162" >
+      <img title="Method Statistics" onclick="toggleSrcRowVis(this, 162,170);" id="img-162" src="../../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-162" class="srcLine"><span class="nolink" title="Line 162, Col 3: method entered 24 times.">  <span class="keyword">private</span> <span class="keyword">static</span> List&lt;String&gt; convertDBListToStringList(BasicDBList curList) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-162'), 162,170);" id="e162" style="display:none;border:none;">...</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l163">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=163#src-163">163</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 163, 'Tests that hit line # 163');"
+       >
+          <span title="Line 163, Col 8: true branch executed 0 times branch executed 24 times." class="nolink">&nbsp;24</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-163" class="srcLineHilight"><span class="nolink" title="Line 163, Col 8: true branch executed 0 times branch executed 24 times.">    <span class="keyword">if</span> (curList == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l164">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=164#src-164">164</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-164" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l165">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=165#src-165">165</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 165, 'Tests that hit line # 165');"
+       >
+          <span title="Line 165, Col 5: statement executed 24 times." class="nolink">&nbsp;24</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-165" class="srcLine"><span class="nolink" title="Line 165, Col 5: statement executed 24 times.">    List&lt;String&gt; newList = <span class="keyword">new</span> ArrayList&lt;String&gt;(curList.size());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l166">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=166#src-166">166</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 166, 'Tests that hit line # 166');"
+       >
+          <span title="Line 166, Col 5: statement executed 24 times." class="nolink">&nbsp;24</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-166" class="srcLine"><span class="nolink" title="Line 166, Col 5: statement executed 24 times.">    <span class="keyword">for</span> (Object obj : curList) {</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l167">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=167#src-167">167</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 167, 'Tests that hit line # 167');"
+       >
+          <span title="Line 167, Col 7: statement executed 83 times." class="nolink">&nbsp;83</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-167" class="srcLine"><span class="nolink" title="Line 167, Col 7: statement executed 83 times.">      newList.add((String)obj);</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l168">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=168#src-168">168</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-168" class="srcLine">    }    </span></td>
+  </tr>
+            
+
+  <tr id="l169">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=169#src-169">169</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 169, 'Tests that hit line # 169');"
+       >
+          <span title="Line 169, Col 5: statement executed 24 times." class="nolink">&nbsp;24</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-169" class="srcLine"><span class="nolink" title="Line 169, Col 5: statement executed 24 times.">    <span class="keyword">return</span> newList;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l170">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=170#src-170">170</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-170" class="srcLine">  }    </span></td>
+  </tr>
+            
+
+  <tr id="l171">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=171#src-171">171</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-171" class="srcLine">    </span></td>
+  </tr>
+            
+
+  <tr id="l172">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=172#src-172">172</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-172" class="srcLine">  <span class="comment">/**</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l173">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=173#src-173">173</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-173" class="srcLine"><span class="comment">   * Helper method to parse Lists from Mongo into Java.  </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l174">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=174#src-174">174</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-174" class="srcLine"><span class="comment">   * </span>    </span></td>
+  </tr>
+            
+
+  <tr id="l175">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=175#src-175">175</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-175" class="srcLine"><span class="comment">   * </span><span class="javadoc">@param</span><span class="comment"> curList The List of elements (not null) to be converted into an array.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l176">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=176#src-176">176</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-176" class="srcLine"><span class="comment">   * </span><span class="javadoc">@return</span><span class="comment"> A new list in List&lt;Long&gt; format.</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l177">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=177#src-177">177</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-177" class="srcLine"><span class="comment">   */</span>    </span></td>
+  </tr>
+               <tr class="inlineStatsRow" align="right" valign="middle" >
+        <td colspan="1"  class="coverageCount">
+            <a name="178" class="nolink">&nbsp;</a>
+        </td>
+        
+       <td class="coverageCount imgbg more" id='inlineStatsToggle-178' onclick="toggleInlineStats(this, 'inlinestats-178');">
+       </td>
+       <td align="center" valign="middle">
+           <table id="inlinestats-178" style="display:none;" class="inlineStats" width="100%" cellspacing="1px" cellpadding="1px">
+           <tr onclick="toggleInlineStats(document.getElementById('inlineStatsToggle-178'), 'inlinestats-178');return true;">
+           <td><div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="25% Not Covered"  style="min-width: 40px;"  class="barNegative barNegative">
+       <div title="75% Covered" class="barPositive barPositive" style="width: 75%"></div>
+    </div>
+</div></td><td>75%</td>
+           <td class="inlineStat">Uncovered Elements: 2 (8)</td>
+           <td class="inlineStat">Complexity: 2</td>
+           <td class="inlineStat">Complexity Density: 0.33</td>
+                       </tr>
+           </table>
+       </td>
+    </tr>
+  
+
+  <tr id="l178">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=178#src-178">178</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 178, 'Tests that hit &lt;span class=\'srcFragment\'&gt; convertDBListToLongList(BasicDBList)&amp;nbsp;:&amp;nbsp;List&amp;lt;Long&amp;gt; &lt;/span&gt;');"
+            >
+          <span title="Line 178, Col 3: method entered 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  methodStart  srcCell" id="id-178" >
+      <img title="Method Statistics" onclick="toggleSrcRowVis(this, 178,186);" id="img-178" src="../../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-178" class="srcLine"><span class="nolink" title="Line 178, Col 3: method entered 2 times.">  <span class="keyword">private</span> <span class="keyword">static</span> List&lt;Long&gt; convertDBListToLongList(BasicDBList curList) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-178'), 178,186);" id="e178" style="display:none;border:none;">...</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l179">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=179#src-179">179</a></td>
+    <td align="right" class="coverageCount Bad hitByTest"
+             onclick="return showTestsForLine(this, 179, 'Tests that hit line # 179');"
+       >
+          <span title="Line 179, Col 8: true branch executed 0 times branch executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-179" class="srcLineHilight"><span class="nolink" title="Line 179, Col 8: true branch executed 0 times branch executed 2 times.">    <span class="keyword">if</span> (curList == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l180">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=180#src-180">180</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-180" class="srcLine">        </span></td>
+  </tr>
+            
+
+  <tr id="l181">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=181#src-181">181</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 181, 'Tests that hit line # 181');"
+       >
+          <span title="Line 181, Col 5: statement executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-181" class="srcLine"><span class="nolink" title="Line 181, Col 5: statement executed 2 times.">    List&lt;Long&gt; newList = <span class="keyword">new</span> ArrayList&lt;Long&gt;(curList.size());</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l182">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=182#src-182">182</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 182, 'Tests that hit line # 182');"
+       >
+          <span title="Line 182, Col 5: statement executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-182" class="srcLine"><span class="nolink" title="Line 182, Col 5: statement executed 2 times.">    <span class="keyword">for</span> (Object obj : curList) {</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l183">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=183#src-183">183</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 183, 'Tests that hit line # 183');"
+       >
+          <span title="Line 183, Col 7: statement executed 10 times." class="nolink">&nbsp;10</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-183" class="srcLine"><span class="nolink" title="Line 183, Col 7: statement executed 10 times.">      newList.add((Long)obj);</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l184">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=184#src-184">184</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-184" class="srcLine">    }    </span></td>
+  </tr>
+            
+
+  <tr id="l185">
+    <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=185#src-185">185</a></td>
+    <td align="right" class="coverageCount Good hitByTest"
+             onclick="return showTestsForLine(this, 185, 'Tests that hit line # 185');"
+       >
+          <span title="Line 185, Col 5: statement executed 2 times." class="nolink">&nbsp;2</span>
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-185" class="srcLine"><span class="nolink" title="Line 185, Col 5: statement executed 2 times.">    <span class="keyword">return</span> newList;</span>    </span></td>
+  </tr>
+            
+
+  <tr id="l186">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=186#src-186">186</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-186" class="srcLine">  }    </span></td>
+  </tr>
+            
+
+  <tr id="l187">
+    <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=187#src-187">187</a></td>
+    <td align="right" class="coverageCount NoHilight "
+              >
+          &nbsp;&nbsp;
+    
+    </td>
+    <td class="  srcCell"  >
+      <span class="spacer"></span><span id="src-187" class="srcLine">}    </span></td>
+  </tr>
+  </tbody>
+</table>
+<table width="100%"><tr><td class="hbreak" colspan="8">&nbsp;</td></tr>
+<tr><td class="footer" colspan="8">
+<table>
+<tr>
+ <td><a target="_new" href="http://www.atlassian.com/software/clover"><img alt="Clover" src="../../../../../img/logo.gif" style="border:none"/></a></td><td style="white-space:nowrap;"><i>Report generated by </i>Clover <a target="_new" href="http://www.atlassian.com/software/clover">Code Coverage</a> v3.3.0<i><br/>Fri May 1 2015 19:17:23 CDT</i>.</td>
+<td>&nbsp;</td><td style="BORDER-LEFT: #9c9c9c 1px solid;">&nbsp;</td><td>Clover: Commercial License registered to Cerner Corporation. </td>
+</tr>
+</table>
+</td>
+</tr></table>
+<script type="text/javascript">
+    var ol_bgclass = "overBG";
+    var ol_fgclass = "overFG";
+    var ol_cgclass = "overCaption";
+    var ol_captionfontclass= "overCaption";
+    var ol_closefontclass = "closeFont";
+    var ol_closeclick = 1;
+    var ol_close = 'X';
+    var ol_wrap = 1;
+    var rootRelPath = '../../../../../';
+    var testsPerFile = -1;
+</script>
+<script src="BGGGameConverter.js" type="text/javascript"></script>
+<script src="../../../../../help.js" type="text/javascript"></script>
+<script src="../../../../../clover.js" type="text/javascript"></script>
+<script src="../../../../../sorttable.js" type="text/javascript"></script>
+<script src="../../../../../overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+<script src="../../../../../overlibmws_shadow.js" type="text/javascript" ></script>
+<script src="../../../../../utils.js" type="text/javascript"></script>
+</body>
+
+</html>

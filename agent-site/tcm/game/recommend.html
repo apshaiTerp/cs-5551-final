@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      var userName = sessionStorage.getItem("userName");
+      var userRole = sessionStorage.getItem("userRole");
+      var userID   = sessionStorage.getItem("userID");
+
+      if (userName == null) {
+        window.location = "../login.html";
+      }
+      if (userRole != "User") {
+        window.location = "../login.html";
+      }
+      if (userID == null) {
+        window.location = "../login.html";
+      }
+    </script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>Terrapin Collection Manager</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/apshai.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Terrapin Collection Manager</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./collection.html">Collection</a></li>
+            <li class="active"><a>Recommend</a></li>
+            <li><a href="./wishlist.html">Wishlist</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <a href="../index.html" id="logout-button" class="btn btn-success" onclick="logOutFunction()" type="button">Log Out</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-recommend"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">Having a Hard Time Choosing?  Why not ask for help?</h3>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading panel-title" id="rec-heading">Recommendation Criteria
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <span class="input-group-addon" id="basic-addon1">Desired Player Count</span>
+                <input type="text" id="player-input" class="form-control" placeholder="Number of Players" aria-describedby="basic-addon1">
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <span class="input-group-addon" id="basic-addon2">Desired Game Length</span>
+                <input type="text" id="length-input" class="form-control" placeholder="Game Length in Minutes" aria-describedby="basic-addon2">
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <span class="input-group-addon" id="basic-addon3">Number of Recommendations</span>
+                <input type="text" id="num-input" class="form-control" placeholder="Number of Recommendations" aria-describedby="basic-addon3">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <span class="input-group-addon" id="basic-addon4">Desired Game Weight</span>
+                <select id="weight-select" class="form-control" aria-describedby="basic-addon4"> 
+                  <option value="Any">Any</option>
+                  <option value="Children">Children</option>
+                  <option value="Filler">Filler</option>
+                  <option value="Social">Social</option>
+                  <option value="Light">Light</option>
+                  <option value="Family">Family</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Heavy">Heavy</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <span class="input-group-addon" id="basic-addon5">Desired Game Mechanic</span>
+                <select id="mechanic-select" class="form-control" aria-describedby="basic-addon5"> 
+                  <option value="Any">Any</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary btn-pad2" id="search-button" onclick="processRecommendations()">
+                <span class="glyphicon glyphicon-search"></span>Generate Recommendations
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading panel-title" id="rec-heading">Recommended Games
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="thumbnail">
+                  <ul class="list-group" id="collection-list">
+                    <li class="list-group-item">No Games Have Yet Been Recommended</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      
+      function logOutFunction() {
+        sessionStorage.clear();
+        localStorage.clear();
+      };
+
+      function processRecommendations() {
+
+        var playerCount = document.getElementById("player-input").value;
+        var gameLength  = document.getElementById("length-input").value;
+        var recNum      = document.getElementById("num-input").value;
+        var weightValue = document.getElementById("weight-select").value;
+        var mechValue   = document.getElementById("mechanic-select").value;
+
+        if (playerCount == "") {
+          playerCount = "-1";
+        }
+        if (gameLength == "") {
+          gameLength = "-1";
+        }
+        if (recNum == "") {
+          recNum = "-1";
+        }
+
+        if ((playerCount == "-1") && (gameLength == "-1") && (recNum == "-1") && (weightValue == "Any") && (mechValue == "Any")) {
+          alert("Please Choose at least One Parameter to Generate Recommendations!");
+          return;
+        }
+
+        var userID      = sessionStorage.getItem("userID");
+
+        var jsonString = '{ "userID" : ' + userID + ', "playerCount" : ' + playerCount + ', "gameLength" : ' + gameLength + ', "gameWeight" : "' + weightValue + '", "mechanic" : "' + mechValue + '", "recommendNum" : ' + recNum + ' }';
+
+        console.log("JSON: " + jsonString);
+
+        //TODO - DO it here;
+        $.ajax ({
+          type: 'POST',
+          url:  'http://107.188.249.238:8080/ac-games-restservice-spring-1.0/recommend',
+          data: jsonString,
+          contentType: "application/json",
+          dataType: 'json',
+          success: function(data) {
+
+            var masterText = "";
+
+            for (gameLoop = 0; gameLoop < data.length; gameLoop++) {
+              var curItem = data[gameLoop];
+
+              var itemID             = curItem['itemID'];
+              var gameID             = curItem['gameID'];
+              var weights            = curItem['weights'];
+
+              var expansionList      = curItem['expansionList'];
+              var game               = curItem['game'];
+
+              var primaryPub         = game['primaryPublisher'];
+              var gameImage          = game['imageURL']
+              var gameName           = game['name'];
+              var yearPub            = game['yearPublished'];
+              var allExpansionsList  = game['expansionIDs'];
+
+              var actualMinPlayers = curItem['overrideMinPlayers'];
+              if (actualMinPlayers == -1) {
+                actualMinPlayers = game['minPlayers'];
+              }
+              var actualMaxPlayers = curItem['overrideMaxPlayers'];
+              if (actualMaxPlayers == -1) {
+                actualMaxPlayers = game['maxPlayers'];
+              }
+              var playerCountString = "";
+              if (actualMinPlayers == actualMaxPlayers) {
+                playerCountString = "" + actualMinPlayers + " Players";
+              } else {
+                playerCountString = "" + actualMinPlayers + " - " + actualMaxPlayers + " Players";
+              }
+
+              var actualMinTime = curItem['overrideMinTime'];
+              if (actualMinTime == -1) {
+                actualMinTime = game['minPlayingTime'];
+              }
+              var actualMaxTime = curItem['overrideMaxTime'];
+              if (actualMaxTime == -1) {
+                actualMaxTime = game['maxPlayingTime'];
+              }
+              var playTimeString = "";
+              if (actualMinTime == actualMaxTime) {
+                playTimeString = "" + actualMinTime + " Minutes";
+              } else {
+                playTimeString = "" + actualMinTime + " - " + actualMaxTime + " Minutes";
+              }
+
+              //TODO - Something to do with the game weights here
+              var weightText = "";
+              if ((weights != null) && (weights.length > 0)) {
+                weightText = weights[0];
+                for (wLoop = 1; wLoop < weights.length; wLoop++) {
+                  weightText = weightText + ", " + weights[wLoop];
+                }
+              } else {
+                weightText = "No Weights Selected";
+              }
+
+              var headerText = gameName;
+              if ((yearPub != null) && (yearPub != -1)) {
+                headerText = headerText + " (" + yearPub + ")";
+              }
+              if (gameImage == null) {
+                gameImage = 'img/dnf.png';
+              }
+
+              var expansionCountText = "";
+              if (allExpansionsList != null) {
+                expansionCountText = "" + allExpansionsList.length;
+                if ((expansionList != null) && (expansionList.length > 0)) {
+                  expansionCountText = expansionCountText + "  (" + expansionList.length + " Owned)";
+                }
+              } else {
+                expansionCountText = "0";
+              }
+
+              var gameStatBlock = '<div class="col-xs-5">Game ID: ' + gameID + '</div><div class="col-xs-7">Game Publisher: ' + primaryPub + '</div><div class="col-xs-5">Player Count: ' + playerCountString + '</div><div class="col-xs-7">Playing Time: ' + playTimeString + '</div><div class="col-xs-5">Game Weight: ' + weightText + '</div><div class="col-xs-7">Number of Expansions: ' + expansionCountText + '</div>';
+
+              var gameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" src="' + gameImage + '" alt="./img/dnf.png" style="max-height: 100px; max-width: 100px;"/></div><div class="media-body"><h4 class="media-heading">' + headerText + '<a id="view-' + itemID + '-button" class="btn btn-sm btn-primary pull-right" role="button">View Game</a></h4>' + gameStatBlock + '</div></div></li>';
+
+              masterText = masterText + gameText;
+            }//end first for loop
+
+            document.getElementById("collection-list").innerHTML = masterText;
+
+            //Now we have to loop back through each item and it's expansions and plug in the buttons
+            for (gameLoop = 0; gameLoop < data.length; gameLoop++) {
+              var curItem = data[gameLoop];
+
+              var itemID        = curItem['itemID'];
+              var expansionList = curItem['expansionList'];
+
+              //First the view button for this game
+              eval('document.getElementById("view-' + itemID  + '-button").onclick = function() { sessionStorage.setItem("viewItemID", ' + itemID + '); window.location = "./item.html"; };');
+            }
+
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert('An Unknown Error Occured During User Creation.  Please Try Again Later.');
+          }
+        });
+      };
+
+      function populateMechanicSelectFunction() {
+        var userID = sessionStorage.getItem("userID");
+
+        var mechURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/recommend?userid=" + userID + "&mode=mechanics";
+        //var mechURL = "http://localhost:8080/recommend?userid=" + userID + "&mode=mechanics";
+        
+        $.getJSON( mechURL, { format: 'json'})
+            .done(function(data) {
+              var mechList = data['wrapList'];
+
+              var mechText = "";
+              for (mechLoop = 0; mechLoop < mechList.length; mechLoop++) {
+                mechText = mechText + '<option value="' + mechList[mechLoop] + '">' + mechList[mechLoop] + '</option>';
+              }
+              document.getElementById("mechanic-select").innerHTML = mechText;
+            });
+      };
+
+      populateMechanicSelectFunction();
+
+
+    </script>
+  </body>
+</html>

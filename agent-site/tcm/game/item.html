@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      var userName = sessionStorage.getItem("userName");
+      var userRole = sessionStorage.getItem("userRole");
+      var userID   = sessionStorage.getItem("userID");
+
+      if (userName == null) {
+        window.location = "../login.html";
+      }
+      if (userRole != "User") {
+        window.location = "../login.html";
+      }
+      if (userID == null) {
+        window.location = "../login.html";
+      }
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>Terrapin Collection Manager</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/bootstrap-editable.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/apshai.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Terrapin Collection Manager</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./collection.html">Collection</a></li>
+            <li><a href="./recommend.html">Recommend</a></li>
+            <li><a href="./wishlist.html">Wishlist</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <a href="../index.html" id="logout-button" class="btn btn-success" onclick="logOutFunction()" type="button">Log Out</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-game"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">Let's take a look at this Game a little closer</h3>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading panel-title" id="title-heading">Game Name
+            </div>
+          </div>
+          <div class="panel-body">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="panel panel-primary">
+            <div id="game-heading" class="panel-heading">
+              <h4 class="panel-title"><a data-toggle="collapse" data-target="#game-panel" href="#game-panel" class="collapsed">Game Information</a></h4>
+            </div>
+          </div>
+          <div id="game-panel" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <strong>Game ID</strong>
+                        <span class="label label-default label-right" id="gameid-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>BoardGameGeek ID</strong>
+                        <span class="label label-default label-right" id="bggid-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Game Type</strong>
+                        <span class="label label-default label-right" id="type-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Minimum Number of Players</strong>
+                        <a href="#" id="min-player-edit"><span class="label label-default label-right" id="min-player-label">---</span></a>
+                        <br><strong>Maximum Number of Players</strong>
+                        <a href="#" id="max-player-edit"><span class="label label-default label-right" id="max-player-label">---</span></a>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Minimum Playing Time</strong>
+                        <a href="#" id="min-time-edit"><span class="label label-default label-right" id="min-time-label">---</span></a>
+                        <br><strong>Maximum Playing Time</strong>
+                        <a href="#" id="max-time-edit"><span class="label label-default label-right" id="max-time-label">---</span></a>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Game Weights</strong>
+                        <div class="btn-group btn-group-sm pull-right" role="group" aria-label="weight-buttons">
+                          <button type="button" class="btn btn-default" data-toggle="button" id="child-weight">Children</button>
+                          <button type="button" class="btn btn-default" data-toggle="button" id="family-weight">Family</button>
+                          <button type="button" class="btn btn-default" data-toggle="button" id="social-weight">Social</button>
+                          <button type="button" class="btn btn-default" data-toggle="button" id="filler-weight">Filler</button>
+                          <button type="button" class="btn btn-default" data-toggle="button" id="light-weight">Light</button>
+                          <button type="button" class="btn btn-default" data-toggle="button" id="medium-weight">Medium</button>
+                          <button type="button" class="btn btn-default" data-toggle="button" id="heavy-weight">Heavy</button>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Primary Publisher</strong>
+                        <span class="label label-default label-right" id="ppub-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Publishers</strong>
+                        <div class="label label-default label-right" id="pubs-label">---</div>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Designers</strong>
+                        <div class="label label-default label-right" id="des-label">---</div>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Categories</strong>
+                        <span class="label label-default label-right" id="cat-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Mechanisms</strong>
+                        <span class="label label-default label-right" id="mech-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>When did I get this?</strong>
+                        <span class="label label-default label-right" id="date-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Where did I get this?</strong>
+                        <a href="#" id="where-edit"><span class="label label-default label-right" id="where-label">---</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 id="art-heading" class="panel-title"><a data-toggle="collapse" data-target="#art-panel" href="#art-panel" class="collapsed">Game Art</a></h4>
+            </div>
+          </div>
+          <div id="art-panel" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="thumbnail">
+                    <div id="game-image">
+                      <img src="./img/dnf.png" alt="./img/dnf.png" style="max-height: 550px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 id="desc-heading" class="panel-title"><a data-toggle="collapse" data-target="#desc-panel" href="#desc-panel" class="collapsed">Game Description</a></h4>
+            </div>
+          </div>
+          <div id="desc-panel" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item" id="desc-text">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 id="expansion-heading" class="panel-title"><a data-toggle="collapse" data-target="#exp-panel" href="#exp-panel" class="collapsed" id="exp-header-text">Available Expansions</a></h4>
+            </div>
+          </div>
+          <div id="exp-panel" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <ul class="list-group" id="exp-list-area">
+                    <li class="list-group-item">
+
+                      <div class="media">
+                        <div class="media-left">
+                          <img class="media-object" id="thumbnail-image" src="img/question.png" alt="Nope" style="max-height: 64px; max-width: 64px;" />
+                        </div>
+                        <div class="media-body" id="game-body">
+                          <h4 class="media-heading"></h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 id="csi-heading" class="panel-title"><a data-toggle="collapse" data-target="#csi-panel" href="#csi-panel" class="collapsed" id="csi-header-text">CoolStuffInc Price Data</a></h4>
+            </div>
+          </div>
+          <div id="csi-panel" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <ul class="list-group" id="csi-list-area">
+                    <li class="list-group-item">
+
+                      <div class="media">
+                        <div class="media-left">
+                          <img class="media-object" id="thumbnail-image" src="img/question.png" alt="Nope" style="max-height: 64px; max-width: 64px;" />
+                        </div>
+                        <div class="media-body" id="game-body">
+                          <h4 class="media-heading"></h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 id="mm-heading" class="panel-title"><a data-toggle="collapse" data-target="#mm-panel" href="#mm-panel" class="collapsed" id="mm-header-text">MiniatureMarket Price Data</a></h4>
+            </div>
+          </div>
+          <div id="mm-panel" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <ul class="list-group" id="mm-list-area">
+                    <li class="list-group-item">
+
+                      <div class="media">
+                        <div class="media-left">
+                          <img class="media-object" id="thumbnail-image" src="img/question.png" alt="Nope" style="max-height: 64px; max-width: 64px;" />
+                        </div>
+                        <div class="media-body" id="game-body">
+                          <h4 class="media-heading"></h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="simple-remove-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Remove Game Confirmation</h4>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure you want to remove this Game from your collection?</p>
+            <p class="text-warning"><small>This will remove any of your personalized changes to the Game data.</small></p>
+          </div>
+          <div class="model-footer">
+            <button type="button" class="btn btn-default btn-pad pull-right" data-dismiss="modal">
+              <span class="glyphicon glyphicon-ban-circle"></span>Cancel
+            </button>
+            <button type="button" class="btn btn-warning btn-pad pull-right" data-dismiss="modal" id="simple-remove-button" onclick="removeSingleCollectionItemFunction()">
+              <span class="glyphicon glyphicon-screenshot"></span>Remove Game
+            </button>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="base-remove-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Remove Game Confirmation</h4>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure you want to remove this Game from your collection?</p>
+            <p class="text-warning"><small>You own some of the expansions for this game!<br>You can choose how you want to handle this removal:
+              <ul><li class="text-warning">Remove just the selected Game</li><li class="text-warning">Remove the selected Game and all Expansions you own for this game</li></ul>
+              <p class="text-warning">This will remove any of your personalized changes to the Game data.</small></p>
+          </div>
+          <div class="model-footer">
+            <button type="button" class="btn btn-default btn-pad pull-right" data-dismiss="modal">
+              <span class="glyphicon glyphicon-ban-circle"></span>Cancel
+            </button>
+            <button type="button" class="btn btn-warning btn-pad pull-right" data-dismiss="modal" id="base-remove-button" onclick="removeSingleCollectionItemFunction()">
+              <span class="glyphicon glyphicon-screenshot"></span>Remove Game
+            </button>
+            <button type="button" class="btn btn-danger btn-pad pull-right" data-dismiss="modal" id="base-all-button" onclick="removeCollectionItemCascadeFunction()">
+              <span class="glyphicon glyphicon-fire"></span>Remove Game and All Expansions
+            </button>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="success-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Success!</h4>
+          </div>
+          <div class="modal-body">
+            <p>The Requested Game(s) have been removed from your Collection.</p>
+          </div>
+          <div class="model-footer">
+            <button type="button" class="btn btn-success btn-pad pull-right" data-dismiss="modal">
+              <span class="glyphicon glyphicon-thumbs-up"></span>OK
+            </button>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-editable.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      
+      function logOutFunction() {
+        sessionStorage.clear();
+        localStorage.clear();
+      };
+
+      function removeFromCollectionFunction() {
+        $('#simple-remove-modal').modal('show');
+      };
+
+      function removeFromCollectionCheckExpansionsFunction() {
+        var hasExpansions = sessionStorage.getItem("hasExpansions");
+
+        if (hasExpansions == null) {
+          $('#simple-remove-modal').modal('show');
+        } else {
+          $('#base-remove-modal').modal('show');
+        }
+      };
+
+      function removeSingleCollectionItemFunction() {
+        var removeItemID = sessionStorage.getItem("viewItemID");
+        var userID       = sessionStorage.getItem("userID");
+
+        var removeURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/collectionitem?itemid=" + removeItemID + "&userid=" + userID;
+        //var removeURL = "http://localhost:8080/collectionitem?itemid=" + removeItemID + "&userid=" + userID;
+
+        console.log("About the run the following command: " + removeURL);
+        $.ajax ({
+          type: 'DELETE',
+          url: removeURL,
+          success: function(data) {
+            var messageType = data['messageType'];
+            var errorType   = data['errorType'];
+
+            if (messageType == "Operation Successful") {
+              //We can remove these since they're now part of the system
+              sessionStorage.removeItem("overrideMinPlayers");
+              sessionStorage.removeItem("overrideMaxPlayers");
+              sessionStorage.removeItem("overrideMinTime");
+              sessionStorage.removeItem("overrideMaxTime");
+              sessionStorage.removeItem("overrideWhere");
+              sessionStorage.removeItem("removeItemID");
+
+              $('#success-modal').on('hidden.bs.modal', function () {
+                 window.location = "./collection.html";
+              });
+              $('#success-modal').modal('show');
+
+            } else {
+              var errorMessage = data['errorMessage'];
+              alert(errorType + ": " + errorMessage);
+            }
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert('An Unknown Error Occured During Add Task.  Please Try Again Later.');
+          }
+
+        });
+      };
+
+      function removeCollectionItemCascadeFunction() {
+        var removeItemID = sessionStorage.getItem("viewItemID");
+        var userID       = sessionStorage.getItem("userID");
+
+        var removeURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/collectionitem?itemid=" + removeItemID + "&userid=" + userID + "&cascade=yes";
+        //var removeURL = "http://localhost:8080/collectionitem?itemid=" + removeItemID + "&userid=" + userID + "&cascade=yes";
+
+        console.log("About the run the following command: " + removeURL);
+        $.ajax ({
+          type: 'DELETE',
+          url: removeURL,
+          success: function(data) {
+            var messageType = data['messageType'];
+            var errorType   = data['errorType'];
+
+            if (messageType == "Operation Successful") {
+              //We can remove these since they're now part of the system
+              sessionStorage.removeItem("overrideMinPlayers");
+              sessionStorage.removeItem("overrideMaxPlayers");
+              sessionStorage.removeItem("overrideMinTime");
+              sessionStorage.removeItem("overrideMaxTime");
+              sessionStorage.removeItem("overrideWhere");
+              sessionStorage.removeItem("removeItemID");
+
+              $('#success-modal').on('hidden.bs.modal', function () {
+                 window.location = "./collection.html";
+              });
+              $('#success-modal').modal('show');
+
+            } else {
+              var errorMessage = data['errorMessage'];
+              alert(errorType + ": " + errorMessage);
+            }
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert('An Unknown Error Occured During Add Task.  Please Try Again Later.');
+          }
+
+        });
+      };
+
+      function updateItemFunction() {
+        var overrideMinPlayers = sessionStorage.getItem("overrideMinPlayers");
+        var overrideMaxPlayers = sessionStorage.getItem("overrideMaxPlayers");
+        var overrideMinTime    = sessionStorage.getItem("overrideMinTime");
+        var overrideMaxTime    = sessionStorage.getItem("overrideMaxTime");
+        var overrideWhere      = sessionStorage.getItem("overrideWhere");
+
+        var updateJSON    = "";
+        if (overrideMinPlayers != null) {
+          updateJSON = '{ "overrideMinPlayers" : "' + overrideMinPlayers + '"';
+        }
+        if (overrideMaxPlayers != null) {
+          if (updateJSON.length == 0) {
+            updateJSON = '{ "overrideMaxPlayers" : "' + overrideMaxPlayers + '"';
+          } else {
+            updateJSON = updateJSON + ' , "overrideMaxPlayers" : "' + overrideMaxPlayers + '"';
+          }
+        }
+        if (overrideMinTime != null) {
+          if (updateJSON.length == 0) {
+            updateJSON = '{ "overrideMinTime" : "' + overrideMinTime + '"';
+          } else {
+            updateJSON = updateJSON + ' , "overrideMinTime" : "' + overrideMinTime + '"';
+          }
+        }
+        if (overrideMaxTime != null) {
+          if (updateJSON.length == 0) {
+            updateJSON = '{ "overrideMaxTime" : "' + overrideMaxTime + '"';
+          } else {
+            updateJSON = updateJSON + ' , "overrideMaxTime" : "' + overrideMaxTime + '"';
+          }
+        }
+        if (overrideWhere != null) {
+          if (updateJSON.length == 0) {
+            updateJSON = '{ "overrideWhere" : "' + overrideWhere + '"';
+          } else {
+            updateJSON = updateJSON + ' , "overrideWhere" : "' + overrideWhere + '"';
+          }
+        }
+
+        var weightValues = "";
+        if ($("#child-weight").hasClass("active")) {
+          weightValues = '"CHILDREN"';
+        }
+        if ($("#family-weight").hasClass("active")) {
+          if (weightValues.length == 0) {
+            weightValues = '"FAMILY"';
+          } else {
+            weightValues = weightValues + ',"FAMILY"';
+          }
+        }
+        if ($("#social-weight").hasClass("active")) {
+          if (weightValues.length == 0) {
+            weightValues = '"SOCIAL"';
+          } else {
+            weightValues = weightValues + ',"SOCIAL"';
+          }
+        }
+        if ($("#filler-weight").hasClass("active")) {
+          if (weightValues.length == 0) {
+            weightValues = '"FILLER"';
+          } else {
+            weightValues = weightValues + ',"FILLER"';
+          }
+        }
+        if ($("#light-weight").hasClass("active")) {
+          if (weightValues.length == 0) {
+            weightValues = '"LIGHT"';
+          } else {
+            weightValues = weightValues + ',"LIGHT"';
+          }
+        }
+        if ($("#medium-weight").hasClass("active")) {
+          if (weightValues.length == 0) {
+            weightValues = '"MEDIUM"';
+          } else {
+            weightValues = weightValues + ',"MEDIUM"';
+          }
+        }
+        if ($("#heavy-weight").hasClass("active")) {
+          if (weightValues.length == 0) {
+            weightValues = '"HEAVY"';
+          } else {
+            weightValues = weightValues + ',"HEAVY"';
+          }
+        }
+
+        if (weightValues.length > 0) {
+          if (updateJSON.length == 0) {
+            updateJSON = '{ "gameWeights" : [' + weightValues + '] }';
+          } else {
+            updateJSON = updateJSON + ' , "gameWeights" : [' + weightValues + '] }';
+          }
+        } else {
+          if (updateJSON.length > 0) {
+            updateJSON = updateJSON + ' , "gameWeights" : [] }';
+          }
+        }
+
+        if (updateJSON.length > 0) {
+          var itemID       = sessionStorage.getItem("viewItemID");
+          var collectionID = sessionStorage.getItem("collectionID");
+
+          var updateItemURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/collectionitem?itemid=" + itemID + "&collectionid=" + collectionID;
+          //var updateItemURL = "http://localhost:8080/collectionitem?itemid=" + itemID + "&collectionid=" + collectionID;
+
+          console.log("The URL we are about to PUT to: " + updateItemURL);
+          console.log("The JSON String would be: " + updateJSON);
+
+          $.ajax ({
+            type: 'PUT',
+            url: updateItemURL,
+            data: updateJSON,
+            contentType: "application/json",
+            dataType: 'json',
+            success: function(data) {
+              var messageType = data['messageType'];
+              var errorType   = data['errorType'];
+
+              if (messageType == "Operation Successful") {
+                var message = data['message'];
+
+                //We can remove these since they're now part of the system
+                sessionStorage.removeItem("overrideMinPlayers");
+                sessionStorage.removeItem("overrideMaxPlayers");
+                sessionStorage.removeItem("overrideMinTime");
+                sessionStorage.removeItem("overrideMaxTime");
+                sessionStorage.removeItem("overrideWhere");
+                sessionStorage.removeItem("removeItemID");
+
+                alert(message);
+              } else {
+                var errorMessage = data['errorMessage'];
+                alert(errorType + ": " + errorMessage);
+              }
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              alert('An Unknown Error Occured During Add Task.  Please Try Again Later.');
+            }
+
+          });
+
+        } 
+      }
+
+      function populateGameFieldsFunction() {
+        var itemID = sessionStorage.getItem("viewItemID");
+        if (itemID == null) {
+          console.log("I had no itemID.");
+          return;
+        }
+
+        sessionStorage.removeItem("overrideMinPlayers");
+        sessionStorage.removeItem("overrideMaxPlayers");
+        sessionStorage.removeItem("overrideMinTime");
+        sessionStorage.removeItem("overrideMaxTime");
+        sessionStorage.removeItem("overrideWhere");
+        sessionStorage.removeItem("hasExpansions");
+
+        var gameURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/collectionitem?itemid=" + itemID;
+        $.getJSON( gameURL, { format: 'json'} )
+            .done(function(data) {
+              var gameData   = data['game'];
+              var gameID     = data['gameID'];
+
+              var overrideMinPlayers = data['overrideMinPlayers'];
+              var overrideMaxPlayers = data['overrideMaxPlayers'];
+              var overrideMinTime    = data['overrideMinTime'];
+              var overrideMaxTime    = data['overrideMaxTime'];
+
+              var dateAcquiredMillis = data['dateAcquired'];
+              var whereAcquired      = data['whereAcquired'];
+
+              var gameWeights        = data['weights'];
+
+              var name       = gameData['name'];
+              var yearPub    = gameData['yearPublished'];
+              var bggID      = gameData['bggID'];
+              var primaryPub = gameData['primaryPublisher'];
+              var type       = gameData['gameType'];
+              var minPlayers = gameData['minPlayers'];
+              var maxPlayers = gameData['maxPlayers'];
+              var minTime    = gameData['minPlayingTime'];
+              var maxTime    = gameData['maxPlayingTime'];
+              var publishers = gameData['publishers'];
+              var designers  = gameData['designers'];
+              var categories = gameData['categories'];
+              var mechanisms = gameData['mechanisms'];
+
+              var gameImage  = gameData['imageURL'];
+
+              var gameDesc   = gameData['description'];
+
+              var parentGame = gameData['parentGameID'];
+              var expansions = gameData['expansionIDs'];
+
+              var removeFunctionText = "removeFromCollectionFunction";
+              if ((type == "BASE") || (type == "COLLECTIBLE")) {
+                removeFunctionText = "removeFromCollectionCheckExpansionsFunction";
+              }
+
+              if ((yearPub == null) || (yearPub == -1)) {
+                var titleHeader = name + '<a id="add-button" class="btn btn-sm btn-primary pull-right" onclick="' + removeFunctionText + '()" role="button">Remove from Collection</a> <a id="update-button" class="btn btn-sm btn-primary pull-right" onclick="updateItemFunction()" role="button">Save Updates</a>';
+                document.getElementById("title-heading").innerHTML = titleHeader;
+              } else {
+                var titleHeader = name + " (" + yearPub + ")" + '<a id="add-button" class="btn btn-sm btn-primary pull-right" onclick="' + removeFunctionText + '()" role="button">Remove from Collection</a> <a id="update-button" class="btn btn-sm btn-primary pull-right" onclick="updateItemFunction()" role="button">Save Updates</a>';
+                document.getElementById("title-heading").innerHTML = titleHeader;
+              }
+
+              document.getElementById("gameid-label").innerHTML = gameID;
+              document.getElementById("bggid-label").innerHTML  = bggID;
+              document.getElementById("ppub-label").innerHTML   = primaryPub;
+              document.getElementById("type-label").innerHTML   = type;
+
+              if (overrideMinPlayers > 0) {
+                document.getElementById("min-player-label").innerHTML = "" + overrideMinPlayers + ' Players';
+              } else {
+                document.getElementById("min-player-label").innerHTML = "" + minPlayers + ' Players';
+              }
+              if (overrideMaxPlayers > 0) {
+                document.getElementById("max-player-label").innerHTML = "" + overrideMaxPlayers + ' Players';
+              } else {
+                document.getElementById("max-player-label").innerHTML = "" + maxPlayers + ' Players';
+              }
+
+              if (overrideMinTime > 0) {
+                document.getElementById("min-time-label").innerHTML = "" + overrideMinTime + ' Minutes';
+              } else {
+                document.getElementById("min-time-label").innerHTML = "" + minTime + ' Minutes';
+              }
+              if (overrideMaxTime > 0) {
+                document.getElementById("max-time-label").innerHTML = "" + overrideMaxTime + ' Minutes';
+              } else {
+                document.getElementById("max-time-label").innerHTML = "" + maxTime + ' Minutes';
+              }
+
+              $("#child-weight").removeClass('active');
+              $("#family-weight").removeClass('active');
+              $("#social-weight").removeClass('active');
+              $("#filler-weight").removeClass('active');
+              $("#light-weight").removeClass('active');
+              $("#medium-weight").removeClass('active');
+              $("#heavy-weight").removeClass('active');
+
+              if (gameWeights.length > 0) {
+                for(weightLoop = 0; weightLoop < gameWeights.length; weightLoop++) {
+                  var weight = gameWeights[weightLoop];
+                  if (weight == "CHILDREN") {
+                    $("#child-weight").addClass('active');
+                  } else if (weight == "FAMILY") {
+                    $("#family-weight").addClass('active');
+                  } else if (weight == "SOCIAL") {
+                    $("#social-weight").addClass('active');
+                  } else if (weight == "FILLER") {
+                    $("#filler-weight").addClass('active');
+                  } else if (weight == "LIGHT") {
+                    $("#light-weight").addClass('active');
+                  } else if (weight == "MEDIUM") {
+                    $("#medium-weight").addClass('active');
+                  } else if (weight == "HEAVY") {
+                    $("#heavy-weight").addClass('active');
+                  }
+                }
+              }
+
+              var designerText = "";
+              if (designers.length == 0) {
+                designerText = "---";
+              } else {
+                if (designers.length == 1) {
+                  designerText = designers[0];
+                } else {
+                  designerText = designers[0] + ', ';
+                }
+                for (var pos = 1; pos < designers.length; pos++) {
+                  designerText = designerText + designers[pos];
+                  if (pos < (designers.length - 1)) {
+                    designerText = designerText + ", ";
+                  }
+                  if (((pos % 2) == 1) && (pos < (designers.length - 1))) {
+                    designerText = designerText + "<br>";
+                  }
+                }
+              }
+
+              var publisherText = "";
+              if (publishers.length < 1) {
+                publisherText = "---";
+              } else {
+                if (publishers.length == 1) {
+                  publisherText = publishers[0];
+                } else {
+                  publisherText = publishers[0] + ', ';
+                }
+                for (var pos2 = 1; pos2 < publishers.length; pos2++) {
+                  publisherText = publisherText + publishers[pos2];
+                  if (pos2 < (publishers.length - 1)) {
+                    publisherText = publisherText + ", ";
+                  }
+                  if (((pos2 % 2) == 1) && (pos2 < (publishers.length - 1))) {
+                    publisherText = publisherText + "<br>";
+                  }
+                }
+              }
+
+              var categoryText = "";
+              if (categories.length == 0) {
+                categoryText = "---";
+              } else {
+                if (categories.length == 1) {
+                  categoryText = categories[0];
+                } else {
+                  categoryText = categories[0] + ', ';
+                }
+                for (var pos = 1; pos < categories.length; pos++) {
+                  categoryText = categoryText + categories[pos];
+                  if (pos < (categories.length - 1)) {
+                    categoryText = categoryText + ", ";
+                  }
+                  if (((pos % 2) == 1) && (pos < (categories.length - 1))) {
+                    categoryText = categoryText + "<br>";
+                  }
+                }
+              }
+
+              var mechanismText = "";
+              if (mechanisms.length < 1) {
+                mechanismText = "---";
+              } else {
+                if (mechanisms.length == 1) {
+                  mechanismText = mechanisms[0];
+                } else {
+                  mechanismText = mechanisms[0] + ', ';
+                }
+                for (var pos2 = 1; pos2 < mechanisms.length; pos2++) {
+                  mechanismText = mechanismText + mechanisms[pos2];
+                  if (pos2 < (mechanisms.length - 1)) {
+                    mechanismText = mechanismText + ", ";
+                  }
+                  if (((pos2 % 2) == 1) && (pos2 < (mechanisms.length - 1))) {
+                    mechanismText = mechanismText + "<br>";
+                  }
+                }
+              }
+
+              document.getElementById("pubs-label").innerHTML = publisherText;
+              document.getElementById("des-label").innerHTML  = designerText;
+              document.getElementById("cat-label").innerHTML  = categoryText;
+              document.getElementById("mech-label").innerHTML = mechanismText;
+
+
+              var dateAcquired = new Date(dateAcquiredMillis);
+              var monthNames  = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+              var dateString = "" + monthNames[dateAcquired.getMonth()] + " " + dateAcquired.getDate() + ", " + dateAcquired.getFullYear();
+
+              document.getElementById("date-label").innerHTML  = dateString;
+              if (whereAcquired == "") {
+                document.getElementById("where-label").innerHTML = "Unknown";
+              } else {
+                document.getElementById("where-label").innerHTML = whereAcquired;
+              }
+
+              if (gameImage == null) {
+                document.getElementById("game-image").innerHTML = '<img src="./img/dnf.png" alt="No Image Found for this Game" style="zoom: 2;">';
+              } else {
+                document.getElementById("game-image").innerHTML = '<img src="' + gameImage + '" alt="./img/dnf.png" style="zoom: 2;">';
+              }
+
+              gameDesc = gameDesc.replace("\n", "<br>");
+              document.getElementById("desc-text").innerHTML = gameDesc;
+
+              //Handle the Flex for Expansion or Base
+              if (type == "EXPANSION") {
+                document.getElementById("exp-header-text").innerHTML = "Parent Game";
+
+                if (parentGame == -1) {
+                  document.getElementById("exp-list-area").innerHTML = '<li class="list-group-item">Unable to link to Parent Game</li>'
+                } else {
+                  var userID = sessionStorage.getItem("userID");
+
+                  var parentURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=item&value=<" + parentGame + ">&userid=" + userID;
+                  //var parentURL = "http://localhost:8080/auto?source=game&value=<" + parentGame + ">&userid=" + userID;
+
+                  console.log("parentURL: " + parentURL);
+
+                  $.getJSON( parentURL, { format: 'json'} )
+                      .done(function(data) {
+
+                        var ownedExp = data['ownedItems'];
+                        var otherExp = data['otherGames'];
+
+                        if (ownedExp.length > 0) {
+                          //We own the parent game
+                          var parentData      = ownedExp[0];
+
+                          var parentGameID    = parentData['sourceID'];
+                          var parentGameThumb = parentData['thumbnailURL'];
+                          var parentDisplay   = parentData['displayString'];
+                          var parentGameText  = parentData['sourceField'];
+
+                          if (parentGameThumb == null) {
+                            parentGameThumb = 'img/question.png';
+                          }
+
+                          //Note:  Somewhere in here we need to add a button as well.
+                          var parentGameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + parentGameThumb + '" alt="./img/question.png" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + parentDisplay + '<a id="vparent-button" class="btn btn-sm btn-primary pull-right" role="button">View Game</a></h4>' + parentGameText + '</div></div></li>';
+
+                          document.getElementById("exp-list-area").innerHTML = parentGameText;
+
+                          document.getElementById("vparent-button").onclick = function() {
+                            sessionStorage.setItem("viewItemID", parentGameID);
+                            populateGameFieldsFunction();
+                          };
+
+                        } else {
+                          //We don't own the parent game.  A little strange, but there could be a reason for this
+                          var parentData      = otherExp[0];
+
+                          var parentGameID    = parentData['sourceID'];
+                          var parentGameThumb = parentData['thumbnailURL'];
+                          var parentDisplay   = parentData['displayString'];
+
+                          if (parentGameThumb == null) {
+                            parentGameThumb = 'img/question.png';
+                          }
+
+                          //Note:  Somewhere in here we need to add a button as well.
+                          var parentGameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + parentGameThumb + '" alt="./img/question.png" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + parentDisplay + '<a id="vparent-button" class="btn btn-sm btn-primary pull-right" role="button">View Game</a></h4>Game ID: ' + parentGameID + '</div></div></li>';
+
+                          document.getElementById("exp-list-area").innerHTML = parentGameText;
+
+                          document.getElementById("vparent-button").onclick = function() {
+                            sessionStorage.setItem("searchGameID", parentGameID);
+                            window.location = "./game.html";
+                          };
+                        }
+                      });
+                }
+              } else {
+                //This is not an expansion, it's a BASE or COLLECTIBLE game...
+                if (expansions == null) {
+                  document.getElementById("exp-header-text").innerHTML = "Game Expansions (0)";
+                  document.getElementById("exp-list-area").innerHTML = '<li class="list-group-item">There are no expansions for this game.</li>'
+                } else if (expansions.length == 0) {
+                  document.getElementById("exp-header-text").innerHTML = "Game Expansions (0)";
+                  document.getElementById("exp-list-area").innerHTML = '<li class="list-group-item">There are no expansions for this game.</li>'
+                } else {
+                  document.getElementById("exp-header-text").innerHTML = "Game Expansions (" + expansions.length + ")";
+
+                  //We have at least one expansion, we now have to render it
+                  //First we need to build a string to submit for our call.
+                  var expIDString = "<" + expansions[0];
+
+                  for (expLoop = 1; expLoop < expansions.length; expLoop++) {
+                    expIDString = expIDString + "," + expansions[expLoop];
+                  }
+                  expIDString = expIDString + ">";
+
+                  //console.log("The expIDString I want to look up is: " + expIDString);
+
+                  var userID = sessionStorage.getItem("userID");
+
+                  var expURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=item&value=" + expIDString + "&userid=" + userID;
+                  //var expURL = "http://localhost:8080/auto?source=item&value=<" + expIDString + ">&userid=" + userID;
+
+                  console.log("expURL: " + expURL);
+
+                  $.getJSON( expURL, { format: 'json'} )
+                      .done(function(data) {
+
+                        var ownedExp = data['ownedItems'];
+                        var otherExp = data['otherGames'];
+
+                        var masterText = "";
+
+                        //Needed to correctly validate the remove options
+                        if (ownedExp.length > 0) {
+                          sessionStorage.setItem("hasExpansions", true);
+                        }
+
+                        //Process all the owned Games first
+                        for (expLoop = 0; expLoop < ownedExp.length; expLoop++) {
+                          var curExp = ownedExp[expLoop];
+
+                          //Store the object in memory to retrieve later
+                          var expGameID    = curExp['sourceID'];
+                          var expGameThumb = curExp['thumbnailURL'];
+                          var expDisplay   = curExp['displayString'];
+                          var expGameText  = curExp['sourceField'];
+
+                          if (expGameThumb == null) {
+                            expGameThumb = 'img/question.png';
+                          }
+
+                          //Note:  Somewhere in here we need to add a button as well.
+                          var expGameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + expGameThumb + '" alt="./img/question.png" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + expDisplay + '<a id="item-' + expGameID + '-button" class="btn btn-sm btn-primary pull-right" role="button">View Game</a></h4>' + expGameText + '</div></div></li>';
+
+                          masterText = masterText + expGameText;
+                        }
+
+                        //Now process all the other expansions
+                        for (expLoop = 0; expLoop < otherExp.length; expLoop++) {
+                          var curExp = otherExp[expLoop];
+
+                          //Store the object in memory to retrieve later
+                          var expGameID    = curExp['sourceID'];
+                          var expGameThumb = curExp['thumbnailURL'];
+                          var expDisplay   = curExp['displayString'];
+
+                          if (expGameThumb == null) {
+                            expGameThumb = 'img/question.png';
+                          }
+
+                          //Note:  Somewhere in here we need to add a button as well.
+                          var expGameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + expGameThumb + '" alt="./img/question.png" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + expDisplay + '<a id="game-' + expGameID + '-button" class="btn btn-sm btn-primary pull-right" role="button">View Game</a></h4>Game ID: ' + expGameID + '</div></div></li>';
+
+                          masterText = masterText + expGameText;
+                        }
+
+                        document.getElementById("exp-list-area").innerHTML = masterText;  
+
+                        //Now we need to loop back through and create button onclick functions for each element
+                        for (expLoop = 0; expLoop < ownedExp.length; expLoop++) {
+                          var curExp = ownedExp[expLoop];
+
+                          var expItemID  = curExp['sourceID'];
+
+                          eval('document.getElementById("item-' + expItemID  + '-button").onclick = function() { sessionStorage.setItem("viewItemID", ' + expItemID + '); populateGameFieldsFunction(); };');
+                        }
+                        //Now we need to loop back through and create button onclick functions for each element
+                        for (expLoop = 0; expLoop < otherExp.length; expLoop++) {
+                          var curExp = otherExp[expLoop];
+
+                          var expGameID  = curExp['sourceID'];
+
+                          eval('document.getElementById("game-' + expGameID  + '-button").onclick = function() { sessionStorage.setItem("searchGameID", ' + expGameID + '); window.location = "./game.html"; };');
+                        }
+                      });
+                }//end else we have at least one expansion
+              }
+
+                            //Now we need to call out and get the price data
+              var csiPriceURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/gamereltn?gameid=" + gameID + "&vendor=csi";
+              //var csiPriceURL = "http://localhost:8080/ac-games-restservice-spring-1.0/gamereltn?gameid=" + gameID + "&vendor=csi";
+
+              $.getJSON( csiPriceURL, { format: 'json'} )
+                  .done(function(data) {
+
+                    if ((data != null) && (data.length > 0)) {
+                      var csiText = "";
+
+                      for (csiLoop = 0; csiLoop < data.length; csiLoop++) {
+                        var csiData = data[csiLoop];
+
+                        var csiTitle = csiData['titleDisplay'];
+                        var csiPrice = csiData['priceDisplay'];
+                        var csiLink  = csiData['linkURL'];
+                        var csiThumb = csiData['thumbnailURL'];
+
+                        if (csiThumb == null) {
+                          csiThumb = './img/question.png';
+                        }
+
+                        var csiGameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + csiThumb + '" onerror="imgError(this);" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + csiTitle + '<a id="csi-' + csiLoop + '-button" class="btn btn-sm btn-primary pull-right" role="button">View at CoolStuffInc</a></h4>' + csiPrice + '</div></div></li>';
+
+                        csiText = csiText + csiGameText;
+                      }
+
+                      document.getElementById("csi-list-area").innerHTML = csiText;                        
+
+                      //Now we need to turn on the buttons
+                      for (csiLoop = 0; csiLoop < data.length; csiLoop++) {
+                        var csiData = data[csiLoop];
+
+                        var csiLink  = csiData['linkURL'];
+
+                        eval('document.getElementById("csi-' + csiLoop  + '-button").onclick = function() { window.open("' + csiLink + '"); };');
+                      }
+                    } else {
+                      document.getElementById("csi-list-area").innerHTML = '<li class="list-group-item">No CoolStuffInc Titles have been linked to this Game</li>';
+                    }
+                  });
+
+              var mmPriceURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/gamereltn?gameid=" + gameID + "&vendor=mm";
+              //var mmPriceURL = "http://localhost:8080/ac-games-restservice-spring-1.0/gamereltn?gameid=" + gameID + "&vendor=mm";
+
+              $.getJSON( mmPriceURL, { format: 'json'} )
+                  .done(function(data) {
+
+                    if ((data != null) && (data.length > 0)) {
+                      var mmText = "";
+
+                      for (mmLoop = 0; mmLoop < data.length; mmLoop++) {
+                        var mmData = data[mmLoop];
+
+                        var mmTitle = mmData['titleDisplay'];
+                        var mmPrice = mmData['priceDisplay'];
+                        var mmLink  = mmData['linkURL'];
+                        var mmThumb = mmData['thumbnailURL'];
+
+                        if (mmThumb == null) {
+                          mmThumb = './img/question.png';
+                        }
+
+                        var mmGameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + mmThumb + '" onerror="imgError(this);" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + mmTitle + '<a id="mm-' + mmLoop + '-button" class="btn btn-sm btn-primary pull-right" role="button">View at MinatureMarket</a></h4>' + mmPrice + '</div></div></li>';
+
+                        mmText = mmText + mmGameText;
+                      }
+
+                      document.getElementById("mm-list-area").innerHTML = mmText;                        
+
+                      //Now we need to turn on the buttons
+                      for (mmLoop = 0; mmLoop < data.length; mmLoop++) {
+                        var mmData = data[mmLoop];
+
+                        var mmLink  = mmData['linkURL'];
+
+                        eval('document.getElementById("mm-' + mmLoop  + '-button").onclick = function() { window.open("' + mmLink + '"); };');
+                      }
+                    } else {
+                      document.getElementById("mm-list-area").innerHTML = '<li class="list-group-item">No MiniatureMarket Titles have been linked to this Game</li>';
+                    }
+                  });
+
+            }); //End Json call
+      }
+
+      populateGameFieldsFunction();
+
+      function setupEditableFields() {
+        //make status editable
+        $('#min-player-edit').editable({
+            title: 'Update Minimum Player Count',
+            placement: 'right',
+            mode: 'inline',
+            display: false,
+            success: function(response, newValue) {
+              console.log("I did some stuff: " + newValue);
+              document.getElementById("min-player-label").innerHTML = newValue;
+              sessionStorage.setItem("overrideMinPlayers", newValue);
+            }
+        });
+        $('#max-player-edit').editable({
+            title: 'Update Maximum Player Count',
+            placement: 'right',
+            mode: 'inline',
+            display: false,
+            success: function(response, newValue) {
+              console.log("I did some stuff: " + newValue);
+              document.getElementById("max-player-label").innerHTML = newValue;
+              sessionStorage.setItem("overrideMaxPlayers", newValue);
+            }
+        });
+
+        $('#min-time-edit').editable({
+            title: 'Update Minimum Playing Time',
+            placement: 'right',
+            mode: 'inline',
+            display: false,
+            success: function(response, newValue) {
+              console.log("I did some stuff: " + newValue);
+              document.getElementById("min-time-label").innerHTML = newValue;
+              sessionStorage.setItem("overrideMinTime", newValue);
+            }
+        });
+        $('#max-time-edit').editable({
+            title: 'Update Minimum Playing Time',
+            placement: 'right',
+            mode: 'inline',
+            display: false,
+            success: function(response, newValue) {
+              console.log("I did some stuff: " + newValue);
+              document.getElementById("max-time-label").innerHTML = newValue;
+              sessionStorage.setItem("overrideMaxTime", newValue);
+            }
+        });
+
+        $('#where-edit').editable({
+            title: 'Update Where You Got This Game',
+            placement: 'right',
+            mode: 'inline',
+            display: false,
+            success: function(response, newValue) {
+              console.log("I did some stuff: " + newValue);
+              document.getElementById("where-label").innerHTML = newValue;
+              sessionStorage.setItem("overrideWhere", newValue);
+            }
+        });
+      };
+
+      setupEditableFields();
+
+    </script>
+  </body>
+</html>

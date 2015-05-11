@@ -1,0 +1,8 @@
+com/ac/games/rest/test/CollectionItemControllerTest.class
+com/ac/games/rest/test/GameControllerTest.class
+com/ac/games/rest/test/BGGControllerTest.class
+com/ac/games/rest/test/MMControllerTest.class
+com/ac/games/rest/test/GameReltnControllerTest.class
+com/ac/games/rest/test/CSIControllerTest.class
+com/ac/games/rest/test/CollectionControllerTest.class
+com/ac/games/rest/test/UserControllerTest.class

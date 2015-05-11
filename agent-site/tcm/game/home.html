@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      var userName = sessionStorage.getItem("userName");
+      var userRole = sessionStorage.getItem("userRole");
+      var userID   = sessionStorage.getItem("userID");
+
+      if (userName == null) {
+        console.log("I hate you");
+        window.location = "../login.html";
+      }
+      if (userRole != "User") {
+        console.log("I hate you more");
+        window.location = "../login.html";
+      }
+      if (userID == null) {
+        console.log("I hate you most");
+        window.location = "../login.html";
+      }
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>Terrapin Collection Manager</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/bootstrap-editable.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/apshai.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Terrapin Collection Manager</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a>Home</a></li>
+            <li><a href="./collection.html">Collection</a></li>
+            <li><a href="./recommend.html">Recommend</a></li>
+            <li><a href="./wishlist.html">Wishlist</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <a href="../index.html" id="logout-button" class="btn btn-success" onclick="logOutFunction()" type="button">Log Out</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-user"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">Welcome to your Game Collection!</h3>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="thumbnail">
+            <div class="input-group col-md-12 col-sm-12 col-xs-12">
+              <input id="game-auto-complete" class="form-control" type="text" placeholder="Search for Game">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button" id="game-search-button" onclick="searchFunction()">Search</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading panel-title" id="collection-heading">Collection Summary
+              <a href="./collection.html" id="view-button" class="btn btn-sm btn-primary pull-right" role="button">View Collection</a>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="thumbnail">
+                  <div>
+                    <label class="label label-primary" id="col-stats-label">Collection Stats</label>
+                  </div>
+                  <div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <strong>Base Games Owned</strong>
+                        <span class="label label-default label-right" id="base-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Expansions Owned</strong>
+                        <span class="label label-default label-right" id="exp-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Collectible Games Owned</strong>
+                        <span class="label label-default label-right" id="ccg-label">---</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="thumbnail">
+                  <div>
+                    <label class="label label-primary" id="col-stats-label">Favorite Game Mechanisms</label>
+                  </div>
+                  <div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <strong>Favorite Mechanism</strong>
+                        <span class="label label-default label-right" id="mech1-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Second Favorite Mechanism</strong>
+                        <span class="label label-default label-right" id="mech2-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Third Favorite Mechanism</strong>
+                        <span class="label label-default label-right" id="mech3-label">---</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="thumbnail">
+                  <div>
+                    <label class="label label-primary" id="col-stats-label">Favorite Game Designers</label>
+                  </div>
+                  <div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <strong>Favorite Designer</strong>
+                        <span class="label label-default label-right" id="des1-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Second Favorite Designer</strong>
+                        <span class="label label-default label-right" id="des2-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Third Favorite Designer</strong>
+                        <span class="label label-default label-right" id="des3-label">---</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="thumbnail">
+                  <div>
+                    <label class="label label-primary" id="col-stats-label">Favorite Game Publishers</label>
+                  </div>
+                  <div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <strong>Favorite Publisher</strong>
+                        <span class="label label-default label-right" id="pub1-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Second Favorite Publisher</strong>
+                        <span class="label label-default label-right" id="pub2-label">---</span>
+                      </li>
+                      <li class="list-group-item">
+                        <strong>Third Favorite Publisher</strong>
+                        <span class="label label-default label-right" id="pub3-label">---</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading panel-title" id="collection-heading">Recently Acquired Games
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="thumbnail">
+                  <ul class="list-group" id="acquire-list">
+                    <li class="list-group-item">
+                      <strong>No Games Were Recently Acquired</strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading panel-title" id="collection-heading">Recently Added Wishlist Games
+              <a href="./wishlist.html" id="wish-button" class="btn btn-sm btn-primary pull-right" role="button">View Wishlist</a>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="thumbnail">
+                  <ul class="list-group" id="wish-list">
+                    <li class="list-group-item">
+                      <strong>No Games Are On the Wishlist</strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading panel-title" id="collection-heading">Last Played Games
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="thumbnail">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <strong>No Games Were Recently Played</strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap-editable.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      
+      function logOutFunction() {
+        sessionStorage.clear();
+        localStorage.clear();
+      };
+
+      function imgError(image) {
+        image.onerror = "";
+        image.src = "./img/question.png";
+        return true;
+      }
+
+      function prePopulateAutoCompleteFields() {
+
+        $('#game-auto-complete').prop('disabled', true);
+        $('#game-search-button').prop('disabled', true);
+
+        var gameSearchURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=game&value=full";
+        //var gameSearchURL = "http://localhost:8080/auto?source=game&value=full";
+
+        //This is the largest, so to avoid running out of memory, put this one in sessionStorage instead of local, 
+        //and we'll have to worry about clearing it out later
+        var testLocal = sessionStorage.getItem("gameAutoCompList");
+        if (testLocal != null) {
+          var testGameLocalArray = JSON.parse(testLocal);
+          //console.log("I already have the Game List: " + testGameLocalArray.length);
+
+          $('#game-auto-complete').autocomplete({
+            source: testGameLocalArray,
+            minLength: 3
+          });
+
+          $('#game-auto-complete').prop('disabled', false);
+          $('#game-auto-complete').on("autocompleteselect", function(event, ui) {
+            var currentItem = ui.item.value;
+
+            //console.log("The value I'm trying to look up is: " + currentItem);
+            
+            //Now we want to do the quick game lookup
+            var gameCompactURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=game&value=" + currentItem;
+            //var gameCompactURL = "http://localhost:8080/auto?source=game&value=" + currentItem;
+
+            console.log("The URL we are about to run is: " + gameCompactURL);
+
+            var doStuff = $.getJSON( gameCompactURL, { format: 'json'} )
+            .done(function(data) {  
+
+              //Store the object in memory to retrieve later
+              var gameID    = data['sourceID'];
+              //var gameThumb = data['thumbnailURL'];
+              //var display   = data['displayString'];
+
+              sessionStorage.setItem("searchGameID", gameID);
+
+              //console.log("The gameID we are allowing the search for: " + gameID);
+
+              $('#game-search-button').prop('disabled', false);
+            })              
+            .fail(function() {
+              alert("I could not find the auto game info!");
+
+              localStorage.removeItem("searchGameID");
+
+              $('#game-search-button').prop('disabled', true);
+            });
+          });
+        } else {
+          for (i = 1; i <= 1; i++) { 
+            //Start with the game list first
+
+            var hasList = sessionStorage.getItem("gameAutoCompList");
+            if (hasList == null) {
+              $.getJSON( gameSearchURL, { format: 'json'})
+                  .done(function(data) {
+                    var tempGameList = data['wrapList'];
+
+                    try {
+                      //console.log("tempGameList.length: " + tempGameList.length);
+                      sessionStorage.setItem("gameAutoCompList", JSON.stringify(tempGameList));
+
+                      $('#game-auto-complete').autocomplete({
+                        source: tempGameList,
+                        minLength: 3
+                      });
+
+                      $('#game-auto-complete').prop('disabled', false);
+                      $('#game-auto-complete').on("autocompleteselect", function(event, ui) {
+                        var currentItem = ui.item.value;
+
+                        //console.log("The value I'm trying to look up is: " + currentItem);
+                        
+                        //Now we want to do the quick game lookup
+                        var gameCompactURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=game&value=" + currentItem;
+                        //var gameCompactURL = "http://localhost:8080/auto?source=game&value=" + currentItem;
+
+                        console.log("The URL we are about to run is: " + gameCompactURL);
+
+                        var doStuff = $.getJSON( gameCompactURL, { format: 'json'} )
+                        .done(function(data) {  
+
+                          //Store the object in memory to retrieve later
+                          var gameID    = data['sourceID'];
+                          //var gameThumb = data['thumbnailURL'];
+                          //var display   = data['displayString'];
+
+                          sessionStorage.setItem("searchGameID", gameID);
+
+                          //console.log("The gameID we are allowing the search for: " + gameID);
+
+                          $('#game-search-button').prop('disabled', false);
+                        })              
+                        .fail(function() {
+                          alert("I could not find the auto game info!");
+
+                          localStorage.removeItem("searchGameID");
+
+                          $('#game-search-button').prop('disabled', true);
+                        });
+                      });
+                    } catch(err) {
+                      console.log("I got an error, this means I have a problem");
+                      console.log("err.message: " + err.message);
+                    }
+                  })
+                  .fail(function() {
+                    console.log("I could not load the Game searchList!");
+                    sessionStorage.removeItem("gameAutoCompList");
+                  });
+            }
+          } 
+
+          //console.log("Finished loading Game Data");
+        }
+
+      };
+
+      prePopulateAutoCompleteFields();
+
+      function searchFunction() {
+        console.log("SEARCH!");
+
+        var searchGameID = sessionStorage.getItem("searchGameID");
+        if (searchGameID == null) {
+          console.log("I could not find the searchGameID");
+          return;
+        }
+
+        //console.log("Routing to search page for gameID " + searchGameID);
+
+        window.location = "./game.html";
+      };
+
+      function getCollectionStatsFunction() {
+        var userID  = sessionStorage.getItem("userID");
+
+        var statURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/stats?type=user&userid=" + userID;
+        //var statURL = "http://localhost:8080/stats?type=user&userid=" + userID;
+        
+        $.getJSON( statURL, { format: 'json'})
+            .done(function(data) {
+              var baseOwned = data['baseOwned'];
+              var expOwned  = data['expOwned'];
+              var colOwned  = data['colOwned'];
+              var mech1     = data['mech1'];
+              var mech2     = data['mech2'];
+              var mech3     = data['mech3'];
+              var des1      = data['des1'];
+              var des2      = data['des2'];
+              var des3      = data['des3'];
+              var pub1      = data['pub1'];
+              var pub2      = data['pub2'];
+              var pub3      = data['pub3'];
+
+              document.getElementById("base-label").innerHTML  = baseOwned;
+              document.getElementById("exp-label").innerHTML   = expOwned;
+              document.getElementById("ccg-label").innerHTML   = colOwned;
+              document.getElementById("mech1-label").innerHTML = mech1;
+              document.getElementById("mech2-label").innerHTML = mech2;
+              document.getElementById("mech3-label").innerHTML = mech3;
+              document.getElementById("des1-label").innerHTML  = des1;
+              document.getElementById("des2-label").innerHTML  = des2;
+              document.getElementById("des3-label").innerHTML  = des3;
+              document.getElementById("pub1-label").innerHTML  = pub1;
+              document.getElementById("pub2-label").innerHTML  = pub2;
+              document.getElementById("pub3-label").innerHTML  = pub3;
+            });
+
+      };
+
+      getCollectionStatsFunction();
+
+      function getTop5GamesFunction() {
+        var collectionID  = sessionStorage.getItem("collectionID");
+
+        var collectURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/collection?collectionid=" + collectionID + "&topx=5";
+        //var collectURL = "http://localhost:8080/collection?collectionid=" + collectionID + "&topx=5";
+
+        $.getJSON( collectURL, { format: 'json'})
+            .done(function(data) {
+              if (data.length == 0) {
+                document.getElementById("acquire-list").innerHTML = '<li class="list-group-item"><strong>No Games Were Recently Acquired</strong></li>';
+              } else {
+                var masterText = "";
+
+                for (gameLoop = 0; gameLoop < data.length; gameLoop++) {
+                  var curGame = data[gameLoop];
+
+                  //Store the object in memory to retrieve later
+                  var recentGameID    = curGame['sourceID'];
+                  var recentGameThumb = curGame['thumbnailURL'];
+                  var recentText      = curGame['sourceField'];
+                  var recentDisplay   = curGame['displayString'];
+
+                  if (recentGameThumb == null) {
+                    recentGameThumb = 'img/question.png';
+                  }
+
+                  //Note:  Somewhere in here we need to add a button as well.
+                  var recentGameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + recentGameThumb + '" onerror="imgError(this);" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + recentDisplay + '</h4>' + recentText + '<a id="' + recentGameID + '-button" class="btn btn-sm btn-primary pull-right" role="button">View Game</a></div></div></li>';
+
+                  masterText = masterText + recentGameText;
+                }
+
+                //console.log("About to add the full masterText block");
+
+                document.getElementById("acquire-list").innerHTML = masterText;                        
+
+                //Now we need to loop back through and create button onclick functions for each element
+                for (gameLoop = 0; gameLoop < data.length; gameLoop++) {
+                  var curGame = data[gameLoop];
+
+                  var recentGameID = curGame['sourceID'];
+
+                  eval('document.getElementById("' + recentGameID  + '-button").onclick = function() { sessionStorage.setItem("viewItemID", ' + recentGameID + '); window.location = "./item.html"; };');
+                }
+              }//end else there are items
+            });
+      };
+
+      getTop5GamesFunction();
+
+      function getTop5WishlistFunction() {
+        var userID  = sessionStorage.getItem("userID");
+
+        var wishURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/wishlist?userid=" + userID + "&display=compact&topx=5";
+        //var collectURL = "http://localhost:8080/wishlist?userid=" + userID + "&display=compact&topx=5";
+
+        $.getJSON( wishURL, { format: 'json'})
+            .done(function(data) {
+              if (data.length == 0) {
+                document.getElementById("wish-list").innerHTML = '<li class="list-group-item"><strong>No Games Are On the Wishlist</strong></li>';
+              } else {
+                var masterText = "";
+
+                for (gameLoop = 0; gameLoop < data.length; gameLoop++) {
+                  var curGame = data[gameLoop];
+
+                  //Store the object in memory to retrieve later
+                  var recentGameID    = curGame['sourceID'];
+                  var recentGameThumb = curGame['thumbnailURL'];
+                  var recentDisplay   = curGame['displayString'];
+
+                  if (recentGameThumb == null) {
+                    recentGameThumb = 'img/question.png';
+                  }
+
+                  //Note:  Somewhere in here we need to add a button as well.
+                  var recentGameText = '<li class="list-group-item"><div class="media"><div class="media-left"><img class="media-object" id="thumbnail-image" src="' + recentGameThumb + '" onerror="imgError(this);" style="max-height: 64px; max-width: 64px;"/></div><div class="media-body"><h4 class="media-heading">' + recentDisplay + '</h4><a id="wish-' + recentGameID + '-button" class="btn btn-sm btn-primary pull-right" role="button">View Game</a>Game ID: ' + recentGameID + '</div></div></li>';
+
+                  masterText = masterText + recentGameText;
+                }
+
+                //console.log("About to add the full masterText block");
+
+                document.getElementById("wish-list").innerHTML = masterText;                        
+
+                //Now we need to loop back through and create button onclick functions for each element
+                for (gameLoop = 0; gameLoop < data.length; gameLoop++) {
+                  var curGame = data[gameLoop];
+
+                  var recentGameID = curGame['sourceID'];
+
+                  eval('document.getElementById("wish-' + recentGameID  + '-button").onclick = function() { sessionStorage.setItem("searchGameID", ' + recentGameID + '); window.location = "./game.html"; };');
+                }
+              }//end else there are items
+            });
+      };
+
+      getTop5WishlistFunction();
+
+    </script>
+  </body>
+</html>

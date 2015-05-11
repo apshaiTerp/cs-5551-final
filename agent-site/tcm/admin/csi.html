@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      var userName = sessionStorage.getItem("userName");
+      var userRole = sessionStorage.getItem("userRole");
+
+      if (userName == null) {
+        window.location = "../login.html";
+      }
+      if (userRole != "Admin") {
+        window.location = "../login.html";
+      }
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>Terrapin Collection Administration</title>
+
+    <!-- External core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/apshai.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Terrapin Collection Administration</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./admin.html">Home</a></li>
+            <li><a href="./bgg.html">BGG</a></li>
+            <li class="active"><a>CSI</a></li>
+            <li><a href="./mm.html">MM</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <a href="../index.html" id="logout-button" class="btn btn-success" onclick="logOutFunction()" type="button">Log Out</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-csi"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">CoolStuffInc.  Cool Stuff, In Stock!  Let's match it up!</h3>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="thumbnail">
+            <div class="input-group col-md-12 col-sm-12 col-xs-12">
+              <input id="csi-auto-complete" class="form-control" type="text" placeholder="Game Title To Review">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button" id="csi-search-button">Load Game for Review</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div id="game-heading" class="panel-heading">---</div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <span class="badge" id="csiid-badge">---</span>
+                        CoolStuffInc ID
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="sku-badge">---</span>
+                        SKU
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="category-badge">---</span>
+                        Product Category
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="publisher-badge">---</span>
+                        Game Publisher
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="availability-badge">---</span>
+                        Game Availability
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="msrp-badge">---</span>
+                        Original MSRP
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="price-badge">---</span>
+                        Current Price
+                      </li>
+                      <li class="list-group-item">
+                        <span class="badge" id="review-badge">---</span>
+                        Review Status
+                      </li>
+                      <li class="list-group-item">
+                        Linked Game
+                        <div class="input-group col-md-12 col-sm-12 col-xs-12">
+                          <input id="game-auto-complete" class="form-control" type="text" placeholder="Game Title To Match">
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <div class="media">
+                          <div class="media-left">
+                            <img class="media-object" id="thumbnail-image" src="img/question.png" alt="Nope" style="max-height: 64px; max-width: 64px;" />
+                          </div>
+                          <div class="media-body" id="game-body">
+                            <h4 class="media-heading"></h4>
+                        </div>
+                      </li>
+                    </ul>
+                    <div>
+                      <button class="btn btn-danger pull-left" type="button" id="rejectButton" onclick="rejectFunction()">Reject This Game</button>
+                      <button class="btn btn-success pull-right" type="button" id="approveButton" onclick="approveFunction()" disabled>Approve This Game</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <div class="thumbnail">
+                    <div id="game-image">
+                      <img src="" alt="No Image Found for this Game">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      
+      function logOutFunction() {
+        localStorage.clear();
+        sessionStorage.clear();
+
+        //Remove all the specific items
+        localStorage.removeItem("bggdata");
+        localStorage.removeItem("bggAutoCompList");
+        localStorage.removeItem("bggAutoCompValue");
+
+        localStorage.removeItem("gameAutoCompList");
+
+        localStorage.removeItem("csidata");
+        localStorage.removeItem("csiGameID");
+        localStorage.removeItem("csiAutoCompList");
+        localStorage.removeItem("csiAutoCompValue");
+
+        localStorage.removeItem("mmdata");
+        localStorage.removeItem("mmGameID");
+        localStorage.removeItem("mmAutoCompList");
+        localStorage.removeItem("mmAutoCompValue");
+      };
+
+      //TODO - Work on this!  And probably the REST call as well
+      function rejectFunction() {
+        var csiDataJSON = localStorage.getItem("csidata");
+        var csiData = JSON.parse(csiDataJSON);
+
+        var csiID = csiData['csiID'];
+        var rejectURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/external/csiid=" + csiID + "&review=reject";
+        //var rejectURL = "http://localhost:8080/external/csidata?csiid=" + csiID + "&review=reject";
+
+        $.ajax({
+          url: rejectURL,
+          type: 'PUT',
+          data: csiDataJSON,
+          dataType: 'json',
+          contentType: 'application/json',
+          success: function (data) {
+            var messageType = data['messageType'];
+            var message     = data['message'];
+
+            if (messageType) {
+              var getNext = populateCSIFields();
+            } else {
+              var errorType    = data['errorType'];
+              var errorMessage = data['errorMessage'];
+
+              alert(errorType + ": " + errorMessage);
+            }
+          },
+          error: function (request, status, error) {
+            alert("Reject Failed: " + request.responseText);
+          }
+        });
+      };
+
+      function approveFunction() {
+        var csiDataJSON = localStorage.getItem("csidata");
+        var csiData     = JSON.parse(csiDataJSON);
+
+        var csiID       = csiData['csiID'];
+        var gameID      = localStorage.getItem("csiGameID");
+
+        var approveURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/external/csidata?csiid=" + csiID + "&review=approve&gameid=" + gameID;
+        //var approveURL = "http://localhost:8080/external/csidata?csiid=" + csiID + "&review=approve&gameid=" + gameID;
+
+        $.ajax({
+          url: approveURL,
+          type: 'PUT',
+          data: csiDataJSON,
+          dataType: 'json',
+          contentType: 'application/json',
+          success: function (data) {
+            var messageType = data['messageType'];
+            var message     = data['message'];
+
+            if (messageType) {
+              var getNext = populateCSIFields();
+            } else {
+              var errorType    = data['errorType'];
+              var errorMessage = data['errorMessage'];
+
+              alert(errorType + ": " + errorMessage);
+            }
+
+          },
+          error: function (request, status, error) {
+            alert("Approve Failed: " + request.responseText);
+          }
+        });
+      };
+
+      function loadGameAutoCompleteValues() {
+        $('#game-auto-complete').prop('disabled', true);
+        var gameAutoCompList = JSON.parse(sessionStorage.getItem("gameAutoCompList"));
+
+        console.log("gameAutoCompList.length: " + gameAutoCompList.length);
+
+        $('#game-auto-complete').autocomplete({
+          source: gameAutoCompList,
+          minLength: 3
+        });
+        $('#game-auto-complete').prop('disabled', false);
+        $('#game-auto-complete').on("autocompleteselect", function(event, ui) {
+
+          console.log("I'm inside the game-auto-complete autocompleteselect method...");
+
+          $('#approveButton').prop('disabled', false);
+
+          var currentItem = ui.item.value;
+
+          console.log("The value I'm trying to look up is: " + currentItem);
+          //Now we want to do the quick game lookup
+          var gameCompactURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=game&value=" + currentItem;
+          //var gameCompactURL = "http://localhost:8080/auto?source=game&value=" + currentItem;
+
+          console.log("The URL we are about to run is: " + gameCompactURL);
+
+          var doStuff = $.getJSON( gameCompactURL, { format: 'json'} )
+          .done(function(data) {  
+
+            console.log("Inside the done function!");
+            
+            //Store the object in memory to retrieve later
+            var gameID    = data['sourceID'];
+            var gameThumb = data['thumbnailURL'];
+            var display   = data['displayString'];
+
+            localStorage.setItem("csiGameID", gameID);
+
+            if (gameThumb != "null") {
+              document.getElementById("thumbnail-image").src = gameThumb;
+            } else {
+              document.getElementById("thumbnail-image").src = "img/question.png";
+            }
+
+            document.getElementById("game-body").innerHTML = '<h4 class="media-heading">' + display + '</h4>Game ID: ' + gameID;
+          })              
+          .fail(function() {
+            alert("I could not find the auto game info!");
+            localStorage.removeItem("csiGameID");
+          });
+        });
+      };
+
+      var buildAutoComplete = loadGameAutoCompleteValues();
+
+      function populateCSIFields() {
+
+        console.log("Inside populateCSIFields!");
+
+        var reviewURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/external/csidata?review=new&source=db";
+        //var reviewURL = "http://localhost:8080/external/csidata?review=new&source=db";
+
+        var doStuff = $.getJSON( reviewURL, { format: 'json'} )
+          .done(function(data) {  
+            //Store the object in memory to retrieve later
+            localStorage.setItem("csidata", JSON.stringify(data));
+
+            var panelHeader      = data['title'];
+            var csiID            = data['csiID'];
+            var sku              = data['sku'];
+            var category         = data['category'];
+            var publisher        = data['publisher'];
+            var availability     = data['availability'];
+            var msrpValue        = data['msrpValue'];
+            var curPrice         = data['curPrice'];
+            var imageURL         = data['imageURL'];
+            var reviewState      = data['reviewState']
+
+            var msrpValueText    = "$" + msrpValue.toFixed(2);
+            var curPriceText     = "$" + curPrice.toFixed(2);
+
+            if (msrpValue < 0) {
+              msrpValueText = "---";
+            }
+            if (curPrice < 0) {
+              curPriceText = "---";
+            }
+
+            document.getElementById("game-heading").innerHTML       = panelHeader;
+            document.getElementById("csiid-badge").innerHTML        = csiID;
+            document.getElementById("sku-badge").innerHTML          = sku;
+            document.getElementById("category-badge").innerHTML     = category;
+            document.getElementById("publisher-badge").innerHTML    = publisher;
+            document.getElementById("availability-badge").innerHTML = availability;
+            document.getElementById("msrp-badge").innerHTML         = msrpValueText;
+            document.getElementById("price-badge").innerHTML        = curPriceText;
+            document.getElementById("review-badge").innerHTML       = reviewState;
+            
+            $('#approveButton').prop('disabled', true);
+            document.getElementById("game-auto-complete").value = '';
+
+            if (imageURL == null) {
+              document.getElementById("game-image").innerHTML = '<img src="./img/dnf.png" alt="No Image Found for this Game">';
+            } else {
+              document.getElementById("game-image").innerHTML = '<img src="' + imageURL + '" alt="No Image Found for this Game">';
+            }
+            //Reset the game snapshot fields
+            document.getElementById("thumbnail-image").src = "img/question.png";
+            document.getElementById("game-body").innerHTML = '<h3 class="media-heading"></h3>';
+        })
+        .fail(function() {
+          alert("I failed while loading the game data!");
+          localStorage.removeItem("csidata");
+        });
+      };
+
+      var doStuff = populateCSIFields();
+
+      function loadCSIAutoCompleteValues() {
+        $('#csi-search-button').prop('disabled', true);
+        $('#csi-auto-complete').prop('disabled', true);
+
+        var csiAutoCompList = JSON.parse(localStorage.getItem("csiAutoCompList"));
+
+        console.log("csiAutoCompList.length: " + csiAutoCompList.length);
+
+        $('#csi-auto-complete').autocomplete({
+          source: csiAutoCompList,
+          minLength: 3
+        });
+        $('#csi-auto-complete').prop('disabled', false);
+        $('#csi-auto-complete').on("autocompleteselect", function(event, ui) {
+          $('#csi-search-button').prop('disabled', false);
+
+          var currentItem = ui.item.value;
+
+          console.log("The value I'm trying to look up is: " + currentItem);
+          
+          localStorage.setItem("csiAutoCompValue", currentItem);
+        });
+      };
+
+      loadCSIAutoCompleteValues();
+
+      document.getElementById("csi-search-button").onclick = function() {
+        var currentItem = localStorage.getItem("csiAutoCompValue");
+        if (typeof currentItem === 'undefined') {
+          console.log("Ignore this event");
+          return;
+        }
+        if (currentItem == null) {
+          console.log("Still Ignore This Event");
+          return;
+        }
+
+        var reviewURL = "http://107.188.249.238:8080/ac-games-restservice-spring-1.0/auto?source=csi&value=" + currentItem;
+        //var reviewURL = "http://localhost:8080/auto?source=csi&value=" + currentItem;
+
+        var doStuff = $.getJSON( reviewURL, { format: 'json'} )
+          .done(function(data) {  
+            //Store the object in memory to retrieve later
+            localStorage.setItem("csidata", JSON.stringify(data));
+
+            var panelHeader      = data['title'];
+            var csiID            = data['csiID'];
+            var sku              = data['sku'];
+            var category         = data['category'];
+            var publisher        = data['publisher'];
+            var availability     = data['availability'];
+            var msrpValue        = data['msrpValue'];
+            var curPrice         = data['curPrice'];
+            var imageURL         = data['imageURL'];
+            var reviewState      = data['reviewState']
+
+            var msrpValueText    = "$" + msrpValue.toFixed(2);
+            var curPriceText     = "$" + curPrice.toFixed(2);
+
+            if (msrpValue < 0) {
+              msrpValueText = "---";
+            }
+            if (curPrice < 0) {
+              curPriceText = "---";
+            }
+
+            document.getElementById("game-heading").innerHTML       = panelHeader;
+            document.getElementById("csiid-badge").innerHTML        = csiID;
+            document.getElementById("sku-badge").innerHTML          = sku;
+            document.getElementById("category-badge").innerHTML     = category;
+            document.getElementById("publisher-badge").innerHTML    = publisher;
+            document.getElementById("availability-badge").innerHTML = availability;
+            document.getElementById("msrp-badge").innerHTML         = msrpValueText;
+            document.getElementById("price-badge").innerHTML        = curPriceText;
+            document.getElementById("review-badge").innerHTML       = reviewState;
+            
+            $('#approveButton').prop('disabled', true);
+            document.getElementById("game-auto-complete").value = '';
+
+            if (imageURL == null) {
+              document.getElementById("game-image").innerHTML = '<img src="./img/dnf.png" alt="No Image Found for this Game">';
+            } else {
+              document.getElementById("game-image").innerHTML = '<img src="' + imageURL + '" alt="No Image Found for this Game">';
+            }
+            //Reset the game snapshot fields
+            document.getElementById("thumbnail-image").src = "img/question.png";
+            document.getElementById("game-body").innerHTML = '<h3 class="media-heading"></h3>';
+        })
+        .fail(function() {
+          alert("I failed while loading the game data!");
+          localStorage.removeItem("csidata");
+        });
+
+      };
+
+    </script>
+  </body>
+</html>

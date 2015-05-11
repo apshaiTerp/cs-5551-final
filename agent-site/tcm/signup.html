@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>New User Registration</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+    <link href="css/apshai.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Terrapin Collection Manager</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-signin"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">Ready to join these new Hatchlings?  Sign Up Below to get Started!</h3>
+      </div>
+    </div>
+
+    <!-- Login Window Block -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <p id="sign-in-text"><strong> Please Input All Fields to Create your Account</strong></p>
+            </div>
+            <div class="panel-body">
+              <form role="form" action="http://localhost:8080/login" method="POST">
+                <fieldset>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-10 col-md-offset-1 ">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-tower"></i>
+                          </span> 
+                          <input class="form-control" id="loginname" placeholder="Username" name="loginname" type="text" autofocus>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                          </span> 
+                          <input class="form-control" id="firstname" placeholder="First Name" name="firstname" type="text">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                          </span> 
+                          <input class="form-control" id="lastname" placeholder="Last Name" name="lastname" type="text">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                          </span> 
+                          <input class="form-control" id="emailaddress" placeholder="Email Address" name="emailaddress" type="text">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-lock"></i>
+                          </span> 
+                          <input class="form-control" id="password1" placeholder="Password" name="password1" type="password" value="">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-lock"></i>
+                          </span>
+                          <input class="form-control" id="password2" placeholder="Confirm Password" name="password2" type="password" value="">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="button" id="create-button" class="btn btn-md btn-primary btn-block" value="Create Account">
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Site footer -->
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+
+      document.getElementById("create-button").onclick = function() {
+        var userName     = document.getElementById("loginname").value;
+        var firstName    = document.getElementById("firstname").value;
+        var lastName     = document.getElementById("lastname").value;
+        var emailAddress = document.getElementById("emailaddress").value;
+        var password1    = document.getElementById("password1").value;
+        var password2    = document.getElementById("password2").value;
+
+        if (userName == "") {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>You must provide a User Name to Sign Up!</span>   Please try again.</strong>';
+          document.getElementById("loginname").focus();
+          return;
+        }
+        if (firstName == "") {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>You must provide a First Name to Sign Up!</span>   Please try again.</strong>';
+          document.getElementById("firstname").focus();
+          return;
+        }
+        if (lastName == "") {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>You must provide a Last Name to Sign Up!</span>   Please try again.</strong>';
+          document.getElementById("lastname").focus();
+          return;
+        }
+        if (emailAddress == "") {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>You must provide an Email Address to Sign Up!</span>   Please try again.</strong>';
+          document.getElementById("emailaddress").focus();
+          return;
+        }
+        if (password1 == "") {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>You must provide a Password to Sign Up!</span>   Please try again.</strong>';
+          document.getElementById("password1").focus();
+          return;
+        }
+        if (password2 == "") {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>You must confirm your Password to Sign Up!</span>   Please try again.</strong>';
+          document.getElementById("password2").focus();
+          return;
+        }
+        if (password1 != password2) {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>Your Passwords do not match!</span>   Please try again.</strong>';
+          document.getElementById("password1").focus();
+          return;
+        }
+
+        //Now we need to run our validation check
+        var jsonBody = '{ "userName" : "' + userName + '", "firstName" : "' + firstName + '", "lastName" : "' + lastName + '", "emailAddress" : "' + emailAddress + '", "password" : "' + password1 + '" }';
+        $.ajax ({
+          type: 'POST',
+          url:  'http://107.188.249.238:8080/ac-games-restservice-spring-1.0/user',
+          data: jsonBody,
+          contentType: "application/json",
+          dataType: 'json',
+          success: function(data) {
+            var messageType = data['messageType'];
+            var errorType   = data['errorType'];
+
+            if (messageType == "Operation Successful") {
+              alert("Success!  Please login to begin using the Terrapin Collection Manager!");
+
+              window.location = "./login.html"
+            } else {
+              var errorMessage = data['errorMessage'];
+              document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>' + errorMessage + '</span>   Please try again.</strong>';
+              document.getElementById("login-name").focus();
+            }
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert('An Unknown Error Occured During User Creation.  Please Try Again Later.');
+          }
+        });
+      };
+
+
+    </script>
+  </body>
+</html>

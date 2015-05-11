@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram creationDate="2015-Feb-25 02:52" filterScript="" licenseGrade="single" licenseeName="Adam_Carter" licenseeOrganization="Personal" version="1.7.17.v20140508-2136">
+        <class className="org.springframework.web.client.HttpClientErrorException" project="ac-games-restservice-spring" xLocation="2364" yLocation="3074"/>
+        <class className="org.springframework.http.MediaType" project="ac-games-restservice-spring" xLocation="2190" yLocation="283"/>
+        <class className="org.springframework.http.HttpHeaders" project="ac-games-restservice-spring" xLocation="3868" yLocation="193"/>
+        <class className="org.springframework.web.client.RestTemplate" project="ac-games-restservice-spring" xLocation="100" yLocation="100"/>
+        <class className="com.ac.games.exception.GameNotFoundException" project="ac-games-agent" xLocation="1428" yLocation="3060"/>
+        <class className="com.ac.games.db.GamesDatabase" project="ac-games-db-mongo" xLocation="794" yLocation="2216"/>
+        <class className="com.ac.games.db.exception.ConfigurationException" project="ac-games-agent" xLocation="1846" yLocation="2736"/>
+        <class className="org.springframework.http.HttpEntity" project="ac-games-restservice-spring" xLocation="3204" yLocation="313"/>
+        <class className="com.ac.games.rest.message.SimpleErrorData" project="ac-games-agent" xLocation="3252" yLocation="1752"/>
+        <class className="org.springframework.web.client.HttpServerErrorException" project="ac-games-restservice-spring" xLocation="1912" yLocation="3067"/>
+        <class className="org.springframework.http.ResponseEntity" project="ac-games-restservice-spring" xLocation="3051" yLocation="813"/>
+        <class className="com.ac.games.db.MongoDBFactory" project="ac-games-restservice-spring" xLocation="764" yLocation="3006"/>
+        <class className="com.ac.games.db.exception.DatabaseOperationException" project="ac-games-agent" xLocation="2384" yLocation="2675"/>
+        <class className="org.springframework.http.HttpMethod" project="ac-games-restservice-spring" xLocation="3389" yLocation="1153"/>
+        <class className="com.ac.games.rest.message.SimpleMessageData" project="ac-games-agent" xLocation="3247" yLocation="2174"/>
+        <class className="com.ac.games.rest.controller.CSIDataController" project="ac-games-restservice-spring" xLocation="2023" yLocation="1923"/>
+        <class className="com.ac.games.data.CoolStuffIncPriceData" project="ac-games-pojos" xLocation="1082" yLocation="276"/>
+        <class className="com.ac.games.data.CSIIDOnlyData" project="ac-games-pojos" xLocation="1684" yLocation="961"/>
+        <class className="com.ac.games.data.parser.CoolStuffIncParser" project="ac-games-pojos" xLocation="1027" yLocation="1480"/>
+    </diagram>
+</ajsv>

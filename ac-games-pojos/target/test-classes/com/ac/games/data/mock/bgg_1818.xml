@@ -1,0 +1,64 @@
+<boardgames termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+					<boardgame objectid="1818" subtypemismatch="true">
+			<yearpublished></yearpublished>
+			<minplayers></minplayers>
+			<maxplayers></maxplayers>
+			<playingtime></playingtime>
+			<minplaytime></minplaytime>
+			<maxplaytime></maxplaytime>
+			<age></age>
+
+							<name primary="true" sortindex="1">Black Ice</name>
+									
+			<description>Black Ice is a two-color set of Icehouse pieces.  It is an expansion to Icehouse: The Martian Chess Set.&lt;br/&gt;&lt;br/&gt;Because Icehouse:tMCS usually gets used for games other than Icehouse, and because many of those games have become increasingly deep, and have begun to require additional colors, Looney Labs released this Black Opaque and Crystal Clear set of 30 more stackable plastic pyramids.  These pieces are equally suitable for playing Icehouse as they are for Zendo, Zarcana, Focus, or any of the other dozens of I:tMCS games designed by the Icehouse fan community.&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic5028_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic5028.jpg</image>
+						
+																			<boardgamedesigner objectid="122">Andrew Looney</boardgamedesigner>
+															<boardgamepublisher objectid="76">Looney Labs</boardgamepublisher>
+																						<boardgameaccessory objectid="19803" inbound="true">Martian Chess</boardgameaccessory>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="+">		
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>15</usersrated>
+					<average>6.82667</average>
+					<bayesaverage>5.99678</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="62" name="boardgameaccessory" friendlyname="Accessory Rank" value="99" bayesaverage="5.99678" />
+												
+											</ranks>
+					
+					<stddev>1.31426</stddev>
+					<median>0</median>
+					<owned>47</owned>
+					<trading>1</trading>
+					<wanting>3</wanting>
+					<wishing>10</wishing>
+					<numcomments>6</numcomments>
+					<numweights>1</numweights>
+					<averageweight>3</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+	</boardgames>

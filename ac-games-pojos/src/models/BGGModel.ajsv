@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram creationDate="2015-Feb-25 12:58" filterScript="" licenseGrade="single" licenseeName="Adam_Carter" licenseeOrganization="Personal" version="1.7.17.v20140508-2136">
+        <class className="com.ac.games.data.BGGGame" project="ac-games-pojos" xLocation="956" yLocation="100"/>
+        <class className="com.ac.games.data.BGGIDOnlyData" project="ac-games-pojos" xLocation="576" yLocation="908"/>
+        <class className="com.ac.games.data.GameTypeConverter" project="ac-games-pojos" xLocation="1559" yLocation="156"/>
+        <class className="com.ac.games.data.ReviewState" project="ac-games-pojos" xLocation="633" yLocation="600"/>
+        <class className="com.ac.games.data.ReviewStateConverter" project="ac-games-pojos" xLocation="100" yLocation="605"/>
+        <class className="com.ac.games.data.parser.BGGGameParser" project="ac-games-pojos" xLocation="1617" yLocation="914"/>
+        <class className="com.ac.games.data.GameType" project="ac-games-pojos" xLocation="1657" yLocation="524"/>
+        <class className="com.ac.games.exception.GameNotFoundException" project="ac-games-pojos" xLocation="1597" yLocation="1241"/>
+    </diagram>
+</ajsv>

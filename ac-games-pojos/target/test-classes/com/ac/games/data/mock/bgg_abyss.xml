@@ -1,0 +1,145 @@
+<boardgames termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+          <boardgame objectid="155987">
+      <yearpublished>2014</yearpublished>
+      <minplayers>2</minplayers>
+      <maxplayers>4</maxplayers>
+      <playingtime>45</playingtime>
+      <minplaytime>45</minplaytime>
+      <maxplaytime>45</maxplaytime>
+      <age>14</age>
+
+              <name primary="true" sortindex="1">Abyss</name>
+                  
+      <description>The Abyss power is once again vacant, so the time has come to get your hands on the throne and its privileges. Use all of your cunning to win or buy votes in the Council. Recruit the most influential Lords and abuse their powers to take control of the most strategic territories. Finally, impose yourself as the only one able to rule the Abyssal people!&lt;br/&gt;&lt;br/&gt;Abyss is a game of development, combination and collection in which players try to take control of strategic locations in an underwater city. To achieve this, players must develop on three levels: first by collecting allies, then using them to recruit Lords of the Abyss, who will then grant access to different parts of the city. Players acquire cards through a draft of sorts, and the Lords of the Abyss acquired on those cards grant special powers to the cardholder &amp;mdash; but once you use the cards to acquire a location, that power is shut off, so players need to time their land grabs well in order to put themselves in the best position for when the game ends.&lt;br/&gt;&lt;br/&gt;</description>
+
+              <thumbnail>//cf.geekdo-images.com/images/pic1965255_t.jpg</thumbnail>
+        <image>//cf.geekdo-images.com/images/pic1965255.jpg</image>
+            
+                        <boardgamepublisher objectid="19260">Bombyx</boardgamepublisher>
+                                                                                                                                                                                                                    <boardgamepublisher objectid="157">Asmodee</boardgamepublisher>
+                              <boardgamepublisher objectid="15889">Asterion Press</boardgamepublisher>
+                              <boardgamemechanic objectid="2012">Auction/Bidding</boardgamemechanic>
+                                            <boardgamecategory objectid="1002">Card Game</boardgamecategory>
+                              <boardgamedesigner objectid="1727">Bruno Cathala</boardgamedesigner>
+                              <boardgamedesigner objectid="34672">Charles Chevallier</boardgamedesigner>
+                              <boardgameartist objectid="41323">Xavier Collette</boardgameartist>
+                                                                                      <boardgameversion objectid="235209">English first edition</boardgameversion>
+                              <boardgamepodcastepisode objectid="128566">Episode 10 - Dead of Winter Interview with Isaac Vega and Jonathan Gilmour</boardgamepodcastepisode>
+                              <boardgamepodcastepisode objectid="127466">Episode 30: Gen Con 2014, Machi Koro and Pandemic: Contagion</boardgamepodcastepisode>
+                              <boardgamepodcastepisode objectid="129787">Episode 33: Zombie 15 and Gaming Groups</boardgamepodcastepisode>
+                              <boardgamepodcastepisode objectid="133265">Episode 37: Abyss and Culling Your Collection</boardgamepodcastepisode>
+                              <boardgamepodcastepisode objectid="125138">Episode 81-- Gen Con 2014 Top 11 to Try and Top 11 to Buy with special gues W. Eric Martin from BGG News</boardgamepodcastepisode>
+                              <boardgamesubdomain objectid="5499">Family Games</boardgamesubdomain>
+                              <boardgameversion objectid="234390">French first edition</boardgameversion>
+                                            <boardgamepodcastepisode objectid="127246">GenCon 2014 - Bruno Cathala</boardgamepodcastepisode>
+                              <boardgamepodcastepisode objectid="127475">GenCon 2014 - Maublanc &amp;amp; Chevallier</boardgamepodcastepisode>
+                              <boardgameversion objectid="246823">German First edition</boardgameversion>
+                                                          <boardgamemechanic objectid="2040">Hand Management</boardgamemechanic>
+                              <boardgameversion objectid="246824">Italian first edition</boardgameversion>
+                                            <boardgamepodcastepisode objectid="133130">MN 0027 Abyss</boardgamepodcastepisode>
+                              <boardgamecategory objectid="1082">Mythology</boardgamecategory>
+                              <boardgamecategory objectid="1008">Nautical</boardgamecategory>
+                              <boardgamepodcastepisode objectid="129892">Podcast #21: The Cardcast</boardgamepodcastepisode>
+                              <boardgameversion objectid="242017">Polish first edition</boardgameversion>
+                                                                        <boardgamepublisher objectid="7466">REBEL.pl</boardgamepublisher>
+                                            <boardgamemechanic objectid="2004">Set Collection</boardgamemechanic>
+                              <boardgamesubdomain objectid="5497">Strategy Games</boardgamesubdomain>
+                              <boardgamepodcastepisode objectid="131874">The Game Pit: Episode 34 - Essen Brief with Teri</boardgamepodcastepisode>
+                              <boardgamepodcastepisode objectid="133515">The Game Pit: Episode 38 - The Big Essen 2014 Review</boardgamepodcastepisode>
+            
+      <poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="32">
+      
+    <results numplayers="1">    
+          <result value="Best" numvotes="0" />
+          <result value="Recommended" numvotes="2" />
+          <result value="Not Recommended" numvotes="16" />
+        </results>          
+      
+    <results numplayers="2">    
+          <result value="Best" numvotes="7" />
+          <result value="Recommended" numvotes="16" />
+          <result value="Not Recommended" numvotes="3" />
+        </results>          
+      
+    <results numplayers="3">    
+          <result value="Best" numvotes="8" />
+          <result value="Recommended" numvotes="21" />
+          <result value="Not Recommended" numvotes="0" />
+        </results>          
+      
+    <results numplayers="4">    
+          <result value="Best" numvotes="16" />
+          <result value="Recommended" numvotes="9" />
+          <result value="Not Recommended" numvotes="1" />
+        </results>          
+      
+    <results numplayers="4+">   
+          <result value="Best" numvotes="0" />
+          <result value="Recommended" numvotes="2" />
+          <result value="Not Recommended" numvotes="14" />
+        </results>          
+  </poll>
+
+      <poll name="language_dependence" title="Language Dependence" totalvotes="7">
+      
+    <results>   
+          <result level="1" value="No necessary in-game text" numvotes="0" />
+          <result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="1" />
+          <result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="6" />
+          <result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+          <result level="5" value="Unplayable in another language" numvotes="0" />
+        </results>          
+  </poll>
+
+      <poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="7">
+      <results>   
+          <result value="2" numvotes="0" />
+          <result value="3" numvotes="0" />
+          <result value="4" numvotes="0" />
+          <result value="5" numvotes="0" />
+          <result value="6" numvotes="0" />
+          <result value="8" numvotes="0" />
+          <result value="10" numvotes="3" />
+          <result value="12" numvotes="3" />
+          <result value="14" numvotes="1" />
+          <result value="16" numvotes="0" />
+          <result value="18" numvotes="0" />
+          <result value="21 and up" numvotes="0" />
+        </results>          
+  </poll>
+
+      
+      
+      
+            <statistics page="1">
+                        <ratings >
+          <usersrated>1405</usersrated>
+          <average>7.412</average>
+          <bayesaverage>6.79434</bayesaverage>
+          
+          <ranks>
+              
+                            <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="412" bayesaverage="6.79434" />
+                        
+              
+                            <rank type="family" id="5497" name="strategygames" friendlyname="Strategy Game Rank" value="233" bayesaverage="6.9099" />
+                            <rank type="family" id="5499" name="familygames" friendlyname="Family Game Rank" value="55" bayesaverage="6.94279" />
+                        
+                      </ranks>
+          
+          <stddev>1.24133</stddev>
+          <median>0</median>
+          <owned>2031</owned>
+          <trading>20</trading>
+          <wanting>282</wanting>
+          <wishing>1166</wishing>
+          <numcomments>315</numcomments>
+          <numweights>108</numweights>
+          <averageweight>2.4444</averageweight>
+        </ratings>
+                              </statistics>
+    
+    
+        
+    </boardgame>
+  </boardgames>

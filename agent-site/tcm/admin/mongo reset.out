@@ -1,0 +1,11 @@
+Reset instructions to blow away everything I have in my catalog:
+
+
+db.game.remove({})
+db.gamereltn.remove({})
+
+db.bgggame.update({reviewState: 1}, { $set : { reviewState: NumberInt(0)}}, {multi:true})
+db.bgggame.update({reviewState: 2}, { $set : { reviewState: NumberInt(0)}}, {multi:true})
+
+db.csidata.update({reviewState: 1}, { $set : { reviewState: NumberInt(0)}}, {multi:true})
+db.mmdata.update( {reviewState: 1}, { $set : { reviewState: NumberInt(0)}}, {multi:true})

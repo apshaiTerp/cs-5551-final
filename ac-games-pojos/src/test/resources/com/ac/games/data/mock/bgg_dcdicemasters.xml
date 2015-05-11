@@ -1,0 +1,103 @@
+<boardgames termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+					<boardgame objectid="138649">
+			<yearpublished>2015</yearpublished>
+			<minplayers>2</minplayers>
+			<maxplayers>2</maxplayers>
+			<playingtime>60</playingtime>
+			<minplaytime>60</minplaytime>
+			<maxplaytime>60</maxplaytime>
+			<age>14</age>
+
+							<name primary="true" sortindex="1">DC Dice Masters: Justice League</name>
+							<name  sortindex="1">Injustice: Gods Among Us Dice Building Game</name>
+									
+			<description>Game description from the publisher:&lt;br/&gt;&lt;br/&gt;The DC Dice Masters: Justice League Starter Set, the fifth starter release for the Dice Masters game, has everything two players need to play and allows players to increase their Dice Masters collection or jump into the game fresh!&lt;br/&gt;&lt;br/&gt;DC Dice Masters: Justice League features fan favorite characters from a variety of Justice Leagues, including Batman, Wonder Woman, Superman, Zatanna, and Martian Manhunter. With gameplay that supports two players in epic dice battles, DC Dice Masters: Justice League lets players build their own version of the Justice League &amp;mdash; or even the Legion of Doom!&lt;br/&gt;&lt;br/&gt;</description>
+
+							<thumbnail>//cf.geekdo-images.com/images/pic2228399_t.jpg</thumbnail>
+				<image>//cf.geekdo-images.com/images/pic2228399.jpg</image>
+						
+												<boardgamecategory objectid="1116">Comic Book / Strip</boardgamecategory>
+															<boardgamefamily objectid="5427">DC Universe</boardgamefamily>
+															<boardgamemechanic objectid="2664">Deck / Pool Building</boardgamemechanic>
+															<boardgamecategory objectid="1017">Dice</boardgamecategory>
+															<boardgamefamily objectid="25290">Dice Masters</boardgamefamily>
+															<boardgamemechanic objectid="2072">Dice Rolling</boardgamemechanic>
+															<boardgamedesigner objectid="615">Mike Elliott</boardgamedesigner>
+															<boardgameversion objectid="200422">English first edition</boardgameversion>
+															<boardgamedesigner objectid="1533">Eric M. Lang</boardgamedesigner>
+															<boardgamepodcastepisode objectid="132297">The Dice Men Cometh Ð Episode 40</boardgamepodcastepisode>
+															<boardgamepublisher objectid="221">WizKids Games</boardgamepublisher>
+															<boardgameimplementation objectid="91536" inbound="true">Quarriors!</boardgameimplementation>
+						
+			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll>
+
+			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll>
+
+			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="0" />
+					<result value="10" numvotes="0" />
+					<result value="12" numvotes="0" />
+					<result value="14" numvotes="0" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll>
+
+			
+			
+			
+						<statistics page="1">
+												<ratings >
+					<usersrated>7</usersrated>
+					<average>8.38571</average>
+					<bayesaverage>0</bayesaverage>
+					
+					<ranks>
+							
+														<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												
+											</ranks>
+					
+					<stddev>3.0437</stddev>
+					<median>0</median>
+					<owned>4</owned>
+					<trading>0</trading>
+					<wanting>32</wanting>
+					<wishing>181</wishing>
+					<numcomments>7</numcomments>
+					<numweights>0</numweights>
+					<averageweight>0</averageweight>
+				</ratings>
+															</statistics>
+		
+		
+				
+		</boardgame>
+	</boardgames>

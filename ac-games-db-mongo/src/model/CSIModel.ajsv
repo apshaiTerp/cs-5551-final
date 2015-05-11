@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram creationDate="2015-Feb-25 01:37" filterScript="" licenseGrade="single" licenseeName="Adam_Carter" licenseeOrganization="Personal" version="1.7.17.v20140508-2136">
+        <class className="com.ac.games.db.mongo.CSIDataConverter" project="ac-games-db-mongo" xLocation="680" yLocation="378"/>
+        <class className="com.mongodb.BasicDBObject" project="ac-games-db-mongo" xLocation="1265" yLocation="356"/>
+        <class className="com.ac.games.data.CoolStuffIncPriceData" project="ac-games-db-mongo" xLocation="100" yLocation="137"/>
+        <class className="com.mongodb.DBObject" project="ac-games-db-mongo" xLocation="797" yLocation="100"/>
+    </diagram>
+</ajsv>

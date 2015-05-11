@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>Terrapin Collection Manager Login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+    <link href="css/apshai.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Terrapin Collection Manager</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-login"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">These Terrapins need you to login before you can manage our Games!</h3>
+      </div>
+    </div>
+
+    <!-- Login Window Block -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <p id="sign-in-text"><strong> Sign in to continue</strong></p>
+            </div>
+            <div class="panel-body">
+              <form role="form" action="http://localhost:8080/login" method="POST">
+                <fieldset>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-10 col-md-offset-1 ">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                          </span> 
+                          <input class="form-control" id="login-name" placeholder="Username" name="loginname" type="text" autofocus>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-lock"></i>
+                          </span>
+                          <input class="form-control" id="login-pass" placeholder="Password" name="password" type="password" value="">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="button" id="login-button" class="btn btn-md btn-primary btn-block" value="Sign in">
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+            <div class="panel-footer">
+              Don't have an account! <a href="./signup.html" onClick=""> Sign Up Here </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Site footer -->
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+
+      document.getElementById("login-button").onclick = function() {
+        var userName = document.getElementById("login-name").value;
+        var pwd      = document.getElementById("login-pass").value;
+
+        var strOut = "[" + userName + ":" + pwd + "]";
+    
+        if (userName == "") {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>You must provide a User Name to Login!</span>   Please try again.</strong>';
+          document.getElementById("login-name").focus();
+          return;
+        }
+        if (pwd == "") {
+          document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>You must provide a Password to Login!</span>   Please try again.</strong>';
+          document.getElementById("login-pass").focus();
+          return;
+        }
+        //Now we need to run our validation check
+        var jsonBody = '{ "userName" : "' + userName + '", "password" : "' + pwd + '" }';
+        $.ajax ({
+          type: 'POST',
+          url:  'http://107.188.249.238:8080/ac-games-restservice-spring-1.0/login',
+          data: jsonBody,
+          contentType: "application/json",
+          dataType: 'json',
+          success: function(data) {
+            var messageType = data['messageType'];
+            var errorType   = data['errorType'];
+
+            if (messageType == "Login Successful") {
+
+              var userID        = data['userID'];
+              var userRole      = data['userRole'];
+              var userFirstName = data['userFirstName'];
+              var collectionID  = data['collectionID'];
+
+              //Remove all the specific items
+              localStorage.clear();
+              sessionStorage.clear();
+              
+              localStorage.removeItem("bggdata");
+              localStorage.removeItem("bggAutoCompList");
+              localStorage.removeItem("bggAutoCompValue");
+
+              localStorage.removeItem("gameAutoCompList");
+
+              localStorage.removeItem("csidata");
+              localStorage.removeItem("csiGameID");
+              localStorage.removeItem("csiAutoCompList");
+              localStorage.removeItem("csiAutoCompValue");
+
+              localStorage.removeItem("mmdata");
+              localStorage.removeItem("mmGameID");
+              localStorage.removeItem("mmAutoCompList");
+              localStorage.removeItem("mmAutoCompValue");
+
+              sessionStorage.setItem("userName", userName);
+              sessionStorage.setItem("userID", userID);
+              sessionStorage.setItem("userRole", userRole);
+              sessionStorage.setItem("userFirstName", userFirstName);
+              sessionStorage.setItem("collectionID", collectionID);
+
+              if (userRole == "Admin") {
+                window.location = "./admin/admin.html";
+              } else {
+                window.location = "./game/home.html"
+              }
+            } else {
+              var errorMessage = data['errorMessage'];
+              document.getElementById("sign-in-text").innerHTML = '<span style="color:red"><strong>' + errorMessage + '</span>   Please try again.</strong>';
+              document.getElementById("login-name").focus();
+            }
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert('An Unknown Error Occured During Login.  Please Try Again Later.');
+          }
+        });
+      };
+
+
+    </script>
+  </body>
+</html>

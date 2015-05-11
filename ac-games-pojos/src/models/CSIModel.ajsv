@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram creationDate="2015-Feb-25 01:04" filterScript="" licenseGrade="single" licenseeName="Adam_Carter" licenseeOrganization="Personal" version="1.7.17.v20140508-2136">
+        <class className="com.ac.games.data.CoolStuffIncPriceData" project="ac-games-pojos" xLocation="1163" yLocation="133"/>
+        <class className="com.ac.games.data.CSIIDOnlyData" project="ac-games-pojos" xLocation="1752" yLocation="100"/>
+        <class className="com.ac.games.data.GameAvailability" project="ac-games-pojos" xLocation="100" yLocation="251"/>
+        <class className="com.ac.games.data.GameAvailabilityConverter" project="ac-games-pojos" xLocation="533" yLocation="177"/>
+        <class className="com.ac.games.data.ReviewState" project="ac-games-pojos" xLocation="1749" yLocation="415"/>
+        <class className="com.ac.games.data.ReviewStateConverter" project="ac-games-pojos" xLocation="2087" yLocation="417"/>
+        <class className="com.ac.games.data.parser.CoolStuffIncParser" project="ac-games-pojos" xLocation="460" yLocation="532"/>
+        <class className="com.ac.games.exception.GameNotFoundException" project="ac-games-pojos" xLocation="731" yLocation="989"/>
+    </diagram>
+</ajsv>

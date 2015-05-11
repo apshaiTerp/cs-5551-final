@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram creationDate="2015-Feb-25 01:39" filterScript="" licenseGrade="single" licenseeName="Adam_Carter" licenseeOrganization="Personal" version="1.7.17.v20140508-2136">
+        <class className="com.ac.games.db.mongo.MMDataConverter" project="ac-games-db-mongo" xLocation="461" yLocation="115"/>
+        <class className="com.mongodb.BasicDBObject" project="ac-games-db-mongo" xLocation="429" yLocation="386"/>
+        <class className="com.ac.games.data.MiniatureMarketPriceData" project="ac-games-db-mongo" xLocation="1095" yLocation="100"/>
+        <class className="com.mongodb.DBObject" project="ac-games-db-mongo" xLocation="100" yLocation="128"/>
+    </diagram>
+</ajsv>

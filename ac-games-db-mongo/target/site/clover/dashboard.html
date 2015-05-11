@@ -1,0 +1,721 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <link rel="SHORTCUT ICON" href="img/clover.ico" />
+
+    <style type="text/css" media="screen">
+        @import url('style.css');
+        @import url('roundedcorners.css');
+        @import url('tree.css');
+            </style>
+    
+    <script src="sorttable.js" type="text/javascript"></script>
+    <script src="overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+    <script src="overlibmws_shadow.js" type="text/javascript" ></script>
+    <script src="clover.js" type="text/javascript"></script>
+    <script src="cloud.js" type="text/javascript"></script>
+    <script src="help.js" type="text/javascript"></script>
+  <title>MongoDB Database Implementation 1.0</title>
+</head><body onload="setBrowserTitle('MongoDB Database Implementation 1.0: Dashboard')">
+<table cellspacing="0" cellpadding="2" class="barGraph">
+
+  <tr>
+    <td colspan="2">
+
+    <div class="roundedLarge">
+      <b class="ctop"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+      <div class="roundedContent">
+    <table width="100%" class="" cellspacing="0"><tr class="reportHeader">
+    <td valign="top" class="titleText">Clover Coverage  Report -  MongoDB Database Implementation 1.0 <div class="timestamp"><b>Coverage timestamp:</b>&nbsp;Fri May 1 2015 19:17:04 CDT</div>
+
+        
+    
+            <div class="navBar"><span class="navBarCurrent">Overview</span>&nbsp;&nbsp;&nbsp;Package&nbsp;&nbsp;&nbsp;File</div>
+    
+    <div class="navBarLink">
+        &nbsp;&nbsp;&nbsp;
+        <a href="index.html" target="_top">FRAMES</a>&nbsp;&nbsp;
+        <a href="dashboard.html" target="_top">NO FRAMES</a>&nbsp;&nbsp;
+        <label onclick="toggleHelp(this);" class="nonHelpItem">SHOW HELP</label>&nbsp;&nbsp;
+    </div>
+
+    </td>
+
+    
+        
+
+     <td  id="td-header-stats" class="headerStats" valign="top" style="font-weight: normal;width:40%; text-align: right; display: ;">
+         <table style="text-align: right; white-space:nowrap;">
+         <tr>
+           <td colspan="11" class="totalText" style="text-align: left"><label>Statistics for project Clover database Fri May 1 2015 19:16:59 CDT:</label></td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_stmts + 'project';">Stmts:</label></td>
+           <td >      2,663
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_loc + 'project';">LOC:</label></td>
+           <td >      5,421
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp + 'project';">Total cmp:</label></td>
+           <td >      1,178
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_stmts_per_method;">Stmts/Method:</label></td>
+           <td >      13.25
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_branches + 'project';">Branches:</label></td>
+           <td >      1,330
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_ncloc + 'project';">NCLOC:</label></td>
+           <td >      3,221
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp_density + 'project';">Cmp density:</label></td>
+           <td >      0.44
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_methods_per_class;">Methods/Class:</label></td>
+           <td >      13.4
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_methods + 'project';">Methods:</label></td>
+           <td >      201
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                    <td  class="totalText"><label onkeyup="return help_files + 'project';">Files:</label></td>
+           <td >      15
+  </td>
+                    <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_avg_method_cmp + 'project';">Avg method cmp:</label></td>
+           <td >      5.86
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                     <td  class="totalText"><label onkeyup="return help_classes_per_package;">Classes/Pkg:</label></td>
+           <td >      7.5
+  </td>
+          
+         </tr>
+           <tr>
+            <td  class="totalText"><label onkeyup="return help_classes + 'project';">Classes:</label></td>
+            <td >      15
+  </td>
+            <td style="width: 5%">&nbsp;</td>
+                      <td  class="totalText"><label onkeyup="return help_packages + 'project';">Packages:</label></td>
+            <td >      2
+  </td>
+                     <td style="width: 10%">&nbsp;</td>
+         </tr>
+             </table>
+     </td>
+
+    
+    
+    
+
+     <td  id="td-filtered-header-stats" class="headerStats" valign="top" style="font-weight: normal;width:40%; text-align: right; display: none;">
+         <table style="text-align: right; white-space:nowrap;">
+         <tr>
+           <td colspan="11" class="totalText" style="text-align: left"><label>Statistics for project Clover database Fri May 1 2015 19:16:59 CDT:</label></td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_stmts + 'project';">Stmts:</label></td>
+           <td >      2,663
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_loc + 'project';">LOC:</label></td>
+           <td >      5,421
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp + 'project';">Total cmp:</label></td>
+           <td >      1,178
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_stmts_per_method;">Stmts/Method:</label></td>
+           <td >      13.25
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_branches + 'project';">Branches:</label></td>
+           <td >      1,330
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_ncloc + 'project';">NCLOC:</label></td>
+           <td >      3,221
+  </td>
+           <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_cmp_density + 'project';">Cmp density:</label></td>
+           <td >      0.44
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_methods_per_class;">Methods/Class:</label></td>
+           <td >      13.4
+  </td>
+         </tr>
+         <tr>
+           <td  class="totalText"><label onkeyup="return help_methods + 'project';">Methods:</label></td>
+           <td >      201
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                    <td  class="totalText"><label onkeyup="return help_files + 'project';">Files:</label></td>
+           <td >      15
+  </td>
+                    <td style="width: 10%">&nbsp;</td>
+           <td  class="totalText"><label onkeyup="return help_avg_method_cmp + 'project';">Avg method cmp:</label></td>
+           <td >      5.86
+  </td>
+           <td style="width: 5%">&nbsp;</td>
+                     <td  class="totalText"><label onkeyup="return help_classes_per_package;">Classes/Pkg:</label></td>
+           <td >      7.5
+  </td>
+          
+         </tr>
+           <tr>
+            <td  class="totalText"><label onkeyup="return help_classes + 'project';">Classes:</label></td>
+            <td >      15
+  </td>
+            <td style="width: 5%">&nbsp;</td>
+                      <td  class="totalText"><label onkeyup="return help_packages + 'project';">Packages:</label></td>
+            <td >      2
+  </td>
+                     <td style="width: 10%">&nbsp;</td>
+         </tr>
+             </table>
+     </td>
+</tr>
+
+    </table>
+  </div>
+  <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+  </div>
+
+   </td>
+  </tr>
+
+
+
+
+<tr><td class="hbreak" colspan="2" ></td></tr>
+
+        
+<tr valign="top">
+
+    <td class="hbreak" colspan="1">
+    <div class="left-third">
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                
+            <label class="titleText link" onkeyup="return help_dash_coverage;" onclick="self.location='pkg-summary.html'">Coverage</label><span> 15 classes, 1,898 / 4,194 elements</span>
+            <table><tr><td>45.3%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.45255128</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="54.7% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="45.3% Covered" class="barPositive " style="width: 45.3%"></div>
+    </div>
+</div></td></tr></table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+                        <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <div><label class="titleText link" onkeyup="return help_dash_coverage;" onclick="self.location='pkg-summary.html'">Class Coverage Distribution</label></div>
+            <div class="center"><img src="img/classDistrubutionChart.png" alt="img/classDistrubutionChart.png" usemap="#classDistrubutionChart.png"/>
+            <map id="classDistrubutionChart.png" name="classDistrubutionChart.png">
+<area shape="rect" coords="229,111,248,150" title="2 classes have 81-90% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="208,12,227,149" title="7 classes have 71-80% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="187,111,206,150" title="2 classes have 61-70% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="123,130,142,149" title="1 class has 31-40% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="38,91,57,150" title="3 classes have 0% coverage" alt="" nohref="nohref"/>
+</map></div>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+            
+                        <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <div><label class="titleText link" onkeyup="return help_dash_risks;" onclick="self.location='proj-risks.html'">Class Complexity</label></div>
+            <div class="center"><img src="img/classComplexityChart.png" alt="img/classComplexityChart.png" usemap="#classComplexityChart.png"/>
+            <map id="classComplexityChart.png" name="classComplexityChart.png">
+<area shape="poly" coords="204,152,201,155,199,152,201,150,204,152,204,152" title="Cmp: 3; Cov: 75%; MongoDBFactory" alt="" href="com/ac/games/db/MongoDBFactory.html#MongoDBFactory"/>
+<area shape="poly" coords="51,150,49,152,46,150,49,147,51,150,51,150" title="Cmp: 16; Cov: 0%; WishlistItemConverter" alt="" href="com/ac/games/db/mongo/WishlistItemConverter.html#WishlistItemConverter"/>
+<area shape="poly" coords="199,150,197,152,194,150,197,147,199,150,199,150" title="Cmp: 17; Cov: 73%; UserDetailConverter" alt="" href="com/ac/games/db/mongo/UserDetailConverter.html#UserDetailConverter"/>
+<area shape="poly" coords="187,149,185,151,182,149,185,146,187,149,187,149" title="Cmp: 23; Cov: 67%; UserConverter" alt="" href="com/ac/games/db/mongo/UserConverter.html#UserConverter"/>
+<area shape="poly" coords="226,150,223,153,221,150,223,148,226,150,226,150" title="Cmp: 14; Cov: 86%; StatsConverter" alt="" href="com/ac/games/db/mongo/StatsConverter.html#StatsConverter"/>
+<area shape="poly" coords="51,149,49,151,46,149,49,146,51,149,51,149" title="Cmp: 23; Cov: 0%; PlaythruItemConverter" alt="" href="com/ac/games/db/mongo/PlaythruItemConverter.html#PlaythruItemConverter"/>
+<area shape="poly" coords="120,15,118,17,115,15,118,12,120,15,120,15" title="Cmp: 790; Cov: 34%; MongoGamesDatabase" alt="" href="com/ac/games/db/mongo/MongoGamesDatabase.html#MongoGamesDatabase"/>
+<area shape="poly" coords="51,148,49,151,46,148,49,146,51,148,51,148" title="Cmp: 24; Cov: 0%; MediaItemConverter" alt="" href="com/ac/games/db/mongo/MediaItemConverter.html#MediaItemConverter"/>
+<area shape="poly" coords="212,147,209,150,207,147,209,145,212,147,212,147" title="Cmp: 31; Cov: 79%; MMDataConverter" alt="" href="com/ac/games/db/mongo/MMDataConverter.html#MMDataConverter"/>
+<area shape="poly" coords="206,148,203,150,201,148,203,145,206,148,206,148" title="Cmp: 28; Cov: 76%; GameReltnConverter" alt="" href="com/ac/games/db/mongo/GameReltnConverter.html#GameReltnConverter"/>
+<area shape="poly" coords="183,142,181,144,178,142,181,139,183,142,183,142" title="Cmp: 62; Cov: 65%; GameConverter" alt="" href="com/ac/games/db/mongo/GameConverter.html#GameConverter"/>
+<area shape="poly" coords="197,147,195,150,192,147,195,145,197,147,197,147" title="Cmp: 31; Cov: 72%; CollectionItemConverter" alt="" href="com/ac/games/db/mongo/CollectionItemConverter.html#CollectionItemConverter"/>
+<area shape="poly" coords="204,149,201,152,199,149,201,147,204,149,204,149" title="Cmp: 18; Cov: 75%; CollectionConverter" alt="" href="com/ac/games/db/mongo/CollectionConverter.html#CollectionConverter"/>
+<area shape="poly" coords="218,147,215,149,213,147,215,144,218,147,218,147" title="Cmp: 33; Cov: 82%; CSIDataConverter" alt="" href="com/ac/games/db/mongo/CSIDataConverter.html#CSIDataConverter"/>
+<area shape="poly" coords="197,141,195,144,192,141,195,139,197,141,197,141" title="Cmp: 65; Cov: 72%; BGGGameConverter" alt="" href="com/ac/games/db/mongo/BGGGameConverter.html#BGGGameConverter"/>
+</map></div>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+            
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+            <label class="titleText link" onkeyup="return help_dash_packages;" onclick="self.location='pkg-summary.html'">Most Complex Packages</label>
+        
+        <table>
+                    
+                        <tr><td>1. </td><td>45.2%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.4519828</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="54.8% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="45.2% Covered" class="barPositive " style="width: 45.2%"></div>
+    </div>
+</div></td><td><a class="tag" href="com/ac/games/db/mongo/pkg-summary.html">com.ac.games.db.mongo</a> (1175)</td></tr>
+                    
+                        <tr><td>2. </td><td>75%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.75</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="25% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="75% Covered" class="barPositive " style="width: 75%"></div>
+    </div>
+</div></td><td><a class="tag" href="com/ac/games/db/pkg-summary.html">com.ac.games.db</a> (3)</td></tr>
+                </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+                    <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+            <label class="titleText link" onkeyup="return help_dash_classes;" onclick="self.location='pkg-summary.html'">Most Complex Classes</label>
+        <table>
+                    
+                        <tr><td>1. </td><td>34.8%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.34807473</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="65.2% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="34.8% Covered" class="barPositive " style="width: 34.8%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="com/ac/games/db/mongo/MongoGamesDatabase.html#MongoGamesDatabase"  title="com.ac.games.db.mongo.MongoGamesDatabase">MongoGamesDatabase</a>
+                (790)
+            </td></tr>
+                    
+                        <tr><td>2. </td><td>72%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.7203065</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="28% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="72% Covered" class="barPositive " style="width: 72%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="com/ac/games/db/mongo/BGGGameConverter.html#BGGGameConverter"  title="com.ac.games.db.mongo.BGGGameConverter">BGGGameConverter</a>
+                (65)
+            </td></tr>
+                    
+                        <tr><td>3. </td><td>65.9%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.65863454</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="34.1% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="65.9% Covered" class="barPositive " style="width: 65.9%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="com/ac/games/db/mongo/GameConverter.html#GameConverter"  title="com.ac.games.db.mongo.GameConverter">GameConverter</a>
+                (62)
+            </td></tr>
+                    
+                        <tr><td>4. </td><td>82%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.8203125</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="18% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="82% Covered" class="barPositive " style="width: 82%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="com/ac/games/db/mongo/CSIDataConverter.html#CSIDataConverter"  title="com.ac.games.db.mongo.CSIDataConverter">CSIDataConverter</a>
+                (33)
+            </td></tr>
+                    
+                        <tr><td>5. </td><td>79.2%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.7916667</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="20.8% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="79.2% Covered" class="barPositive " style="width: 79.2%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="com/ac/games/db/mongo/MMDataConverter.html#MMDataConverter"  title="com.ac.games.db.mongo.MMDataConverter">MMDataConverter</a>
+                (31)
+            </td></tr>
+                </table>
+
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+    </div>
+    <div class="right-twothirds">
+
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                            <label class="titleText link" onkeyup="return help_dash_test_results;" onclick="self.location='test-pkg-summary.html'">Test Results</label>
+                <span> <span class="">10 / 10</span> tests 2.79 secs</span>
+            <table>
+                                <tr>
+                    <td>100%</td>
+                    <td style="width:200px">
+                                                
+
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+
+    <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+        <div title="0% of Tests Failed" class="testBarFail" style="width: 100%">
+            <div title="100% of Tests Passed" class="testBarPass" style="width: 100%"></div>
+        </div>
+    </div>
+</div>                    </td>
+                </tr>
+                            </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <label class="titleText link" onkeyup="return help_dash_risks;" onclick="self.location='proj-risks.html'">Top 15 Project Risks</label>
+            <div>
+            
+                                           <a class="tag" href="com/ac/games/db/mongo/MediaItemConverter.html#MediaItemConverter"
+               style="font-size: 20px;color:#e4051a"
+               title="Average Method Complexity - 6 , Coverage - 0% ">MediaItemConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/PlaythruItemConverter.html#PlaythruItemConverter"
+               style="font-size: 20px;color:#e4051a"
+               title="Average Method Complexity - 5.75 , Coverage - 0% ">PlaythruItemConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/MongoGamesDatabase.html#MongoGamesDatabase"
+               style="font-size: 21px;color:#80057e"
+               title="Average Method Complexity - 6.32 , Coverage - 34.8% ">MongoGamesDatabase</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/GameConverter.html#GameConverter"
+               style="font-size: 22px;color:#4d05b1"
+               title="Average Method Complexity - 6.889 , Coverage - 65.9% ">GameConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/BGGGameConverter.html#BGGGameConverter"
+               style="font-size: 24px;color:#3405ca"
+               title="Average Method Complexity - 8.125 , Coverage - 72% ">BGGGameConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/WishlistItemConverter.html#WishlistItemConverter"
+               style="font-size: 16px;color:#e4051a"
+               title="Average Method Complexity - 4 , Coverage - 0% ">WishlistItemConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/CSIDataConverter.html#CSIDataConverter"
+               style="font-size: 25px;color:#1b05e3"
+               title="Average Method Complexity - 8.25 , Coverage - 82% ">CSIDataConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/CollectionItemConverter.html#CollectionItemConverter"
+               style="font-size: 19px;color:#3405ca"
+               title="Average Method Complexity - 5.167 , Coverage - 73% ">CollectionItemConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/MMDataConverter.html#MMDataConverter"
+               style="font-size: 24px;color:#1b05e3"
+               title="Average Method Complexity - 7.75 , Coverage - 79.2% ">MMDataConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/UserConverter.html#UserConverter"
+               style="font-size: 16px;color:#3405ca"
+               title="Average Method Complexity - 3.833 , Coverage - 67.4% ">UserConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/UserDetailConverter.html#UserDetailConverter"
+               style="font-size: 17px;color:#3405ca"
+               title="Average Method Complexity - 4.25 , Coverage - 73.4% ">UserDetailConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/CollectionConverter.html#CollectionConverter"
+               style="font-size: 14px;color:#3405ca"
+               title="Average Method Complexity - 3 , Coverage - 75.3% ">CollectionConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/GameReltnConverter.html#GameReltnConverter"
+               style="font-size: 15px;color:#3405ca"
+               title="Average Method Complexity - 3.5 , Coverage - 76.6% ">GameReltnConverter</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/MongoDBFactory.html#MongoDBFactory"
+               style="font-size: 11px;color:#3405ca"
+               title="Average Method Complexity - 1.5 , Coverage - 75% ">MongoDBFactory</a>
+                          
+                                           <a class="tag" href="com/ac/games/db/mongo/StatsConverter.html#StatsConverter"
+               style="font-size: 12px;color:#1b05e3"
+               title="Average Method Complexity - 2 , Coverage - 86.9% ">StatsConverter</a>
+                                      </div>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+                        <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <label class="titleText link" onkeyup="return help_dash_treemap;" onclick="self.location='treemap.html'">
+                Coverage Tree Map
+            </label>
+            <p/>
+            <div>
+                <div id="infovis" style="width:600px; height:200px;">
+                    <div id="treemap-loader" style="position:relative;top:50px;">
+                        <p>
+                            Generating Coverage Tree Map. Please wait...
+                        </p>
+                        <p>
+                            <img src="img/ajax-loader.gif" alt="Loading Treemap"/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+            
+
+                        <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <label class="titleText link" onkeyup="return help_dash_untested_methods;" onclick="self.location='test-pkg-summary.html'">Least Tested Methods</label>
+            <table>
+                
+                <tr>
+                    <td align="right">1.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readCollectionStats(long)&nbsp;:&nbsp;UserCollectionStats" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3582#src-3582">MongoGamesDatabase.readCollectionStats(long)&nbsp;:&nbsp;UserCollectionStats</a> (27)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">2.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readCSITitlesForAutoComplete()&nbsp;:&nbsp;List&lt;String&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3395#src-3395">MongoGamesDatabase.readCSITitlesForAutoComplete()&nbsp;:&nbsp;List&lt;String&gt;</a> (16)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">3.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readMMTitlesForAutoComplete()&nbsp;:&nbsp;List&lt;String&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3452#src-3452">MongoGamesDatabase.readMMTitlesForAutoComplete()&nbsp;:&nbsp;List&lt;String&gt;</a> (15)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">4.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readGamesCompact(String)&nbsp;:&nbsp;List&lt;CompactSearchData&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3508#src-3508">MongoGamesDatabase.readGamesCompact(String)&nbsp;:&nbsp;List&lt;CompactSearchData&gt;</a> (13)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">5.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readBGGGameByName(String,boolean,GameType,int)&nbsp;:&nbsp;List&lt;CompactSearchData&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3210#src-3210">MongoGamesDatabase.readBGGGameByName(String,boolean,GameType,int)&nbsp;:&nbsp;List&lt;CompactSearchData&gt;</a> (12)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">6.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readBGGGameByName(String,boolean,GameType)&nbsp;:&nbsp;List&lt;BGGGame&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=2865#src-2865">MongoGamesDatabase.readBGGGameByName(String,boolean,GameType)&nbsp;:&nbsp;List&lt;BGGGame&gt;</a> (12)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">7.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readGameNamesForAutoComplete()&nbsp;:&nbsp;List&lt;String&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3288#src-3288">MongoGamesDatabase.readGameNamesForAutoComplete()&nbsp;:&nbsp;List&lt;String&gt;</a> (14)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">8.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MediaItemConverter.convertMongoToMediaItem(DBObject)&nbsp;:&nbsp;MediaItem" href="com/ac/games/db/mongo/MediaItemConverter.html?line=75#src-75">MediaItemConverter.convertMongoToMediaItem(DBObject)&nbsp;:&nbsp;MediaItem</a> (11)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">9.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readBGGGameNamesForAutoComplete()&nbsp;:&nbsp;List&lt;String&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3340#src-3340">MongoGamesDatabase.readBGGGameNamesForAutoComplete()&nbsp;:&nbsp;List&lt;String&gt;</a> (9)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">10.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="PlaythruItemConverter.convertMongoToPlaythruItem(DBObject)&nbsp;:&nbsp;PlaythruItem" href="com/ac/games/db/mongo/PlaythruItemConverter.html?line=72#src-72">PlaythruItemConverter.convertMongoToPlaythruItem(DBObject)&nbsp;:&nbsp;PlaythruItem</a> (10)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">11.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readCSIDataByTitle(String,boolean)&nbsp;:&nbsp;List&lt;CoolStuffIncPriceData&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=2972#src-2972">MongoGamesDatabase.readCSIDataByTitle(String,boolean)&nbsp;:&nbsp;List&lt;CoolStuffIncPriceData&gt;</a> (10)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">12.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readMMDataByTitle(String,boolean)&nbsp;:&nbsp;List&lt;MiniatureMarketPriceData&gt;" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3067#src-3067">MongoGamesDatabase.readMMDataByTitle(String,boolean)&nbsp;:&nbsp;List&lt;MiniatureMarketPriceData&gt;</a> (10)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">13.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readGameFromAutoName(String,String,int)&nbsp;:&nbsp;CompactSearchData" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3165#src-3165">MongoGamesDatabase.readGameFromAutoName(String,String,int)&nbsp;:&nbsp;CompactSearchData</a> (10)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">14.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MediaItemConverter.convertMediaItemToMongo(MediaItem)&nbsp;:&nbsp;BasicDBObject" href="com/ac/games/db/mongo/MediaItemConverter.html?line=52#src-52">MediaItemConverter.convertMediaItemToMongo(MediaItem)&nbsp;:&nbsp;BasicDBObject</a> (9)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">15.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readCSIDataForReview(String)&nbsp;:&nbsp;CoolStuffIncPriceData" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3020#src-3020">MongoGamesDatabase.readCSIDataForReview(String)&nbsp;:&nbsp;CoolStuffIncPriceData</a> (10)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">16.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="PlaythruItemConverter.convertPlaythruItemToMongo(PlaythruItem)&nbsp;:&nbsp;BasicDBObject" href="com/ac/games/db/mongo/PlaythruItemConverter.html?line=50#src-50">PlaythruItemConverter.convertPlaythruItemToMongo(PlaythruItem)&nbsp;:&nbsp;BasicDBObject</a> (9)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">17.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readGameByBGGID(long)&nbsp;:&nbsp;Game" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=759#src-759">MongoGamesDatabase.readGameByBGGID(long)&nbsp;:&nbsp;Game</a> (11)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">18.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readBGGGameForReview(String)&nbsp;:&nbsp;BGGGame" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=2929#src-2929">MongoGamesDatabase.readBGGGameForReview(String)&nbsp;:&nbsp;BGGGame</a> (10)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">19.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.readMMDataForReview(String)&nbsp;:&nbsp;MiniatureMarketPriceData" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=3115#src-3115">MongoGamesDatabase.readMMDataForReview(String)&nbsp;:&nbsp;MiniatureMarketPriceData</a> (10)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">20.</td>
+                    <td align="right">0%</td>
+                    <td>
+                          <!-- normal method -->
+                                              <a class="tag" title="MongoGamesDatabase.insertMediaItem(MediaItem)&nbsp;:&nbsp;void" href="com/ac/games/db/mongo/MongoGamesDatabase.html?line=2148#src-2148">MongoGamesDatabase.insertMediaItem(MediaItem)&nbsp;:&nbsp;void</a> (9)
+                    </td>
+                </tr>
+                            </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+            
+    </div>
+
+    </td>
+</tr>
+
+<tr><td class="hbreak" colspan="2">&nbsp;</td></tr>
+<tr><td class="hbreak" colspan="2">&nbsp;</td></tr>
+<tr><td class="footer" colspan="2">
+<table>
+<tr>
+ <td><a target="_new" href="http://www.atlassian.com/software/clover"><img alt="Clover" src="img/logo.gif" style="border:none"/></a></td><td style="white-space:nowrap;"><i>Report generated by </i>Clover <a target="_new" href="http://www.atlassian.com/software/clover">Code Coverage</a> v3.3.0<i><br/>Fri May 1 2015 19:17:23 CDT</i>.</td>
+<td>&nbsp;</td><td style="BORDER-LEFT: #9c9c9c 1px solid;">&nbsp;</td><td>Clover: Commercial License registered to Cerner Corporation. </td>
+</tr>
+</table>
+</td>
+</tr></table>
+<script type="text/javascript" src="jit.js" ></script>
+<script type="text/javascript" src="treemap-dash-json.js" ></script>
+</body>
+
+</html>

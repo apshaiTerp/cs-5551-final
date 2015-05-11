@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type='text/javascript'>//<![CDATA[ 
+      var userName = sessionStorage.getItem("userName");
+      var userRole = sessionStorage.getItem("userRole");
+
+      if (userName == null) {
+        window.location = "../login.html";
+      }
+      if (userRole != "Admin") {
+        window.location = "../login.html";
+      }
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/scute.ico">
+
+    <title>Terrapin Collection Manager</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/apshai.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Architects+Daughter|Ubuntu' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Terrapin Collection Administration</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./admin.html">Home</a></li>
+            <li><a href="./bgg.html">BGG</a></li>
+            <li><a href="./csi.html">CSI</a></li>
+            <li><a href="./mm.html">MM</a></li>
+            <li class="active"><a>About</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <!--
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            -->
+            <a href="../index.html" id="logout-button" class="btn btn-success" onclick="logOutFunction()" type="button">Log Out</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bg-about"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 align="center">What is all this?  Why Board Games?  And what's with the turtles anyway?</h3>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="thumbnail">
+            <h3>What is all this?</h3>
+            <p>The Terrapin Game Collection Manager is a system being developed as part of the Advanced Software Engineering class offered at <a href="http://www.umkd.edu">UMKC</a> during the Spring Semester of 2015.</p>
+            <p>This project is being developed by <a href="mailto:apshaiTerp@yahoo.com">Adam Carter</a>.  The main components of this project are this site, written primarily in HTML5 using Javascript and Bootstrap, supported by a set of REST services writing using the Spring platform running on Tomcat, and using a MongoDB database for storage.</p>
+            <p>This project brings together three of the things I am most passionate about, Computers, Games, and Terrapins.  You can read more about those below.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/computer.gif">
+            <div class="caption">
+              <h3>Computer Nerd by Day</h3>
+              <p>After graduating in 2004 from the <a href="http://www.umd.edu">University of Maryland - College Park</a>, I have been working as a Software Engineer for <a href="http://www.cerner.com">Cerner Corporation</a>, a Health Care IT company, where I am current a Software Architect.  I am also currently working on my Masters of Computers Science at UMKC.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/orangeDice.png">
+            <div class="caption">
+              <h3>Gamer By Night</h3>
+              <p>I have enjoyed Board Games all my life, but I have become an avid hobbyist and collector of Board Games over the past 4 years.  I host regular Game Nights and enjoying spreading the hobby with anyone willing to come and play.  With an ever growing game collection of my own, this seemed a great opportunity to solve a problem I, as well as many other hobbyists, routinely face:  How do I keep track of what's in my collection?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/maleTerp.png">
+            <div class="caption">
+              <h3>And Terrapins... ?</h3>
+              <p>Terrapins (which are acquatic turtles), have both an academic and personal meaning to me.  I was introduced to the Terrapin as a student at the University of Maryland, which has the Terrapin as it's mascot.  I later owned and raised Terrapins (up to 11 at one point) for nearly ten years.  They are curious, friendly, and beautiful creatures.  You can learn more about conservation efforts <a href="http://wetlandsinstitute.org/conservation/terrapin-conservation/20-years-of-terrapin-conservation-and-research/">here</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; Terrapin Game Collection Manager 2015 - A Project for UMKC Class CS 5551</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+      function logOutFunction() {
+        sessionStorage.clear();
+      };
+
+    </script>
+  </body>
+</html>

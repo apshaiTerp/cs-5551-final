@@ -1,0 +1,2 @@
+processClover (  {"children":["com/ac/games/data/parser/","com/ac/games/rest/message/","com/ac/games/exception/","com/ac/games/data/"],"name":"Clover database Fri May 1 2015 19:13:54 CDT","stats":{"AvgMethodComplexity":1.7960526,"Complexity":819,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":4,"TotalPercentageCovered":34.22502,"TotalStatements":1790,"UncoveredElements":1672},"title":"POJO library for Collection Management project 1.0"}
+ ); 

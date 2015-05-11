@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ac.games.rest.test.BGGControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.89 sec - in com.ac.games.rest.test.BGGControllerTest
